@@ -7,8 +7,6 @@
     height: 600px;
     margin: 25px auto;
     background: #444949;
-}
-.container:hover{
     box-shadow: 5px 5px 2px #494446;
 }
 .left {
