@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="chezi" style="background:#ffffff;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$web.title}</title>
+<include file="Public:head_exam" />
+</head>
+<body>
+<div class="mybody_b" style="display:none;">
+<div class="curnav"><a  class="back" href="{$backurl}"><em>d</em></a><center>{$web.title}</center><a class="amenu">≡</a></div>
+<div class="mymain" id="mymain">
+<div class="padding10">
+<div class="titleinfo1" style="display:none"></div>
+               <table class="tablelist" cellspacing="0">
+				<thead>
+					<tr>
+						<th class='td1'>商品标题</th>
+						<th class='td2'>金额</th>
+						<th class='td3'>购买日期</th>
+						<th class='tdop' style="width:auto">操作</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<foreach name="list" item="value">
+						<tr>
+							<td class="td1">{$value.title}</td>
+							<td class="td2">{$value.total}</td>
+							<td class="td3">{$value.addtime}</td>
+							<td class="tdop" style="width:auto"><a href="__CONTROLLER__/info/id/{$value.id}">&gt;</a></td>
+						</tr>
+					</foreach>
+				</tbody>
+             </table>
+<div class="pagenav">{$show}</div>
+</div>
+
+</div>
+
+</div>
+<include file="Public:footer_exam_index" />
+<include file="Public:footer_exam_texiao" />
+</body>
+</html>

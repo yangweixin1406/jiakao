@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$webtitle}</title>
+<include file="Public:head" />
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle" style="z-index:100;">
+	<div class="con">
+		<div class="left"><div class="tt">{$mytitle}&nbsp;({$item.num}/{$item.rowcountz})</div><div class="bb"><a href="{:U('product/info')}">发布产品</a></div><span class="btchazhao">查找</span></div>
+		<div class="right">
+			<form id="form1" name="form1" method="get" action="__CONTROLLER__/lists/" ><div class="l"></div>
+			<div  class="r">
+				<div class="row">
+					 <span class="t">产品分类<em>：</em></span>
+					 <span class="f">
+						<select name="classno" id="classno" title="分类">
+						<option value="">请选择</option>
+						<foreach name="classlist" item="row">
+						<option value="{$row.classno}">{$row.title}</option>
+						</foreach>
+					   </select>
+					</span>
+				</div>
+				<div class="row">
+				   <span class="t">产品名称<em>：</em></span><span class="f"><input type="text" name="title" id="title" value="" class="txt1s"/></span>
+				</div>
+				<div class="row">
+				   <span class="t">产品ID<em>：</em></span><span class="f"><input type="text" name="id" id="id" value=""  class="txt1s"/></span>
+				</div>
+				<div class="row">
+					<span class="t ts">&nbsp;</span><span class="f"><input type="hidden" name="table" id="table" value="" /><input type="submit" name="search1" id="button" value="查找" class="btsearch44" /></span>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+               <table class="tablelist tableloglat" cellspacing="0">
+				<thead>
+					<tr>
+						<th class='tdck'><input type="checkbox" name="ckall"/></th>
+						<th class='td1'>产品名称</th>
+						<th class='td2'>产品价格</th>
+						<th class='td3'>产品分类</th>
+                        <th class='td4'>上架状态</th>
+						<th class='td5'>帐号</th>
+						<th class='td6'>录入日期</th>
+						<th class='tdop'>操作</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<foreach name="list" item="value">
+						<tr>
+                            <td class="tdck"><input type="checkbox" name="ck" value="{$value.id}" /></td>
+							<td class="td1">{$value.title}</td>
+							<td class="td2">{$value.prices}</td>
+							<td class="td3">{$value.class_caption}</td>
+                            <td class="td4">{$value.state_caption}</td>
+                            <td class="td5">{$value.username}<?php if(trim($value["shopname"])!=""){echo "<br/><a href='__CONTROLLER__/lists/dianjiaid/".$value[dianjiaid]."'>".$value['shopname']."</a>";}?></td>
+							<td class="td6">{$value.addtime}</td>
+							<td class="tdop"><a href="__CONTROLLER__/info/id/{$value.id}">编辑</a>|<a href="__CONTROLLER__/delete/id/{$value.id}">删除</a></td>
+						</tr>
+					</foreach>
+				</tbody>
+</table>
+</div>
+<!--主体结束-->
+
+</div>
+<div class="pagenav">{$show}</div>
+<div style=" text-align:center;"><a data-url="{:U('delete')}" onclick="Del(this);">删除选中</a></div>
+</div>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>

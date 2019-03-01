@@ -1,0 +1,1706 @@
+[ 2017-06-16T23:26:24+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.1323s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.1281s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.2203s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.1084s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0133s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/User/View/default/Public/head_exam.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001693s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 29 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 29 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 29 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 30 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 30 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004093s ]
+
+[ 2017-06-16T23:26:28+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/User/View/default/Public/head_exam.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 29 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 29 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 29 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 30 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 30 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003344s ]
+
+[ 2017-06-16T23:27:09+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006643s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 5 行.
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 86 行.
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-06-16T23:30:16+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-06-16T23:30:17+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-06-16T23:30:41+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007018s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 5 行.
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 86 行.
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2017-06-16T23:30:51+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=User&c=orders&a=lists&date=now
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+ERR: 无法加载控制器:Orders
+
+[ 2017-06-16T23:31:35+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 5 行.
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 86 行.
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2017-06-16T23:31:54+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 5 行.
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 86 行.
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2017-06-16T23:32:08+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 5 行.
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 86 行.
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2017-06-16T23:32:19+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+ERR: 无法加载控制器:Orders
+
+[ 2017-06-16T23:39:25+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0625s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0688s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0016s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/User/View/default/Public/head_exam.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-06-16T23:40:12+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/User/View/default/Public/head_exam.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-06-16T23:40:15+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/User/View/default/Public/head_exam.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2017-06-16T23:40:16+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/User/View/default/Public/head_exam.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-06-16T23:40:17+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002375s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0188s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/User/View/default/Public/head_exam.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-06-16T23:40:31+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0016s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2017-06-16T23:47:51+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 5 行.
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 86 行.
+NOTIC: [8] Undefined variable: web F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\81ff98593b4ada8fe709fac0e9408fd4.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-06-16T23:48:40+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0011s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2017-06-16T23:48:42+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0013s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-06-16T23:49:28+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = null ORDER BY id desc LIMIT 0,10   [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2017-06-16T23:49:51+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2017-06-16T23:50:28+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2017-06-16T23:52:05+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2017-06-16T23:52:07+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-06-16T23:53:29+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-06-16T23:53:36+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-06-16T23:53:53+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2017-06-16T23:53:54+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-06-16T23:57:02+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2017-06-16T23:57:03+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2017-06-16T23:58:08+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-06-16T23:58:10+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-06-16T23:58:32+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-06-16T23:58:33+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-06-16T23:58:45+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-06-16T23:58:48+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-06-16T23:59:05+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/User/orders/lists/date/now.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_orders` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: status F:\phpsite\hc\kaoti\kaoti20170406\Application\User\Controller\OrdersController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_orders` WHERE `id` > 0 AND `userid` = '1' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 79 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 131 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+NOTIC: [8] Use of undefined constant lable - assumed 'lable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\User\c67e58b98ff45293029560ec8cd7c08f.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+

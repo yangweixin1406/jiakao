@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$info.webtitle}</title>
+<include file="Public:head" />
+
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t">{$webtitle}</div><div class="b"><a href="{$laiyuan}">返回列表</a></div></div><div class="right"><div class="r">{$info.addtime}</div></div>
+  </div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+<form id="form1" name="form1" method="post" action="{:U('save')}">
+<div class="info1">
+
+	   <div class="tab_page">
+	   <ul class="ul_info"><li class="li1">ID：</li><li class="li2">{$info.id}</li></ul>
+	   <ul class="ul_info"><li class="li1">记录编号：</li><li class="li2">{$info.logno}</li></ul>
+	   <ul class="ul_info"><li class="li1">订单标题：</li><li class="li2">{$info.title}</li></ul>
+	   <ul class="ul_info"><li class="li1">总金额：</li><li class="li2">{$info.total}块</li></ul>
+	   <ul class="ul_info"><li class="li1">提交日期：</li><li class="li2">{$info.addtime}</li></ul>
+	   <ul class="ul_info"><li class="li1">结束日期：</li><li class="li2">{$info.endtime}</li></ul>
+	   <ul class="ul_info"><li class="li1">支付状态：</li><li class="li2">{$info.status_caption}</li></ul>
+	   <ul class="ul_info"><li class="li1">支付方式：</li><li class="li2">{$info.payname}</li></ul>
+	   <ul class="ul_info"><li class="li1">第三方编号：</li><li class="li2">{$info.tradeno}</li></ul>
+      <div class="clear"></div>
+
+
+	  </div>
+
+    </div>
+	
+  <div class="info_bts">
+    <div class="con">
+
+	 <input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回列表" class="bt" /><input id="id" type="hidden" name="id" value="{$info.id}"/>
+
+    </div>
+  </div>
+
+
+</form>
+</div>
+<!--主体结束-->
+</div>
+<div class="pagenav">{$show}</div>
+<script>
+$("#lable").val('{$info.lable}');
+</script>
+</div>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>

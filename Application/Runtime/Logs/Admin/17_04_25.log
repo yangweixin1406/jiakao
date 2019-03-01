@@ -1,0 +1,31 @@
+[ 2017-04-25T01:05:53+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=Configex&a=save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.051355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+
+[ 2017-04-25T01:05:54+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0849s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\UserController.class.php 第 236 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\UserController.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008089s ]
+

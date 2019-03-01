@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$info.webtitle}</title>
+<include file="Public:head" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/onoff/onoff.css" />
+<script language="javascript" src="__PUBLIC__/onoff/onoff.js"></script>  
+<style>
+fieldset{ margin-top:10px; margin-bottom:10px;}
+</style>
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t">{$webtitle}</div><div class="b"><a href="{$laiyuan}">返回</a></div></div><div class="right"></div>
+  </div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+<form id="form1" name="form1" method="post" action="{:U('point')}" onsubmit="return check();">
+<div class="info1">
+
+
+	   <div class="tab_page">
+	   <fieldset><legend>积分兑换现钱配置</legend>
+	    <ul class="ul_info"><li class="li1">配置开关：</li><li class="li2"><input type="hidden" id="pointtomoney_status" name="setting[pointtomoney][status]" value="{$setting[pointtomoney][status]}"   txt1="开"  txt2="关"/></li></ul>
+		<ul class="ul_info"><li class="li1">积分：</li><li class="li2"><input type="text" name="setting[pointtomoney][point]" value="{$setting[pointtomoney][point]}" class="txt1" /></li></ul>
+		<ul class="ul_info"><li class="li1">得现金：</li><li class="li2"><input type="text" name="setting[pointtomoney][money]" value="{$setting[pointtomoney][money]}"  class="txt1" /></li></ul>
+		<ul class="ul_info"><li class="li1">限制最小积分：</li><li class="li2"><input type="text" name="setting[pointtomoney][min]" value="{$setting[pointtomoney][min]}"  class="txt1" /></li></ul>
+		<ul class="ul_info"><li class="li1">限制最大积分：</li><li class="li2"><input type="text" name="setting[pointtomoney][max]" value="{$setting[pointtomoney][max]}"   class="txt1"/></li></ul>
+
+	   </fieldset>
+	   <fieldset><legend>现钱兑换积分配置</legend>
+	    <ul class="ul_info"><li class="li1">配置开关：</li><li class="li2"><input type="hidden" id="moneytopoint_status" name="setting[moneytopoint][status]" value="{$setting[moneytopoint][status]}"   txt1="开"  txt2="关"/></li></ul>
+		<ul class="ul_info"><li class="li1">现金：</li><li class="li2"><input type="text" name="setting[moneytopoint][money]" value="{$setting[moneytopoint][money]}"   class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">得积分：</li><li class="li2"><input type="text" name="setting[moneytopoint][point]" value="{$setting[moneytopoint][point]}"   class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">限制最小现金：</li><li class="li2"><input type="text" name="setting[moneytopoint][min]" value="{$setting[moneytopoint][min]}"  class="txt1" /></li></ul>
+		<ul class="ul_info"><li class="li1">限制最大现金：</li><li class="li2"><input type="text" name="setting[moneytopoint][max]" value="{$setting[moneytopoint][max]}"   class="txt1"/></li></ul>
+
+	   </fieldset>
+
+         </div>
+
+	  
+    </div>
+	
+  <div class="info_bts">
+    <div class="con">
+
+	 <input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回" class="bt" /><input type="submit" name="btsend" class="btsend" value="更新" /><input id="id" type="hidden" name="id" value="{$info.id}"/><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
+	
+    </div>
+  </div>
+
+
+</form>
+</div>
+<!--主体结束-->
+</div>
+<div class="pagenav">{$show}</div>
+
+</div>
+<script>
+onoff("pointtomoney_status",100);
+onoff("moneytopoint_status",100);
+</script>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>
+
+
+
+
+

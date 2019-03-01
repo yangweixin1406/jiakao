@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$webtitle}</title>
+<include file="Public:head" />
+<style>
+.status1{ color:#00CC66;}
+</style>
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle" style="z-index:100;">
+	<div class="con">
+		<div class="left"><div class="tt">{$mytitle}&nbsp;({$item.num}/{$item.rowcountz})</div><div class="bb"><a href11="{:U('info')}" style="color:#CCCCCC">添加订单</a></div><span class="btchazhao">查找</span></div>
+		<div class="right">
+			<form id="form1" name="form1" method="get" action="__CONTROLLER__/lists/" ><div class="l"></div>
+			<div  class="r">
+				<div class="row">
+					 <span class="t">支付状态<em>：</em></span>
+					 <span class="f">
+						<select name="status" id="status" title="状态">
+						<option value="">请选择</option>
+						<foreach name="statuslist" item="row">
+						<option value="{$row.value}">{$row.title}</option>
+						</foreach>
+						</select>
+					</span>
+				</div>
+				<div class="row">
+				   <span class="t">姓名<em>：</em></span><span class="f"><input type="text" name="contact" id="contact" value="{$item.contact}" class="txt1s"/></span>
+				</div>
+				<div class="row">
+				   <span class="t">订单编号<em>：</em></span><span class="f"><input type="text" name="orderno" id="orderno" value="{$item.orderno}" class="txt1s"/></span>
+				</div>
+				<div class="row">
+				   <span class="t">交易ID<em>：</em></span><span class="f"><input type="text" name="id" id="id" value="{$item.id}"  class="txt1s"/></span>
+				</div>
+				<div class="row">
+				   <span class="t" style="line-height:13px;">第三方订单号<em>：</em></span><span class="f"><input type="text" name="tradeno" id="tradeno" value="{$item.tradeno}"  class="txt1s"/></span>
+				</div>
+				<div class="row">
+				   <span class="t">金额<em>：</em></span><span class="f"><input type="text" name="total" id="total" value="{$item.total}"  class="txt1s"/></span>
+				</div>
+				<div class="row">
+					<span class="t ts">&nbsp;</span><span class="f"><input type="hidden" name="table" id="table" value="<?php echo $table?>" /><input type="submit" name="search" id="button" value="查找" class="btsearch" /></span>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+               <table class="tablelist tableloglat" cellspacing="0">
+				<thead>
+					<tr>
+						<th class='tdck'><input type="checkbox" name="ckall"/></th>
+						<th class='td1'>联系人</th>
+						<th class='td2'>订单</th>
+						<th class='td3'>金额</th>
+						<th class='td4'>状态</th>
+						<th class='td5'>会员</th>
+						<th class='td6'>日期</th>
+						<th class='tdop'>操作</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<foreach name="list" item="value">
+						<tr>
+                            <td class="tdck"><input type="checkbox" name="ck" value="{$value.id}" /></td>
+							<td class="td1">{$value.contact}</td>
+							<td class="td2">订单编号:{$value.logno}<br/>第三方订单号:{$value.tradeno}</td>
+							<td class="td3"><span class='ts_color'>{$value.total}块</span><br/>支付方式:{$value.payname}</td>
+                            <td class="td4"><span class='status{$value.status}'>{$value.status_caption}</span></td>
+							<td class="td5">{$value.username}</td>
+							<td class="td6">提交日期:{$value.addtime}<br/>结束日期:{$value.endtime}</td>
+							<td class="tdop"><a href="__CONTROLLER__/info/id/{$value.id}">编辑</a>|<a href="__CONTROLLER__/delete/id/{$value.id}">删除</a></td>
+						</tr>
+					</foreach>
+				</tbody>
+</table>
+
+</div>
+<!--主体结束-->
+</div>
+<div class="pagenav">{$show}</div>
+<div style=" text-align:center;"><a data-url="{:U('delete')}" onclick="Del(this);">删除选中</a></div>
+</div>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<include file="Public:head" />
+<style>
+*{font-size:12px;}
+html,body{ padding:0px;margin:0px;}
+</style>
+<script>
+var ObjId="{$ObjId}";
+var pathfile="{$pathfile}";
+function showImage(opt){
+	var fsName=window.parent.document.getElementById(ObjId);
+	//alert(imgsrc_);
+	if(fsName!=null){
+	    fsName.value=opt.value;
+	}
+}
+function Upload(){
+	 document.getElementById("upform1").submit(); 
+}
+function UpfileClick(){
+	 document.getElementById("upfile").click(); 
+}
+</script>
+</head>
+<body style="margin:0px; padding:0px; height:50px;overflow:hidden; ">
+<form name="upform1" id="upform1" enctype="multipart/form-data" method="post" action="{:U('save')}"  style="margin:0px; padding:0px; line-height:0px; border:0px;">
+<input type="hidden" name="folder" value="{$folder}"/>
+<input type="hidden" name="quan" value="{$quan}"/>
+<input type="hidden" name="ObjId" value="{$ObjId}"/>
+
+<div style=" position:relative;overflow:visible;"><input type="file" name="upfile" id="upfile"  onchange="Upload()" style="filter:alpha(Opacity=1);-moz-opacity:0.01;opacity:0.01; cursor:pointer; position:absolute; width:50px; height:60px; z-index:1000;"/><input  type="button" name="Submit1" value="选择"   style=" top:0px; height:23px; left:0px; position:absolute; z-index:5;"/><input  type="button" name="Submit" value="提交"   style=" display:none;" onclick="UpfileClick()"/></div>
+</form>
+</body>
+<script>
+if(pathfile!=""){
+  showImage({value:pathfile});
+}
+</script>
+</html>
+

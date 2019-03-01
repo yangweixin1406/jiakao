@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$info[bookname]}书籍详细</title>
+<script language="javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>  
+<script language="javascript" src="__PUBLIC__/js/jquery.cookie.js"></script>  
+<style>
+body{ margin:0px;}
+.mycontent{ width:1000px; margin-left:auto; margin-right:auto;}
+.table_info{ width:100%;}
+.table_info tr th{ background-color:#CCCCCC; padding-top:15px; padding-bottom:15px; font-size:15px; text-align:left;}
+.table_info tr th.th1{ text-align:center}
+.table_info tr td{ background-color:#F5F5F5;font-size:15px; text-align:left; color:#000; }
+.table_info tr td.td1{ width:100px; text-align:right;color:#999;}
+.table_info tr td.op{}
+.bt_del{}
+.mytitle{ height:auto; width:100%; overflow:hidden;}
+.mytitle h1{ display:inline; float:left; margin:0px; padding:0px; padding-top:20px;padding-bottom:20px;}
+.mytitle span{ display:inline; float:right;}
+.mytitle span .back{ text-align:right; padding-top:40px; display:block; text-decoration:none; color:#009900; font-size:20px; font-weight:bold;}
+</style>
+</head>
+
+<body>
+<include file="Public:header" />
+<div class="mycontent">
+<div class="mytitle"><h1>书籍详细</h1><span><a href="__APP__/Home/Product/" class="back">返回</a></span></div>
+<table cellspacing="1"  cellpadding="7" border="0" class="table_info">
+<tr><td class="td1">书名：</td><td>{$info[bookname]}</td></tr>
+<tr><td class="td1">作者：</td><td>{$info[auther]}</td></tr>
+
+<tr><td class="td1">出版社：</td><td>{$info[pubhouse]}</td></tr>
+<tr><td class="td1">价格：</td><td>{$info[bookprice]}</td></tr>
+<tr><td class="td1">出版时间：</td><td>{$info[pubdate]}</td></tr>
+<tr><td class="td1">简要：</td><td>{$info[introduction]}</td></tr>
+</table>
+</div>
+</body>
+</html>

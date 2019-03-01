@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>例子2</title>
+<script src="js/jquery-1.9.2.min.js?2"></script>
+<script src="js/hcfile.config-0.3.js?1"></script>
+<script src="js/hcfile-0.3.js?1"></script>
+<link href="js/hcfile03.css" rel="stylesheet" type="text/css">
+<style>
+body{ margin:0px;font-family:"Microsoft Yahei";}
+h1{ background-color:#999999; color:#020607; font-size:15px; padding:5px; text-align:center; margin:0px;}
+
+</style>
+</head>
+<body>
+<h1>身份证正面图片</h1><input type="hidden"  id="photozm" name="photozm"  value=""/>
+<div style="margin-left:auto; margin-right:auto; width:600px;">
+	<div id="uploadbt" class="upload-bt"><div class="jian">+</div><div class="text">请选择或拖拽上传文件、限制每个20.0MB以内。</div></div>
+	<div id="photos_panel" class="upload-info" style="display:none"></div>
+</div>
+<h1>身份证背面图片</h1>
+<script>
+		  hcfile().Init({
+				  url:"include/php/ajax.php",
+				  maxnum:1,//一张图片
+				  type:"img",
+				  panel_id:"photos_panel",//图片显示对象id
+				  input_id:"photozm",
+				  item_class:"myinfo",
+				  bt_del_text:"删除",
+				  ischongxuan:1,//1显示重新选择按钮
+				  weizhi_id:"uploadbt", //按钮id
+				  upload_show:{date:0,size:-1,name:1,bar:1,baifenbi:1,itemstyle:"1"},
+				  success_show:{date:0,size:1,name:1,bar:0,baifenbi:0,del:1,itemstyle:"1"}
+		 });
+</script>
+</body>
+</html>

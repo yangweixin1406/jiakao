@@ -1,0 +1,494 @@
+[ 2017-06-11T15:59:23+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-11T15:59:35+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-11T15:59:58+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-06-11T16:00:00+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-06-11T16:00:00+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-06-11T16:00:01+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2017-06-11T16:00:15+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: keytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 379 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' ORDER BY id asc LIMIT 0,12   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`shopname`,`photo` FROM `tb_user` WHERE ( id in(0,8) ) ORDER BY id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 404 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 86 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+NOTIC: [8] Undefined index: key F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2017-06-11T16:00:36+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: keytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 379 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT `id` FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' ORDER BY id asc LIMIT 0,12   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`shopname`,`photo` FROM `tb_user` WHERE ( id in(0,8) ) ORDER BY id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 404 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 86 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+NOTIC: [8] Undefined index: key F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2017-06-11T16:01:33+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: [8] Undefined index: m F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\CommController.class.php 第 19 行.
+
+[ 2017-06-11T16:01:35+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+NOTIC: [8] Undefined index: m F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\CommController.class.php 第 19 行.
+
+[ 2017-06-11T16:03:12+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\CommController.class.php 第 19 行.
+
+[ 2017-06-11T16:03:27+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-06-11T16:03:57+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000577s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005153s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: keytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 379 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' ORDER BY id asc LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`shopname`,`photo` FROM `tb_user` WHERE ( id in(0,8) ) ORDER BY id asc  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 404 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 86 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+NOTIC: [8] Undefined index: key F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2017-06-11T16:04:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Use of undefined constant MODULE_CONTROLLER - assumed 'MODULE_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\CommController.class.php 第 19 行.
+
+[ 2017-06-11T16:05:29+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-06-11T16:06:14+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+
+[ 2017-06-11T16:06:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/djlist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: keytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 379 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT `id` FROM `tb_user` WHERE `id` > 0 AND `shopname` <> '' AND `root` = '6' ORDER BY id asc LIMIT 0,12   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`shopname`,`photo` FROM `tb_user` WHERE ( id in(0,8) ) ORDER BY id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 404 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 86 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+NOTIC: [8] Undefined index: key F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\d0de0973c534e16caa28bf528ccadb87.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2017-06-11T16:06:27+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0751s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = 1 AND `lable` = 'rec' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = 1 AND `lable` = 'rec' ORDER BY id desc LIMIT 0,9   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_product_class` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tb_product_class` WHERE `dianjiaid` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 50 行.
+SQL: SELECT `id`,`shopname`,`photo` FROM `tb_user` WHERE `shopname` <> '' AND `root` = '6'  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2017-06-11T16:06:33+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/plists/?p=1&isajax=1&djid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title`,`id`,`price`,`prices`,`photo`,`photos`,`dianjiaid`,`classid` FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = '1' ORDER BY id asc LIMIT 0,15   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+
+[ 2017-06-11T16:06:38+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/plists/?p=1&isajax=1&djid=1&xinpin=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = '1' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `title`,`id`,`price`,`prices`,`photo`,`photos`,`dianjiaid`,`classid` FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = '1' ORDER BY id desc LIMIT 0,9   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index: userid F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 172 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: lable F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+NOTIC: [8] Undefined index:  F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 177 行.
+
+[ 2017-06-11T16:06:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = 1 AND `lable` = 'rec' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = 1 AND `lable` = 'rec' ORDER BY id desc LIMIT 0,9   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: rec F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 35 行.
+SQL: SELECT * FROM `tb_user` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_product_class` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tb_product_class` WHERE `dianjiaid` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: orderby F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 50 行.
+SQL: SELECT `id`,`shopname`,`photo` FROM `tb_user` WHERE `shopname` <> '' AND `root` = '6'  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 78 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 80 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Wap\07cdb82d3591bc0563e5c97eed4c4673.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2017-06-11T16:06:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Wap/Shop/plists/?p=2&isajax=1&djid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `tb_product` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = '1' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `title`,`id`,`price`,`prices`,`photo`,`photos`,`dianjiaid`,`classid` FROM `tb_product` WHERE `id` > 0 AND `dianjiaid` = '1' ORDER BY id asc LIMIT 15,15   [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\Wap\Controller\ShopController.class.php 第 171 行.
+

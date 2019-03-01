@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="chezi" style="background:#f5f5f5;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$web.title}</title>
+<include file="Public:head_exam" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/shop.css?1">
+<script src="__PUBLIC__/home/func.js"></script>
+</head>
+<body>
+<div class="mybody">
+<div class="curnav" id="curnav" style="position:absolute; top:0px; left:0px; z-index:1001"><div><a  class="back" href="{$backurl}"><em>d</em></a><center><form action="__CONTROLLER__/search/"  method="get" onsubmit="return checkform();"><input type="text" name="key"  placeholder="请输入店铺名/商品名"/><input type="submit" value="查询" name="btsubmit"/></form></center><a class="amenu">≡</a></div></div>
+
+<link type="text/css" media="all" rel="stylesheet" href="__PUBLIC__/slick-1.6.0/tabhead.css" />
+<script language="javascript" src="__PUBLIC__/slick-1.6.0/slick/slick.min.js"></script>
+<script language="javascript" src="__PUBLIC__/js/touchslider.js" title="201705240301改过后的" qq="632175205"></script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/slick-1.6.0/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/slick-1.6.0/slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/huandengslider.css">
+<style>
+.tabpane{ width:800px; float:left; min-height:600px;}
+</style>
+<script>
+function checkform(){
+ var key=$("input[name='key']");
+ if(key.val()==""){
+  layer.msg(key.attr("placeholder"));
+  return false;
+ }
+}
+</script>
+<div class="mymain" style="position:absolute; left:0px; top:45px; width:100%;">
+<div class="w800">
+<!--焦点图开孡-->
+			<div class="pkuang">
+					 <div class="inner">
+						  <div class="shoptitle"><span class="tit">找到{$shop|count}家商铺</span><span class="more"><a class="aurl" href="__CONTROLLER__/djlist/key/{$web.key}/">&gt;&gt;更多</a></span></div>
+						  <div class="djlist" style="margin-top:0px;">
+						   <foreach name="shop" item="row">
+							 <div class="item" data-id="{$row.id}">
+							 <a href="__CONTROLLER__/home/djid/{$row.id}" class="aurl">
+							 <div  class="rel">
+								<div class="left"> 
+								<div class="photo"><img data-src="__ROOT__/{$row.photo}" src="__PUBLIC__/images/logo.gif"/></div>
+								</div>
+								<div class="right">  
+										<div class="title">{$row.shopname}</div>
+								</div>
+							 </div>
+							 </a>
+							 </div>
+						   </foreach>
+							<empty name="shop">
+							  <div class="divnull">查找不到商铺</div>
+							</empty>
+						  </div>
+						  <div class="clear"></div>
+					</div>
+			</div>
+			<div class="pkuang">
+					 <div class="inner">
+						  <div class="shoptitle"><span class="tit">找到{$product|count}件商品</span><span class="more"><a class="aurl" href="__CONTROLLER__/productlist/key/{$web.key}/">&gt;&gt;更多</a></span></div>
+						  <div class="plist" style="margin-top:0px;">
+						   <foreach name="product" item="row">
+							 <div class="item" data-id="{$row.id}" >
+							 <a href="__CONTROLLER__/pdetail/djid/{$row.dianjiaid}/id/{$row.id}" class="aurl">
+							 <div  class="rel" style="border:0px;">
+								<div class="left"> 
+								<div class="photo"><img data-src="__ROOT__/{$row.photo}" src="__PUBLIC__/images/logo.gif"/></div>
+								</div>
+								<div class="right">  
+										<div class="title">{$row.title}</div>
+										<div class="price"><i>¥</i><span class="s1">{$row.price}</span><span class="s2">¥{$row.prices}</span></div>
+								</div>
+							 </div>
+							 </a>
+							 </div>
+						   </foreach>
+							<empty name="product">
+							  <div class="divnull">查找不到商品</div>
+							</empty>
+						  </div>
+						  <div class="clear"></div>
+					</div>
+			</div>
+<!--焦点图结束-->
+</div>
+</div>
+</div>
+<div id="pro_tmp" style="display:none;">
+		<div class="item" data-id="{id}" >
+		 <a href="__CONTROLLER__/pdetail/djid/{dianjiaid}/id/{id}" class="aurl">
+			<div  class="rel" style="border:0px;">
+			<div class="left"> 
+			<div class="photo"><img data-src="__ROOT__/{photo}" src="__PUBLIC__/images/logo.gif"/></div>
+			</div>
+			<div class="right">  
+			<div class="title">{title}</div>
+			<div class="price"><i>¥</i><span class="s1">{price}</span><span class="s2">¥{prices}</span></div>
+			</div>
+			</div>
+		 </a>
+		</div>
+</div>
+<script>
+  init_show_img({objs:$("img")});
+</script>
+<script>
+show_hide_daohang_index();
+
+//$.cookie("currentMenuID", "menuID", { path: "/"}); 
+//var weburl="__ROOT__";//右键查看网页源码，你会看出这个有值，有关 thinkphp 常量：http://document.thinkphp.cn/manual_3_2.html#const_reference
+</script>
+<script>
+$(document).scroll(function(){
+  var parent=$(this);
+  if(itemIndex==1){
+	   var zh=parent.height(); //注 jq版本1.7.2获取失败
+		if($(window).height()+parent.scrollTop()+10>zh){
+              panedata(itemIndex);
+		}
+    }
+
+});
+
+</script>
+
+</body>
+</html>

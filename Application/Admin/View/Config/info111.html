@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Public:head" />
+<script language="javascript" src="__PUBLIC__/ckeditor/ckeditor.js"></script>  
+</head>
+<body>
+<div class="mynav"><span class="name">{$webtitle}</span></div>
+<form id="form1" name="form1" method="post" action="{:U('save')}"  onsubmit="return check();">
+<table cellpadding="10" class="table_{$tablename}_info">
+<tr>
+<td align="right">网站名称：</td><td> <input type="text" name="name" id="name" value="{$info.name}"/></td>
+</tr>
+<tr>
+<td align="right">联系人：</td><td> <input type="text" name="contact" id="contact" value="{$info.contact}"/></td>
+</tr>
+<tr>
+<td align="right">移动电话：</td><td> <input type="text" name="phone" id="phone" value="{$info.phone}"/></td>
+</tr>
+<tr>
+<td align="right">联系地址：</td><td> <input type="text" name="address" id="address" value="{$info.address}"/></td>
+</tr>
+<tr>
+<td align="right">公司名称：</td><td> <input type="text" name="company" id="company" value="{$info.company}"/></td>
+</tr>
+<tr>
+<td align="right">电子邮箱：</td><td> <input type="text" name="email" id="email" value="{$info.email}"/></td>
+</tr>
+<tr>
+<td align="right">简要：</td><td> <input type="text" name="des" id="des" value="{$info.des}"/></td>
+</tr>
+<tr>
+<td align="right">版权所有：</td><td><textarea name="copyright" id="copyright"  cols="45" rows="5" class="ckeditor">{$info.copyright}</textarea></td>
+</tr>
+<tr><td align="right">网站Logo：</td><td><table><tr><td><input type="hidden" name="logo" id="logo"  value="{$info.logo}"/><iframe src="__PUBLIC__/upload_20150420/upload/php/img_iframe.php?panel_id=my_show&input_only_id=logo&input_more_id=ImageList&maxnum=10" scrolling="no" frameborder="0" height="80" width="80" style="margin:0px;"></iframe></td></tr></table></td></tr>
+</table>
+<input type="submit" name="act" id="act" value="提交" />
+<input type="reset" name="button" id="button" value="重置" />
+<input type="hidden" id="id" name="id" value="{$id}"/>
+</form>
+</body>
+<script>
+$("#state").val('{$info.state}');
+$("#classno").val('{$info.classno}');
+
+function check(){
+  var name=$("#name");
+  var price=$("#price");
+  var prices=$("#prices");
+   var id=$("#id");
+  if(name.val()==""){
+	 alert("请输入名称");
+	 name.focus();
+	 return false;
+  }
+  if(price.val()==""){
+     if(price.val()==""){
+	  alert("请输入价格");
+	  price.focus();
+	  return false;
+	 }
+  }
+}
+</script>
+</html>

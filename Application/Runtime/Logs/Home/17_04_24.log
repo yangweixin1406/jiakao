@@ -1,0 +1,33 @@
+[ 2017-04-24T00:10:07+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam1/class2/table/examcn/fatherid/39/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0693s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0847s ]
+SQL: SELECT * FROM `tb_configex` WHERE `objtable` = 'examcn' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004000100010001'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\7228adf49d5a09ea96a8b97ba6c769bf.php 第 59 行.
+NOTIC: [8] Undefined index: classid F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\7228adf49d5a09ea96a8b97ba6c769bf.php 第 60 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\7228adf49d5a09ea96a8b97ba6c769bf.php 第 61 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\7228adf49d5a09ea96a8b97ba6c769bf.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\7228adf49d5a09ea96a8b97ba6c769bf.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003575s ]
+

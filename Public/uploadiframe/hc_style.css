@@ -1,0 +1,11 @@
+/* CSS Document */
+.uploadiframe_item{ width:60px; position:relative; height:60px; border:solid #CCCCCC 1px; float:left; margin:2px; margin-left:0px;}
+.uploadiframe_item .item_photo{ position:absolute; top:0px; left:0px; height:100%; width:100%; text-align:center; overflow:hidden;}
+.uploadiframe_item .item_photo img{ width:100%; border:0px;} 
+.uploadiframe_item .item_photo a{ display:block; width:100%; height:100%;display: table-cell;
+    vertical-align: middle;
+    text-align: center; line-height:0px; }
+.uploadiframe_item .item_del{position:absolute; top:0px; right:0px; height:20px; width:20px; text-align:center; background-color:#FF6600; font-weight:bold; cursor:pointer;} 
+.uploadiframe_item .item_del:hover{color:#FFFFFF; font-weight:bold;}
+.uploadiframe_item .item_photo table td{ height:60px; width:100%;}
+

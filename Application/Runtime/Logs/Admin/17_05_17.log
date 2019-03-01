@@ -1,0 +1,47 @@
+[ 2017-05-17T04:42:48+08:00 ] ::1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=setting&a=sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004132s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.2875s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0749s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'sms'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined variable: info F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 25 行.
+NOTIC: [8] Use of undefined constant sms - assumed 'sms' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 159 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 159 行.
+NOTIC: [8] Use of undefined constant sms - assumed 'sms' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 160 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 160 行.
+NOTIC: [8] Use of undefined constant sms - assumed 'sms' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 161 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 161 行.
+NOTIC: [8] Use of undefined constant sms - assumed 'sms' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 162 行.
+NOTIC: [8] Use of undefined constant urlcs - assumed 'urlcs' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 162 行.
+NOTIC: [8] Use of undefined constant sms - assumed 'sms' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 163 行.
+NOTIC: [8] Use of undefined constant charset - assumed 'charset' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 163 行.
+NOTIC: [8] Use of undefined constant sms - assumed 'sms' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 164 行.
+NOTIC: [8] Use of undefined constant content1 - assumed 'content1' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 164 行.
+NOTIC: [8] Use of undefined constant sms - assumed 'sms' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 165 行.
+NOTIC: [8] Use of undefined constant content2 - assumed 'content2' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 165 行.
+NOTIC: [8] Undefined variable: show F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\529739ba4d3178b00417d3b05ffc2956.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.353440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.353683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.035246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008419s ]
+

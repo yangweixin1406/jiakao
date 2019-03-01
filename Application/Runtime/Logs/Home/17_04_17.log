@@ -1,0 +1,1299 @@
+[ 2017-04-17T23:35:32+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 59 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007755s ]
+
+[ 2017-04-17T23:35:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 59 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 73 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2017-04-17T23:35:57+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 90 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 59 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant btcaption - assumed 'btcaption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 322 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-04-17T23:36:06+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/favorites/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tb_favorites` [ RunTime:0.0475s ]
+NOTIC: [8] Undefined index: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 64 行.
+NOTIC: [8] Undefined index: objtable F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 65 行.
+NOTIC: [8] Undefined index: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 70 行.
+NOTIC: [8] Undefined index: type F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 79 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_favorites` WHERE `userid` = 1 AND `objtable` = 'exam' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 85 行.
+SQL: SELECT * FROM `tb_favorites` WHERE `userid` = 1 AND `objtable` = 'exam' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 104 行.
+NOTIC: [8] Undefined index: type F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: modelist F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: list F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 137 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 59 行.
+NOTIC: [8] Undefined index: classid F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 60 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-04-17T23:36:15+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0649s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='13',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.1334s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '977d326713d46c9f535dfc6220de0829' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `tb_answer` SET `time`='1492443375' WHERE `id` = 34 [ RunTime:0.0375s ]
+
+[ 2017-04-17T23:36:18+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/favorites/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_favorites` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tb_favorites` WHERE `userid` = 1 AND `objidno` = 'd67e00645303722445a4cf49daab6025' LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `tb_favorites` (`objid`,`objidno`,`objtable`,`title`,`userid`,`time`) VALUES ('993','d67e00645303722445a4cf49daab6025','exam','准驾车型为大型货车的，可以驾驶以下哪种车型？','1','1492443378') [ RunTime:0.0609s ]
+
+[ 2017-04-17T23:36:20+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/favorites/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_favorites` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tb_favorites` WHERE `userid` = 1 AND `objidno` = 'a3ceb07a1cefe8ebb236a289f9917f46' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `tb_favorites` (`objid`,`objidno`,`objtable`,`title`,`userid`,`time`) VALUES ('992','a3ceb07a1cefe8ebb236a289f9917f46','exam','如图所示，在这种情况下通过交叉路口时，不得超车的原因是什么？','1','1492443380') [ RunTime:0.0448s ]
+
+[ 2017-04-17T23:36:43+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/favorites/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_favorites` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 64 行.
+NOTIC: [8] Undefined index: objtable F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 65 行.
+NOTIC: [8] Undefined index: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 70 行.
+NOTIC: [8] Undefined index: type F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 79 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_favorites` WHERE `userid` = 1 AND `objtable` = 'exam' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 85 行.
+SQL: SELECT * FROM `tb_favorites` WHERE `userid` = 1 AND `objtable` = 'exam' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 992 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 116 行.
+NOTIC: [8] Undefined index: photo F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 117 行.
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 993 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: value F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 116 行.
+NOTIC: [8] Undefined index: photo F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 117 行.
+NOTIC: [8] Undefined index: type F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: modelist F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\FavoritesController.class.php 第 133 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 59 行.
+NOTIC: [8] Undefined index: classid F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 60 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 61 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-04-17T23:37:03+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/answer/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 75 行.
+NOTIC: [8] Undefined index: objtable F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 76 行.
+NOTIC: [8] Undefined index: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 80 行.
+NOTIC: [8] Undefined index: isok F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 83 行.
+NOTIC: [8] Undefined index: type F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 92 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_answer` WHERE `userid` = 1 AND `objtable` = 'exam' AND `isok` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 98 行.
+SQL: SELECT * FROM `tb_answer` WHERE `userid` = 1 AND `objtable` = 'exam' AND `isok` = 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 976 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: photo F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 129 行.
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 993 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: photo F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 129 行.
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: photo F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 129 行.
+NOTIC: [8] Undefined index: type F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 137 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: modelist F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AnswerController.class.php 第 145 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 59 行.
+NOTIC: [8] Undefined index: classid F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 60 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 61 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 317 行.
+NOTIC: [8] Use of undefined constant btcaption - assumed 'btcaption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2017-04-17T23:37:17+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/answer/remove.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0075s ]
+SQL: DELETE FROM `tb_answer` WHERE `objtable` = 'exam' AND `objid` = 976 AND `userid` = 1 [ RunTime:0.0628s ]
+
+[ 2017-04-17T23:37:25+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/answer/remove.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0055s ]
+SQL: DELETE FROM `tb_answer` WHERE `objtable` = 'exam' AND `objid` = 1119 AND `userid` = 1 [ RunTime:0.1320s ]
+
+[ 2017-04-17T23:39:57+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 90 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 59 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant btcaption - assumed 'btcaption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 322 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2017-04-17T23:40:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 90 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined index: tpl F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 59 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant btcaption - assumed 'btcaption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 322 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-04-17T23:43:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 59 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 73 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-04-17T23:44:13+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 59 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 73 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2017-04-17T23:44:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/%7B$row2.value%7D/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 127 行.
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-04-17T23:44:34+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/%7B$row2.value%7D/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 127 行.
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2017-04-17T23:44:50+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/%7B$row2.value%7D/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 127 行.
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2017-04-17T23:44:52+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/%7B$row2.value%7D/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 127 行.
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001488s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2017-04-17T23:44:54+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/%7B$row2.value%7D/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 127 行.
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2017-04-17T23:44:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/%7B$row2.value%7D/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 127 行.
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined variable: examstr F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-04-17T23:46:05+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 59 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 73 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2017-04-17T23:47:01+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-04-17T23:47:02+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001571s ]
+
+[ 2017-04-17T23:47:43+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 59 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 73 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2017-04-17T23:47:52+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 90 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Undefined index: tpl F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-04-17T23:50:06+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=Exam&a=index&fatherid=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 59 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 72 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 73 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+NOTIC: [8] Undefined index: kemu F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 303 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001980s ]
+
+[ 2017-04-17T23:50:15+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: p F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 90 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: ajax F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: conf F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\ExamController.class.php 第 148 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 59 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant btcaption - assumed 'btcaption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 322 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+

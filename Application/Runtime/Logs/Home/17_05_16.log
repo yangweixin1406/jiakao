@@ -1,0 +1,2238 @@
+[ 2017-05-16T01:26:58+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+
+[ 2017-05-16T01:27:02+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:1.0768s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0462s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0243s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.269134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008096s ]
+
+[ 2017-05-16T01:29:37+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0283s ]
+NOTIC: [8] Undefined variable: mod F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 107 行.
+
+[ 2017-05-16T01:30:51+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2017-05-16T02:07:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+
+[ 2017-05-16T02:07:28+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.195816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008818s ]
+
+[ 2017-05-16T02:07:37+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2017-05-16T02:07:39+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2017-05-16T02:07:58+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000872s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-05-16T02:37:14+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-05-16T02:39:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003291s ]
+
+[ 2017-05-16T02:41:27+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2017-05-16T02:42:30+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2017-05-16T02:43:45+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-05-16T02:45:02+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002448s ]
+
+[ 2017-05-16T02:45:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000531s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004225s ]
+
+[ 2017-05-16T02:51:00+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2017-05-16T02:51:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-05-16T02:51:34+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874294456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-05-16T02:52:20+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-05-16T02:52:29+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874349314
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+
+[ 2017-05-16T02:53:03+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001769s ]
+
+[ 2017-05-16T02:53:07+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874387064
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+
+[ 2017-05-16T02:53:31+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001650s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2017-05-16T02:53:35+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874414992
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2017-05-16T02:54:16+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2017-05-16T02:54:19+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874459395
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-05-16T02:55:54+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874554272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000577s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 79 行.
+NOTIC: [2] Variable passed to each() is not an array or object F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2017-05-16T02:56:35+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2017-05-16T02:56:38+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874598500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0050s ]
+NOTIC: [2] Variable passed to each() is not an array or object F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 67 行.
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-05-16T02:57:05+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001780s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-05-16T02:57:08+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874628166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0059s ]
+NOTIC: [2] Variable passed to each() is not an array or object F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 67 行.
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-05-16T02:57:41+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2017-05-16T02:57:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874664745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2017-05-16T02:58:16+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2017-05-16T02:58:19+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874699635
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 77 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002616s ]
+
+[ 2017-05-16T03:02:43+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2017-05-16T03:02:46+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494874966239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 77 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-05-16T03:04:49+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2017-05-16T03:04:53+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494875093630
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 77 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2017-05-16T03:05:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2017-05-16T03:06:00+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494875160486
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: smtpuser F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 77 行.
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-05-16T03:11:48+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0366s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2017-05-16T03:12:54+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494875512093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-05-16T03:13:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494875514991
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-05-16T03:14:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494875522678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2017-05-16T03:15:53+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.1953s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.1388s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-05-16T03:16:56+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494875756384
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\AjaxController.class.php 第 78 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-05-16T03:16:56+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-05-16T03:17:01+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001620s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ����Ŀ�����������ܾ����޷����ӡ�
+ (trying to connect via tcp://localhost:3306) F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2017-05-16T03:18:34+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.4293s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2017-05-16T03:18:37+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-05-16T03:18:43+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.1175s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: emailsend F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 236 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0513s ]
+SQL: UPDATE `tb_user` SET `userpwd`='110d73d3821e499550bc012dc284f021' WHERE `email` = '632175205@qq.com' [ RunTime:0.4809s ]
+NOTIC: [8] Undefined index: emailpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 242 行.
+
+[ 2017-05-16T03:23:49+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: emailsend F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 236 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0064s ]
+SQL: UPDATE `tb_user` SET `userpwd`='1f82fb105c837ec2ba62894d1a83ee29' WHERE `email` = '632175205@qq.com' [ RunTime:0.1686s ]
+NOTIC: [8] Undefined index: emailpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 242 行.
+
+[ 2017-05-16T03:25:58+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0058s ]
+SQL: UPDATE `tb_user` SET `userpwd`='a8f8fab6a3fa233be1d51282a674d081' WHERE `email` = '632175205@qq.com' [ RunTime:0.2070s ]
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 242 行.
+
+[ 2017-05-16T03:27:23+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2017-05-16T03:27:27+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 238 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: UPDATE `tb_user` SET `userpwd`='950fd796875e9bfbf9288fae802f7531' WHERE `email` = null [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: smtppass F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 241 行.
+
+[ 2017-05-16T03:28:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2017-05-16T03:28:24+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 238 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0053s ]
+SQL: UPDATE `tb_user` SET `userpwd`='485dca9f890f5a1407b18fb3f62e08b0' WHERE `email` = null [ RunTime:0.0006s ]
+
+[ 2017-05-16T03:29:14+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 238 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0052s ]
+SQL: UPDATE `tb_user` SET `userpwd`='4a1f1fe694d216cf221e93c29ccd7237' WHERE `email` = null [ RunTime:0.0005s ]
+
+[ 2017-05-16T03:29:27+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 238 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0054s ]
+SQL: UPDATE `tb_user` SET `userpwd`='25f82b19dfda083e0a741b93f8418d51' WHERE `email` = null [ RunTime:0.0005s ]
+
+[ 2017-05-16T03:30:00+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-05-16T03:30:00+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2017-05-16T03:30:02+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'reg' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\435614a53edd119dc5a0294ae785577f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-05-16T03:30:08+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494876606343
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002674s ]
+
+[ 2017-05-16T03:37:05+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/Ajax/getemailcode?1494877024436
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003299s ]
+
+[ 2017-05-16T03:38:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+
+[ 2017-05-16T03:38:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2017-05-16T03:38:46+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-05-16T03:39:49+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0059s ]
+SQL: UPDATE `tb_user` SET `userpwd`='64625c8fbcd6744f3f26e576fc1aaa00' WHERE `email` = null [ RunTime:0.0005s ]
+
+[ 2017-05-16T03:40:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0054s ]
+SQL: UPDATE `tb_user` SET `userpwd`='f473037499f0458eddee397e0a689b60' WHERE `email` = null [ RunTime:0.0006s ]
+
+[ 2017-05-16T03:44:09+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-05-16T03:44:14+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0065s ]
+SQL: UPDATE `tb_user` SET `userpwd`='fb618c4e57379d8956bee23397c05dbe' WHERE `email` = null [ RunTime:0.0007s ]
+
+[ 2017-05-16T03:44:36+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2017-05-16T03:44:40+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0062s ]
+SQL: UPDATE `tb_user` SET `userpwd`='2d4e506a50974625811a1e7f43f028b3' WHERE `email` = null [ RunTime:0.0007s ]
+
+[ 2017-05-16T03:44:52+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0056s ]
+SQL: UPDATE `tb_user` SET `userpwd`='7704169de4c7dfc0fbc5a58d8ec0293a' WHERE `email` = null [ RunTime:0.0007s ]
+
+[ 2017-05-16T03:44:53+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0074s ]
+SQL: UPDATE `tb_user` SET `userpwd`='9f07ae7ab1d7aa0fb229587650cb47e5' WHERE `email` = null [ RunTime:0.0008s ]
+
+[ 2017-05-16T03:45:28+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2017-05-16T03:45:32+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/User/zhaohuimima
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'email' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: to F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0053s ]
+SQL: UPDATE `tb_user` SET `userpwd`='1d323840df443a36b90f27b98fae4e89' WHERE `email` = null [ RunTime:0.0005s ]
+
+[ 2017-05-16T03:50:30+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2017-05-16T03:50:49+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Home&c=user&a=zhaohuimima&type=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 77 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 84 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\417ae35f205176899d68169ea8da3444.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2017-05-16T17:11:48+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.057493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037726s ]
+
+[ 2017-05-16T17:11:49+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+
+[ 2017-05-16T17:11:52+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0877s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0799s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0290s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.932225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.932478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.089435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.089651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.149918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.150123s ]
+
+[ 2017-05-16T17:13:12+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '8786ae78604bcdf3b8d9134ec19a753e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-16T17:13:19+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-05-16T17:13:25+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '3d21f8fcd1204f26d29a468aaf594f1d' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-16T17:13:28+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-05-16T17:13:35+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '8786ae78604bcdf3b8d9134ec19a753e' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-16T17:13:39+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000858s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2017-05-16T17:13:42+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004120s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-16T17:13:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-05-16T17:15:12+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '8786ae78604bcdf3b8d9134ec19a753e' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: module F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+
+[ 2017-05-16T17:15:12+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 332 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 332 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 332 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 333 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 333 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\30bf885a8e78e2bdcb808515b83b2fd7.php 第 333 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2017-05-16T21:08:39+08:00 ] ::1 /phpsite/hc/kaoti/kaoti20170406/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+
+[ 2017-05-16T21:08:41+08:00 ] ::1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.1891s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 66 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 77 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008058s ]
+
+[ 2017-05-16T21:08:49+08:00 ] ::1 /phpsite/hc/kaoti/kaoti20170406/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '8786ae78604bcdf3b8d9134ec19a753e' LIMIT 1   [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: module F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [8] Undefined variable: var F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 988 行.
+
+[ 2017-05-16T21:08:50+08:00 ] ::1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 60 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: laiyuan F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 65 行.
+NOTIC: [8] Undefined variable: lang F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 76 行.
+NOTIC: [8] Undefined variable: act F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 333 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 333 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 333 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 334 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 334 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 334 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+

@@ -1,0 +1,503 @@
+[ 2017-08-14T05:38:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T05:38:16+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-08-14T05:38:59+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: username D:\WWW\demo1\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd D:\WWW\demo1\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: table D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 65 行.
+NOTIC: [8] Undefined variable: laiyuan D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 67 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined variable: act D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 80 行.
+NOTIC: [8] Undefined index: userq D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 81 行.
+NOTIC: [8] Undefined index: userq D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+NOTIC: [8] Undefined index: userq D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T05:39:15+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T05:39:18+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: username D:\WWW\demo1\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd D:\WWW\demo1\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: table D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 65 行.
+NOTIC: [8] Undefined variable: laiyuan D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 67 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined variable: act D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 80 行.
+NOTIC: [8] Undefined index: userq D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 81 行.
+NOTIC: [8] Undefined index: userq D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+NOTIC: [8] Undefined index: userq D:\WWW\demo1\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T05:40:14+08:00 ] 127.0.0.1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '8786ae78604bcdf3b8d9134ec19a753e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-14T05:40:15+08:00 ] 127.0.0.1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Undefined variable: act D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 136 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 136 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 136 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 137 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 137 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' D:\WWW\demo1\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T05:40:39+08:00 ] 127.0.0.1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\demo1\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 78 行.
+NOTIC: [8] Undefined variable: act D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 79 行.
+NOTIC: [8] Undefined index: kemu D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 124 行.
+NOTIC: [8] Undefined index: kemu D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 124 行.
+NOTIC: [8] Undefined index: kemu D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 124 行.
+NOTIC: [8] Undefined index: kemu D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 124 行.
+NOTIC: [8] Undefined index: kemu D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 124 行.
+NOTIC: [8] Undefined index: kemu D:\WWW\demo1\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T05:40:43+08:00 ] 127.0.0.1 /index.php/Home/Exam/lists/act/suiji/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY RAND() LIMIT 0,100   [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: ajax D:\WWW\demo1\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\WWW\demo1\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 66 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T05:40:44+08:00 ] 127.0.0.1 /index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\WWW\demo1\Application\Home\Controller\ExamController.class.php 第 92 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ajax D:\WWW\demo1\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\WWW\demo1\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 66 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\WWW\demo1\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T05:40:47+08:00 ] 127.0.0.1 /index.php/Home/exam/update_success_count.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tb_user` SET `exam_success_count`='14',`jifen`='4' WHERE (  id=1 ) [ RunTime:0.0020s ]
+
+[ 2017-08-14T05:40:48+08:00 ] 127.0.0.1 /index.php/Home/favorites/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_favorites` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: isajax D:\WWW\demo1\Application\Home\Controller\FavoritesController.class.php 第 14 行.
+SQL: SELECT * FROM `tb_favorites` WHERE `userid` = 1 AND `objidno` = 'd67e00645303722445a4cf49daab6025' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tb_favorites` (`objid`,`objidno`,`objtable`,`title`,`userid`,`time`) VALUES ('993','d67e00645303722445a4cf49daab6025','exam','准驾车型为大型货车的，可以驾驶以下哪种车型？','1','1502660448') [ RunTime:0.0030s ]
+
+[ 2017-08-14T05:40:49+08:00 ] 127.0.0.1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='19',`jifen`='3' WHERE (  id=1 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'd67e00645303722445a4cf49daab6025' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`isok`,`objtable`,`value`,`title`,`objidno`,`userid`,`time`) VALUES ('1','993','1','exam','A','准驾车型为大型货车的，可以驾驶以下哪种车型？','d67e00645303722445a4cf49daab6025','1','1502660449') [ RunTime:0.0010s ]
+

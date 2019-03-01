@@ -1,0 +1,89 @@
+<style>
+</style>
+<script>
+//网站技术支持QQ 632175205 
+var mybody_b=$(".mybody_b");
+var mymain=$("#mymain");
+//mybody_b.css({height:$(window).height()+"px",width:$(window).width()+"px"});
+var scale_maxvalue=1;
+var scale_curvalue=0;
+var touch =("createTouch" in document); 
+if($.browser.msie) { 
+//mybody_b.css({"height":"1px","display":"","overflow":"hidden","position":"relative"});
+//mybody_b.animate({"height":$(window).height()+"px"},function(){mybody_b.css({"overflow":"auto"});});
+
+mybody_b.css({"filter":"alpha(opacity=0)","opacity":"0","display":"","overflow":"hidden","position":"relative","width":"100%"});
+window.timer_scale=window.setInterval(function(){
+	if(scale_curvalue<1){
+	   scale_curvalue+=0.1;
+	   if(scale_curvalue>scale_maxvalue){
+		   scale_curvalue=scale_maxvalue;
+	   }
+	   mybody_b.css({"filter":"alpha(opacity="+scale_curvalue*100+")","opacity":scale_curvalue});
+	}else{
+	   scale_curvalue=scale_maxvalue;
+	    mybody_b.css({"filter":"alpha(opacity="+scale_curvalue*100+")","opacity":scale_curvalue});
+  	    window.clearInterval(window.timer_scale);	
+  }
+  
+},50);
+}else{
+  if($(".myleft").length<=0&&!touch){
+			mybody_b.css({"transform":"scale(0)","-webkit-transform":"scale(0)","-moz-transform":"scale(0)","-ms-transform":"scale(0)","display":"","overflow":"hidden"});
+			window.timer_scale=window.setInterval(function(){
+				if(scale_curvalue<1){
+				   scale_curvalue+=0.1;
+				   if(scale_curvalue>scale_maxvalue){
+					   scale_curvalue=scale_maxvalue;
+				   }
+				   mybody_b.css({"transform":"scale("+scale_curvalue+")","-webkit-transform":"scale("+scale_curvalue+")","-moz-transform":"scale("+scale_curvalue+")","-ms-transform":"scale("+scale_curvalue+")"});
+				}else{
+				   scale_curvalue=scale_maxvalue;
+					$(".myleft_inner_con").css({"display":"","float":"left"});
+					mybody_b.css({"transform":"scale(1)","-webkit-transform":"scale(1)","-moz-transform":"scale(1)","-ms-transform":"scale(1)"});
+					window.clearInterval(window.timer_scale);
+					// $(".myleft_inner_con").css({"float":"left"});	
+					mybody_b.css({"width":"100%"});
+			  }
+			},80);
+  }else{
+	  mybody_b.css({"display":"","overflow":"hidden","position":"relative","width":"100%"});
+  }
+ 
+}
+	if(window.attachEvent){
+		  window.attachEvent('onscroll',function(){getwh();});
+		  window.attachEvent('onresize',function(){getwh();});
+	}else{
+		  window.addEventListener("scroll",function(){getwh();}, false );
+		  window.addEventListener("resize",function(){getwh();}, false );
+	 }
+	 getwh();
+	function getwh(){
+	  var t=this;
+	  	var curnav_height=$(".curnav").height();
+	  window.scrollHeight=document.documentElement.scrollHeight||document.body.scrollHeight;	
+	  window.scrollWidth=document.documentElement.scrollWidth||document.body.scrollWidth;
+	  window.clientHeight=document.documentElement.clientHeight||document.body.clientHeight;//网页可见高度区
+	  window.clientWidth=document.documentElement.clientWidth||document.body.clientWidth;//网页可见宽度区
+	  window.scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+	  window.scrollLeft=document.documentElement.scrollLeft||document.body.scrollLeft; 
+		if ( document.compatMode!="CSS1Compat" ){
+		  //alert("本文档未添加W3C的声明")
+		    if(document.body){
+		        window.clientHeight=document.body.clientHeight;
+				window.scrollHeight=document.body.scrollHeight;
+			}else{
+				window.clientHeight=document.documentElement.clientHeight;
+				window.scrollHeight=document.documentElement.scrollHeight;
+			}
+		 
+		}
+		
+		var exam_menu_h=window.clientHeight-curnav_height-20;
+		$("#exam_menu").css({"height":exam_menu_h+"px","overflow":"auto"});
+		mybody_b.css({"height":window.clientHeight+"px","overflow":"hidden"});
+		mymain.css({"height":(window.clientHeight-curnav_height)+"px","overflow-x":"hidden","overflow-y":"auto"});
+		$("#listscontent").css({"height":(window.clientHeight-curnav_height)+"px"});
+	}
+</script>

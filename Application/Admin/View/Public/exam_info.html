@@ -1,0 +1,154 @@
+<script>
+
+var items_str='{$info.items}';
+var items_type="{$info.type}";
+$("#classno").val('{$info.classno}');
+$("#type").val('{$info.type}');
+$("#kemu").val('{$info.kemu}');
+var yes_caption="{$info.yes_caption}";
+var no_caption="{$info.no_caption}";
+
+function check(){
+	var name=$("#name");
+	var value=$("#value");
+  if(name.val()==""){
+	 alert("请输入考题题目");
+	 name.focus();
+	 return false;
+  }
+  if(value.val()==""){
+	 alert("请选择答案");
+	 value.focus();
+	 return false;
+  }
+}
+
+$("#type").change(function(){
+	var str="";
+	$(".table_items").children().remove();
+	$("#value").val("");
+
+	if($("#type").val()=="0"){
+          xuanxiang.add({lable:"√","title":yes_caption,num:"0"});
+          xuanxiang.add({lable:"×","title":no_caption,num:"0"});
+	}else{
+		
+		if(items_str==""||items_type=="0"){
+			 for(var i=0;i<4;i++){
+				var zimucaption=zimu((i+1));
+				xuanxiang.add({title:"",lable:zimucaption,value:zimucaption,num:"0"});
+			 }
+		}else{
+			  xuanxiang.init({str:items_str});
+		}
+	}
+	
+	//$(".td_items").html(str);
+});
+
+var xuanxiang={
+	add:function(opt){
+		 var len=$(".table_items").find("tr").length;
+		 var zimucaption=zimu(len+1);
+		 var zimuvalue=zimu(len+1);
+		 var index=len;
+		 var tr="";
+		 tr+='<tr>';
+		 var lable="";
+		 if(typeof(opt.title)=="undefined"){
+			 opt.title="";
+		 }
+		 var myradio_checked="";
+		 var v=$("#value").val().split("");
+		 
+		 if(opt.value&&$("#value").val()!=""){
+			   for(var i=0;i<v.length;i++){
+				  if(opt.value==v[i]){
+					 myradio_checked="checked";
+				 }
+			   }
+		 }
+		 var input_type="";
+		 
+		 if($("#type").val()=="0"){
+			 //zimuvalue=opt.title;
+		 }
+		
+		 if($("#type").val()!="2"){
+			 input_type="radio";
+		 }else{
+			 input_type="checkbox";
+		 }
+
+		//
+		//<td align="right"><span class="caption">'+lable+'</span>、</td>
+         tr+=' <td>副标题：<input class="xuanxiang" type="text" name="items['+index+'][lable]" class="title" value="'+opt.lable+'" style="width:60px;" />&nbsp;选项标题：<input type="text" name="items['+index+'][title]" class="title"   value="'+opt.title+'" /><input type="'+input_type+'" class="myradio" name="myradio" '+myradio_checked+' value="'+opt.value+'"/><input type="hidden" name="items['+index+'][value]" value="'+opt.value+'"  class="value"/></td>';
+         tr+='</tr>';
+		 $(".table_items").append(tr);
+		 $(".myradio").click(function(){
+	       // var xuanxiang=$(this).parent().find(".xuanxiang");
+	       // alert(xuanxiang.val());
+		   
+		   if($("#type").val()!="2"){
+			$("#value").val($(this).val());
+		   }else{
+			    var v="";
+			   $(".myradio").each(function(){
+				  
+				    if($(this)[0].checked){
+						v+=$(this).val();
+					}
+
+				});
+				
+				$("#value").val(v);
+		   }
+          });
+	},init:function(opt){
+	    var type=$("#type").val();
+		$(".table_items").children().remove();
+		var t=this;
+		if(opt.str!=""){
+			var items=eval(opt.str);
+			  if(type=="0"){
+					for(var i=0;i<items.length;i++){
+						var row=items[i];
+						 var zimucaption=zimu(i+1);
+						 row.value=zimucaption;
+						 if(i==0){
+						     row.value="Y";
+						 }
+						  if(i==1){
+						     row.value="N";
+						  }
+						 xuanxiang.add(row);
+					}
+			  }else{
+					for(var i=0;i<items.length;i++){
+						var row=items[i];
+						 var zimucaption=zimu(i+1);
+						 row.value=zimucaption;
+						 xuanxiang.add(row);
+					}
+			}
+		}else{
+			if($("#type").val()=="0"){
+				
+              t.add({lable:"√","title":yes_caption,num:"0",value:"Y"});
+              t.add({lable:"×","title":no_caption,num:"0",value:"N"});
+			}else{
+				for(var i=0;i<4;i++){
+					var zimucaption=zimu(i+1);
+					var lable=zimucaption;
+				    t.add({title:"",lable:zimucaption,num:"0",value:zimucaption});
+			    }
+			}
+		}
+	}
+}
+xuanxiang.init({str:items_str});
+function zimu(n)
+{
+  return String.fromCharCode(64 + parseInt(n));
+}
+</script>

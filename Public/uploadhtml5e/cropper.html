@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="cropper/css/cropper.min.css">
+    <script type="text/javascript" src="cropper/jquery-1.9.2.min.js"></script>
+    <script type="text/javascript" src="cropper/js/cropper.min.js"></script>
+	<script type="text/javascript" src="cropper/hcfilejietu-0.1.js"></script>
+	 <link rel="stylesheet" type="text/css" href="cropper/hcfilejietu.css">
+    <title>asp,php,net截图生成头像</title>
+</head>
+
+<body>
+  <center><h1>asp,php,net截图生成头像返回路径</h1></center>
+    <div id="showResult">
+        <div id="changeAvatar" style="margin-top: 35px;">
+            <img src="cropper/images/default.jpg" style="width: 100px;margin-top: 10px;margin: 0 auto;display:block;  " id="touxiang">
+			 <div style="text-align:center; padding:10px;">
+			  <p><input  id="photo" style="border-radius:5px" readonly="readonly" /></p>
+			  <p><input type="button" id="mybt" value="上传" style="background-color:#0099CC;border-radius:5px; line-height:30px; padding-left:10px; padding-right:10px; color:#FFFFFF; border:0px;"/> </p>
+			 </div>
+        </div>
+    </div>
+    <script>
+
+	//http://www.htmleaf.com/jQuery/Image-Effects/201504211716.html
+	 hcfilejietu().init({url:"http://localhost:8080/cxc_upload/html5/uploadhtml5e/cropper/asp/upload.asp",imgsite:"http://localhost:8080/cxc_upload/html5/",bt_id:"mybt",input_id:"photo",img_id:"touxiang",conf:{width:200,height:120}});
+	</script>
+</body>
+
+</html>
+

@@ -1,0 +1,60 @@
+<style>
+body,html,.listscontent{ overflow:hidden;}
+.add_favorites{ border-radius:5px; background-color:#33CCFF; color:#FFFFFF; white-space:nowrap; padding:2px; cursor:pointer;}
+.span_tisi_color{ color:#FFCC00}
+</style>
+<script language="javascript" src="__PUBLIC__/exam/kaoti.js"></script>
+<script>
+//APP技术服务:QQ 632175205 下午在线
+var examstr='{$examstr}';
+if($.cookie('exam')==""){
+   $.cookie('exam', '', { expires: 7, path: '/' });
+}
+var exam=new Array();
+if(examstr!=""){
+	exam=eval("("+examstr+")");
+}
+var cururl=String(window.location);
+var arr=cururl.split("index.php/");
+var siteurl=arr[0];
+</script>
+
+<script>
+//JSON.stringify
+kaoti.init({parentid:"listscontent",table:conf.table,app:conf.app,module:conf.module});
+
+$(function(){
+		document.onkeydown = function(event){
+		e=event || window.event;    
+		 //65:A 66:B  67:C 68:D 83:S 70:F 89:Y 78:N
+         //37:←38:↑40:↓39:→
+		  var value=String.fromCharCode(e.keyCode);//转为字母
+			 $(".bt_dati").each(function(){
+				 if($(this).attr("data-value")==value){
+					 $(this).click();
+				 }
+				 if(value=="X"&&$(this).attr("data-value")=="N"){
+					 $(this).click();
+				 }
+			 })
+           if(e.keyCode==37){
+			   var bt=document.getElementById("bt_"+(window.curindex-1));
+			   
+			   if(bt){bt.click();}
+		   }
+		    if(e.keyCode==39){
+			   var bt=document.getElementById("bt_"+(window.curindex+1));
+			   if(bt){bt.click();}
+			}
+		    if(e.keyCode==38){
+			   var bt=document.getElementById("bt_"+(window.curindex-4));
+			   if(bt){bt.click();}
+			}
+			
+		    if(e.keyCode==40){
+			   var bt=document.getElementById("bt_"+(window.curindex+4));
+			   if(bt){bt.click();}
+			}
+		}
+});		
+</script>

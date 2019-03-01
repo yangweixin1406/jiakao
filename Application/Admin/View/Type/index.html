@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎体验ThinkPHP登陆演示</title>
+</head>
+<center>
+	<h1>用户信息</h1>
+	<h4>
+		<if condition="$_SESSION['user'] eq null">
+<p>只有登陆成功才能看到！<a href="{:U('User/login')}">登陆</a></p>
+			<p><a href="{:U('Index/index')}">回首页</a></p>
+
+<else />
+			<p>欢迎{$_SESSION['user'][username]},<a href="{:U('Index/index')}">首页</a>||<a href="{:U('User/exits')}">
+				订单管理</a>||<a href="{:U('Typebook/index')}">商品类型管理</a>||<a href="{:U('Book/index')}">商品管理
+			</a>||<a href="{:U('User/exits')}">注销退出</a></p><a href="{:U('Book/add')}">添加图书</a></p>
+
+			
+			<table width="100%"cellspacing="0">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>图书类型</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<Volist name="list" id="value">
+						<tr>
+							<td scope="row">{$value.typeid}</td>
+							<td>{$value.typename}</td>
+							<td><a href="__CONTROLLER__/edit/id/{$value.bookid}">编辑</a>|<a href="__CONTROLLER__/delete/id/{$value.bookid}">删除</a></td>
+						</tr>
+					</volist>
+				</tbody>
+			</table>
+
+</if>
+		</h4>
+			</center>
+		</body>
+		</html>

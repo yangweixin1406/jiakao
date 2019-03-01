@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$info.webtitle}</title>
+<include file="Public:head" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/onoff/onoff.css" />
+<script language="javascript" src="__PUBLIC__/onoff/onoff.js"></script>  
+<style>
+fieldset{ margin-top:10px; margin-bottom:10px;}
+</style>
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t">{$webtitle}</div><div class="b"><a href="{$laiyuan}">返回</a></div></div><div class="right"></div>
+  </div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+<form id="form1" name="form1" method="post" action="{:U('sms')}" onsubmit="return check();">
+<div class="info1">
+
+
+	   <div class="tab_page">
+	   <fieldset><legend>{$webtitle}</legend>
+	    <ul class="ul_info"><li class="li1">配置开关：</li><li class="li2"><input type="hidden" id="sms_status" name="setting[sms][status]" value="{$setting[sms][status]}"   txt1="开"  txt2="关"/></li></ul>
+		<ul class="ul_info"><li class="li1">发送类型：</li><li class="li2"><input type="text" name="setting[sms][type]" value="{$setting[sms][type]}"  class="txt1"  />get或post</li></ul>
+		<ul class="ul_info"><li class="li1">短信接口：</li><li class="li2"><input type="text" name="setting[sms][url]" value="{$setting[sms][url]}"  class="txt1"  /></li></ul>
+		<ul class="ul_info"><li class="li1">发送参数：</li><li class="li2"><input type="text" name="setting[sms][urlcs]" value="{$setting[sms][urlcs]}"  class="txt1" /><div>例子：uid=41511&pwd=125633&phone={phone}&content={content}</div></li></ul>
+		<ul class="ul_info"><li class="li1">发送编码：</li><li class="li2"><input type="text" name="setting[sms][charset]" value="{$setting[sms][charset]}"  class="txt1" /><div>utf-8或gb2312</div></li></ul>
+		<ul class="ul_info"><li class="li1">找回密码内容：</li><li class="li2"><textarea type="text" name="setting[sms][content1]" class="txt1" >{$setting[sms][content1]}</textarea><div>例子：你的新密码：{pwd}</div></li></ul>
+		<ul class="ul_info"><li class="li1">注册验证码内容：</li><li class="li2"><textarea type="text" name="setting[sms][content2]" class="txt1" >{$setting[sms][content2]}</textarea><div>例子：你的注册验证码是：{code}</div></li></ul>
+				
+		<div>有不懂之处请联系QQ632175205</div>
+	   </fieldset>
+
+
+         </div>
+
+	  
+    </div>
+	
+  <div class="info_bts">
+    <div class="con">
+
+	 <input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回" class="bt" /><input type="submit" name="btsend" class="btsend" value="更新" /><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
+	
+    </div>
+  </div>
+
+
+</form>
+</div>
+<!--主体结束-->
+</div>
+<div class="pagenav">{$show}</div>
+
+</div>
+<script>
+function check(){
+
+}
+onoff("sms_status",100);
+</script>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>
+
+
+
+

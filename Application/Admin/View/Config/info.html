@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$info.webtitle}</title>
+<include file="Public:head" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/onoff/onoff.css" />
+<script language="javascript" src="__PUBLIC__/onoff/onoff.js"></script>  
+<style>
+fieldset{ margin-top:10px; margin-bottom:10px;}
+</style>
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t">{$webtitle}</div><div class="b"><a href="{$laiyuan}">返回</a></div></div><div class="right"></div>
+  </div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+<div class="info1">
+<form id="form1" name="form1" method="post" action="{:U('save')}" onsubmit="return check();">
+
+
+
+	   <div class="tab_page">
+
+	    <ul class="ul_info"><li class="li1">网站名称：</li><li class="li2"><input type="text" name="name" id="name" value="{$info.name}" class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">联系人：</li><li class="li2"><input type="text" name="contact" id="contact" value="{$info.contact}" class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">移动电话：</li><li class="li2"><input type="text" name="phone" id="phone" value="{$info.phone}"    class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">联系地址：</li><li class="li2"><input type="text" name="address" id="address" value="{$info.address}"  class="txt1"/></li></ul>
+        <ul class="ul_info"><li class="li1">电子邮箱：</li><li class="li2"><input type="text" name="email" id="email" value="{$info.email}"  class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">简要：</li><li class="li2"><input type="text" name="des" id="des" value="{$info.des}"  class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">版权所有：</li><li class="li2">
+		<script id="copyright" name="copyright" type="text/plain" style="width:100%;height:500px;"><?php echo htmlspecialchars_decode($info[copyright])?></script>
+	   <script> var ue = UE.getEditor('copyright');</script> 
+		</li></ul>
+		<ul class="ul_info"><li class="li1">网站Logo：</li><li class="li2"><input type="hidden" name="logo" id="logo"  value="{$info.logo}"/><iframe src="__PUBLIC__/upload_20150420/upload/php/img_iframe.php?panel_id=my_show&input_only_id=logo&input_more_id=ImageList&maxnum=10" scrolling="no" frameborder="0" height="80" width="80" style="margin:0px;"></iframe></li></ul>
+
+    </div>
+
+  <div class="info_bts">
+    <div class="con">
+
+	 <input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回" class="bt" /><input type="submit" name="btsend" class="btsend" value="更新" /><input id="id" type="hidden" name="id" value="{$info.id}"/><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
+	
+    </div>
+  </div>
+
+
+</form>
+</div>
+<!--主体结束-->
+</div>
+
+
+</div>
+<script>
+function check(){
+
+}
+
+onoff("kefu_status0",100);
+onoff("kefu_status1",100);
+onoff("kefu_status2",100);
+</script>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,60 @@
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/123.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:123
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/456.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:456
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091803331511813_1_1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091804285992371_24_1.3333.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091803411841613_1_1.344.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004775s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s50/2016022417343437281_1_1.9767.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091803460971696_1_1.6753.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002299s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/%7Bphoto%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+ERR: 无法加载模块:{photo}
+
+[ 2017-06-06T21:10:26+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091804393623863_29_1.6753.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-06T21:26:56+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091803411841613_1_1.344.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045014s ]
+ERR: 无法加载模块:File
+

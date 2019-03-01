@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>例子2</title>
+<script src="js/jquery-1.9.2.min.js?2"></script>
+<script src="js/hcfile.config-0.3.js?2"></script>
+<script src="js/hcfile-0.3.js?2"></script>
+<style>
+body{ margin:0px;}
+h1{ background-color:#999999; color:#020607; font-size:15px; padding:5px; text-align:center; margin:0px;}</style>
+</head>
+<body>
+<h1>身份证正面图片</h1>
+<div class="line" style="margin-left:auto; margin-right:auto;width:100%; height:auto; overflow:hidden; height:300px;"><input type="hidden"  id="photozm" name="photozm"  value="11.gif"/></div>
+<h1>身份证背面图片</h1>
+<div class="line" style="margin-left:auto; margin-right:auto;  width:300px; height:auto; overflow:hidden;"><input type="hidden"  id="photobm" name="photobm" value=""/></div>
+<h1>手持身份证图片</h1>
+<div class="line" style="margin-left:auto; margin-right:auto;width:300px;height:auto; overflow:hidden;"><input type="hidden"  id="photosf" name="photosf" value=""/></div>
+<script>
+		  hcfile().Init({
+				  url:"include/asp/ajax.asp",
+				  width:"100%",
+				  height:"100%",
+				  maxnum:1,//一张图片
+				  type:"img",
+				  border:0,
+				  zifu_num:1024,//每段大小 字节 看空间配置，
+				  input_id:"photozm",
+				  bgsrc:"images/upload1.png",
+				  baifenbi_style:{"font-size":100+"px","font-weight":"bold","color":"#000000","font-family":"微软雅黑"},//设置百分比显示样式,在没有item_class参数情况下有效
+				  upload_show:{date:0,size:0,name:1,bar:1,baifenbi:1},//上传过程中要显示的元素,1:显示,0不显示 date(日期) size(大小) name(标题) bar(进度条) baifenbi(进度条) del(删除按钮)
+				  success_show:{date:1,size:0,name:1,bar:0,baifenbi:0,del:0}//上传完后要显示的元素,1:显示,0不显
+				 
+		 });
+		  hcfile().Init({
+				  url:"include/asp/ajax.asp",
+				  width:300,
+				  height:130,
+				  maxnum:1,//一张图片
+				  type:"img",
+				  border:0,
+				  input_id:"photobm",
+				  bgsrc:"images/upload2.png"
+		 });
+		  hcfile().Init({
+				  url:"include/asp/ajax.asp",
+				  width:300,
+				  height:130,
+				  maxnum:1,//一张图片
+				  type:"img",
+				  border:0,
+				  input_id:"photosf",
+				  bgsrc:"images/upload3.png"
+		 });
+</script>
+</body>
+</html>

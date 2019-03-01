@@ -1,0 +1,24 @@
+*{ font-family:"微软雅黑";}
+.a_lvse{ text-decoration:none; color:#0C0;}
+.tanceng .txt1_m{ width:200px; height:80px; border:solid 1px #CCC; padding:4px; margin:0px;}
+.tanceng .txt1{ width:200px; height:25px; border:solid 1px #CCC; padding:4px; margin:0px;}
+.tanceng .bt1{border:0px; color:#FFF; font-size:13px;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius:5px; overflow:hidden;
+ background-color:#1BBC9B; float:right; padding:7px; width:80px; text-align:center;}
+.tanceng .bt1:hover{ background-color:#3C6;}
+.tanceng{ _position:absolute;position:fixed; left:0px; top:0px; width:100%; z-index:40000; font-size:13px;}
+.tanceng .ybg{filter:alpha(opacity=50); opacity:0.8;-moz-opacity:0.8; -webkit-opacity:0.8; background-color:#000; position:absolute; top:0px; left:0px; z-index:40001; }
+.tanceng .ycon_n{ position:absolute; overflow:auto; }
+.tanceng .ycon_n .close{ position:fixed; right:0px; top:0px; height:20px; background-color:#F60; color:#FFF; padding:10px;}
+.tanceng .ycon{ position:absolute; background-color:#FFF;border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius:2px; overflow:hidden;z-index:40002; }
+.tanceng .ycon table tr .td1{ text-align:right; width:60px;}
+.tanceng .ycon table tr td{ color:#666;}
+.tanceng .ycon .divbt{ position:absolute; width:100%; bottom:0px; height:40px; left:0px; border-top:1px solid #CCC;}
+.tanceng .ycon .divbt .abtl{ cursor:pointer;color:#666;border:0px; float:left; width:49%; line-height:40px; text-align:center;}
+.tanceng .ycon .divbt .abtr{ cursor:pointer;color:#3C9;border:0px; float:right; width:49%;line-height:40px;text-align:center;}
+
+.tanceng .ycon .divbt .bt3l{ cursor:pointer;color:#666;border:0px; float:left; width:33%; line-height:40px; text-align:center;}
+.tanceng .ycon .divbt .bt3c{ cursor:pointer;color:#3C9;border:0px; float:left; width:33%;line-height:40px;text-align:center;}
+.tanceng .ycon .divbt .bt3r{ cursor:pointer;color:#3C9;border:0px; float:right; width:33%;line-height:40px;text-align:center;}
+.tanceng .ycon .divbt .tc_btline{ cursor:pointer;color:#3C9;border:0px; float:left; width:100%;line-height:40px;text-align:center;}
+.tanceng .ycon p{ padding:0px; text-align:center; margin:0px; line-height:40px; background-color:#CCC; letter-spacing:3px;}
+.tanceng .ycon .tishi{ font-size:15px; color:#090; text-align:center;}

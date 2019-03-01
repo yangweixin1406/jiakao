@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<include file="Public:head" />
+</head>
+<body>
+<div class="mynav">
+<span class="name">{$webtitle} | <a href="{:U('linkclass/info')}">添加分类</a> </span>
+<div  class="search">
+ <form action="__CONTROLLER__/lists/" id="form_search">
+  <input type="text" name="title" id="title" title="名称" />
+  
+  <input type="submit" name="button" id="button" value="提交" />
+  <input type="reset" name="button" id="button" value="重置" />
+</form>
+
+</div>
+</div>
+<div class="mycontent">
+<table width="100%"cellspacing="1" class="table_list" cellpadding="10">
+				<thead>
+					<tr>
+						<th class="th1"><input type="checkbox" name="ckall"/></th>
+						<th>编号</th>
+						<th>类名</th>
+                        
+						<th>录入日期</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<foreach name="list" item="value">
+						<tr>
+                            <td class="td1"><input type="checkbox" name="ck" value="{$value.id}" title="{$value.id}" /></td>
+							<td>{$value.id}</td>
+							<td><a href="{:U('link/lists',array('classid'=>$value[id]))}">{$value.title}</a></td>
+                            
+                            <td>{$value.addtime}</td>
+							<td class="op"><a href="{:U('linkclass/info',array('id'=>$value[id]))}">编辑</a></td>
+						</tr>
+					</foreach>
+				</tbody>
+			</table>
+ <div class="pagenav">{$show}</div>
+<include file="Public:exam_index_footer" />
+ 
+</div>
+</body>
+</html>

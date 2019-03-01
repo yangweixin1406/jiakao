@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* 开户分享数据 */
+body{ margin:0px;}
+.tabhead{width: 100%;z-index: 10;background:#fff;overflow: hidden;position: relative; border-bottom:solid 1px #CCCCCC}
+.tabhead span{display: block;width: 33.3%;float: left;position: relative;z-index:2;color:#666666;text-align:center;}
+.tabhead span:nth-child(2){width:33.4%;}
+.tabhead small{font-size: 0.173333rem;display: block;}
+.tabhead .active{color:#ff6e2b;}
+.tabhead .border{
+    position: absolute;bottom:-1px;left:0;z-index:5;width:33.3%;height:4px;background:#ff6e2b;  
+    -ms-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    -webkit-transform:scale(.5);
+    -ms-transform:scale(.5);
+    transform:scale(.5);
+}
+.tabhead4 span center{ line-height:40px;}
+.tabhead4 span{width: 25%; cursor:pointer;}
+.tabhead4 span:nth-child(2){width:25%;}
+.tabhead4 .border{width:25%;}
+.tabpane{}
+.tabpane .inner{ padding:10px;}
+.tabpane .rel{/* position:relative; width:100%;*/}
+.tabpane .rel .list{/* position:absolute; left:0px; top:0px; height:auto; width:100%;*/}
+.tabpane_slider{ background-color:#FFFFFF; min-height:300px;}
+.tabpanelist{ height:auto; overflow:hidden}
+.

@@ -1,0 +1,6 @@
+[ 2017-04-28T22:19:44+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/pdetail/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Pdetail
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$webtitle}</title>
+<include file="Public:head_exam" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/exam/kaoti20170414.css?1">
+</head>
+<body>
+
+<div class="body">
+<!--start-->
+<div class="mybody">
+<div class="curnav_a"><a  class="back_a" href="javascript:window.history.go(-1);"><em>d</em></a><center><span class="t">{$mytitle}</span><span class="tishi tishi_title">已答0题/共<?php echo count($list);?>题</span></center><input type="button" class="bt_show_all_daan" value="显示答案"/><a class="amenu_a">≡</a></div>
+<div style="height:50px; width:100%;"></div>
+<div class="mymain">
+        <div class="mymain_innner">
+		<foreach name="list" item="row">
+		 <div class="exam_item" id="exam_{$key+1}" data-value="{$row.value}" data-index="{$key+1}" data-title="{$row.name}" data-id="{$row.id}"  data-type="{$row.type}" data-idno="{$row.idno}" data-kemu="{$row.kemu}">
+		   <div class="inner">
+		    <h1 class="title">{$key+1}.{$row.name}<span class="show_daan" style="display:none;">({$row.value})</span></h1>
+				<ul class="ul1">
+				 <foreach name="row.items" item="option">
+				   <li>
+					   <label>
+						<if condition="$row.type eq 2">
+						<input type="checkbox" name="radio_{$row.id}" value="{$option.value}" />
+						 <else /> 
+						<input type="radio" name="radio_{$row.id}" value="{$option.value}" />
+						</if>
+					   {$option.lable}、{$option.title}
+					   </label>
+					   </li>
+				 </foreach>
+				</ul>
+				<?php if($row[photo]!=""){ ?>
+				  <div class="photo"><img src="__ROOT__/{$row.photo}" data-big="__ROOT__/{$row.photo_big}"/></div>
+				<?php }?>
+				<div class="clear"></div>
+			   <div class="bt_qd_line"><input class="bt_add_favorites" type="button" value="加入我的收藏" title="加入我的收藏"/><input class="bt_remove_error" type="button" value="移除错题" title="移除错题"/><if condition="$row.type eq 2"><input type="button" name="bt_ok" class="bt_ok" value="{$conf_lang[btcaption]}" /></if></div>
+			
+		    <div class="op"><span class="my_daan">你的答案：<i>未做答</i></span><span class="data_daan"></span></div>
+			</div>
+		 </div>
+		</foreach>
+		<div class="divnull_a" style="display:<?php if(count($list)<1){echo '';}else{echo 'none';} ?>">没有错题记录的</div>
+		<div class="pagenav">{$show}</div>
+		<div style="height:10px; width:100%;"></div>
+		</div>
+</div>
+</div>
+<!--end-->
+</div>
+<script language="javascript" src="__PUBLIC__/exam/kaoti20170414.js"></script>
+<script>
+kaoti20170414.init({table:"{$objtable}",app:conf.app,module:conf.module,isadderror:0});
+
+</script>
+<include file="Public:footer_exam_texiao" />
+</body>
+</html>

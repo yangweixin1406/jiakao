@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<include file="Public:head" />
+<style>
+.table_info tr th{ color:#666; font-size:15px; background-color:#F5F5F5;}
+</style>
+</head>
+<body>
+<div class="mynav">
+<span class="name">{$webtitle}</span>
+</div>
+<div class="mycontent">
+<table cellpadding="10" class="table_info">
+<tr><th colspan="2">方式1</th></tr>
+<tr>
+<td align="right"></td>
+<td>
+<form id="form1" name="form1" method="post" action="{:U('save')}"  onsubmit="return check();">
+<table>
+ <tr>
+  <td>
+  科目:
+ <select name="kemu" id="kemu">
+<foreach name="kemu" item="row">
+<option value="{$row.value}">{$row.name}</option>
+</foreach></select>
+  </td>
+  
+ <td>
+
+ 所在分类:
+ <select name="classno" id="classno">
+<option value="{$classno}">请选择分类</option>
+<foreach name="classlist" item="row">
+<option value="{$row.classno}">{$row.name}</option>
+</foreach></select></td>
+ <td>{$lang}txt文件：<input type="hidden" name="lang" id="lang" value="{$lang}"/><input type="text" name="filepath" id="filepath" value=""/></td>
+ <td><iframe src="__APP__/Admin/Upload.html?folder=file/txt/&quan=&ObjId=filepath" scrolling="no" style="height:23px;width:60px;border:0px;" allowtransparency="true" frameborder="0px"></iframe></td>
+ <td><input type="submit" name="button" id="button" value="提交" /></td>
+ </tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+<script>
+function check(){
+	var filepath=$("#filepath");
+	var classno=$("#classno");
+	var kemu=$("#kemu");
+		if(kemu[0].selectedIndex==0){
+		alert("请选择科目");
+		return false;
+	}
+	if(classno[0].selectedIndex==0){
+		alert("请选择分类");
+		return false;
+	}
+	
+	if(filepath.val()==""){
+		alert("请上传txt文件");
+		return false;
+	}
+}
+</script>
+<include file="Public:exam_index_footer" />
+</div>
+</body>
+</html>

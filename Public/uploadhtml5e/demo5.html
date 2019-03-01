@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>文件上传1</title>
+<script src="js/jquery-1.9.2.min.js?2"></script>
+<script src="js/hcfile.config-0.3.js?2"></script>
+<script src="js/hcfile-0.3.js?2"></script>
+<link href="js/hcfile03.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>文件批量上传</h1>
+<div style="width:800px; margin-left:auto; margin-right:auto;border:solid 1px #CCCCCC;">
+<div id="drop_div" style="width:100%; height:300px; margin-left:auto; margin-right:auto;"><div id="photos_weizhi" style=" text-align:center;"><div style='font-size:20px;padding-top:120px;'>请选择文件<br/>或将文件拖入</div></div></div>
+<textarea  id="photos" style="width:600px; font-size:12px; display:none;"></textarea>
+<div style="border-top:solid 1px #CCCCCC;">
+  <div style="border-bottom:solid 1px #CCCCCC; padding:10px; overflow:hidden;"><span style="float:left;">已选<span  id="select_num"></span>个,已上传<span  id="success_num"></span>个</span><span style="float:right"><input name="submit" type="submit" id="send" value="上传" /></span></div>
+  <div id="photos_panel" style="height:auto; overflow:hidden;"></div>
+</div>
+</div>
+<script>
+		  hcfile().Init({
+				  url:"include/php/ajax_file.php",
+				  width:300,//按钮宽度
+				  height:300,//按钮高度
+				  maxnum:20,//只能上传N张
+				  type:"",//yinpin:仅上传音频文件,shipin:仅上传视频文件,img:仅上传图片,不填或all表示全部
+				  input_id:"photos",//存多张图片路径的input的id
+				  weizhi_id:"photos_weizhi",//选择按钮位置对像id
+				  panel_id:"photos_panel",//图片文件显示对象id
+				  input_fengmian_id:'',//存封面的图片路径input对象id
+				  bgsrc:"",//按钮图片
+				  img_fdsize:1024*30,//每段图片的大小，最好不要超过1M
+				  ischongxuan:1,//1显示重选按钮
+				  siteurl_file:"../",//上传图片所在的路径 用来显示图片
+				  ico_path:"images/",//默认图标所在的路径
+				  nullstr:"<div style='text-align:center;line-height:80px;background-color:#f5f5f5; font-size:15px;'>请上传图片</div>",//空时提示的信息
+				  drop_to_id:"drop_div",//托入有效区域对象id,如填写成document则将整个网页做为有效区域
+				  send_id:"send",//按钮位置对像id,不填写或填写auto则自动上传
+				  item_class:"myitem", //样式 可以不填写，不填写为显示图片
+				  select_num_id:"select_num", //可以不填写，显示当前要上传的文件个数的对象id
+				  success_num_id:"success_num", //可以不填写，显示当前要已上传的文件总个数的对象id
+				  down_url:"include/php/down.php",//可以不填写，下载的
+				  upload_show:{date:0,size:0,name:1,bar:1,baifenbi:1},//上传过程中要显示的元素,1:显示,0不显示 date(日期) size(大小) name(标题) bar(进度条) baifenbi(进度条) del(删除按钮)
+				  success_show:{date:1,size:0,name:1,bar:0,baifenbi:0,del:1}//上传完后要显示的元素,1:显示,0不显
+				  
+		 });
+
+</script>
+</body>
+</html>

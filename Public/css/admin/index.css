@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{ margin:0px; padding:10px; font-size:12px;}
+*{ font-family:"微软雅黑";}
+.mycontent{ min-width:800px; margin-left:auto; margin-right:auto;}
+.table_list{ width:100%;}
+.table_list tr th{ background-color:#CCCCCC; padding-top:5px; padding-bottom:5px; font-size:14px; text-align:left;}
+.table_list tr th.th1{ text-align:center}
+.table_list tr td{ background-color:#F5F5F5;font-size:12px; text-align:left;}
+.table_list tr td.td1{ width:40px; text-align:center;}
+.table_list tr td.op{}
+.table_list tr td.op a{ padding-right:4px; padding-left:4px;}
+.bt_del{}
+a{ color:#666;}
+.mynav{ height:auto;min-width:800px; overflow:hidden; padding-top:7px; background-color:#F5F5F5; padding-bottom:7px; border-left:#F60 solid 2px; margin-bottom:10px;}
+.mynav .name{ font-size:14px; padding-left:10px;}
+.mynav .search{ padding-left:10px; padding-top:5px;}
+.mytitle{ height:auto;min-width:800px; overflow:hidden;}
+.mytitle h1{ display:inline; float:left; margin:0px; padding:0px; padding-top:20px;padding-bottom:20px;}
+.mytitle a{ display:inline; float:right; line-height:50px;}
+.pagenav{padding: 5px; text-align:center;}
+.pagenav a{ padding-left:10px; padding-right:10px; text-decoration:none; font-size:15px;}
+.pagenav .current{ padding-left:10px; padding-right:10px;font-size:15px; color:#C00;}
+.table_info .td1{ width:120px; white-space:nowrap;}

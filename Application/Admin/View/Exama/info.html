@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Public:head" />
+</head>
+<body>
+<div class="mynav"><span class="name">{$webtitle}</span></div>
+<form id="form1" name="form1" method="post" action="{:U('save')}"  onsubmit="return check();">
+<table cellpadding="10" class="tableinfo table_{$tablename}_info">
+<tr>
+<td align="right" class="td1">题目：</td><td class="td2"> <input type="text" name="name" id="name" value="{$info.name}" class="txt1"/></td>
+</tr>
+<tr class="">
+<td align="right" class="td1">类型：</td><td class="td2"><select name="type" id="type"><option value="0" >判断题 </option><option value="1" >单选题</option><option value="2" >多选题</option></select></td>
+</tr>
+<tr><td valign="top" class="td1">选项：</td><td class="td_items">
+        <table class="table_items"></table>
+</td></tr>
+<tr><td align="right" class="td1">答案：</td><td><input type="text" id="value" name="value" value="{$info.value}" readonly="readonly" style="border:0px; color:#666666;"/></td></tr>
+<tr><td align="right" class="td1">图片：</td><td><table><td><input type="hidden" name="photo" id="photo"  value="{$info.photo}"/><iframe src="__PUBLIC__/upload_20150420/upload/php/img_iframe.php?panel_id=my_show&input_only_id=photo&input_more_id=ImageList&maxnum=10" scrolling="no" frameborder="0" height="80" width="80" style="margin:5px;"></iframe></td></tr></table></td></tr>
+<tr><td align="right" class="td1">分类：</td><td>
+
+<select name="classno" id="classno">
+<option value="">请选择分类</option>
+<foreach name="classlist" item="row">
+<option value="{$row.classno}">{$row.name}</option>
+</foreach></select></td></tr>
+<tr>
+<td align="right" class="td1">科目：</td><td>
+<select name="kemu" id="kemu">
+<foreach name="kemulist" item="row">
+<option value="{$row.value}">{$row.name}</option>
+</foreach></select>
+</td>
+</tr>
+</table>
+<div class="btnav">
+<input type="submit" name="act" id="act" value="提交" />
+<input type="reset" name="button" id="button" value="重置" />
+<input type="hidden" id="id" name="id" value="{$id}"/>
+</div>
+</form>
+
+</body>
+<include file="Public:exama_info" />
+</html>

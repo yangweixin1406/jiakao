@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<include file="Public:head" />
+</head>
+<body>
+<div class="mynav">
+<span class="name">{$webtitle}</span>
+<div  class="search">
+ <form action="__CONTROLLER__/index/" id="form_search">
+<select name="type" id="type" title="类型">
+<option value="">请选择类型</option>
+<foreach name="typelist" item="row">
+<option value="{$row.value}">{$row.name}</option>
+</foreach>
+</select>
+<select name="classno" id="classno" title="分类">
+<option value="">请选择分类</option>
+<foreach name="classlist" item="row">
+<option value="{$row.classno}">{$row.name}</option>
+</foreach>
+</select>
+  <input type="text" name="name" id="name" title="标题" />
+  <input type="reset" name="button" id="button" value="重置" />
+  <input type="submit" name="button" id="button" value="提交" />
+</form>
+</div>
+</div>
+<div class="mycontent">
+<table width="100%"cellspacing="1" class="table_list" cellpadding="10">
+				<thead>
+					<tr>
+						<th class="th1"><input type="checkbox" name="ckall"/></th>
+						<th>标题</th>
+						<th>类型</th>
+						<th>分类</th>
+                        <th>科目</th>
+						<th>录入日期</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<foreach name="list" item="value">
+						<tr>
+                            <td class="td1"><input type="checkbox" name="ck" value="{$value.id}" /></td>
+							<td>{$value.name}</td>
+							<td>{$value.type_caption}</td>
+							<td>{$value.class_caption}</td>
+                            <td>{$value.kemu_caption}</td>
+                            <td>{$value.addtime}</td>
+							<td class="op"><a href="__CONTROLLER__/info/id/{$value.id}">编辑</a>|<a href="__CONTROLLER__/delete/id/{$value.id}">删除</a></td>
+						</tr>
+					</foreach>
+				</tbody>
+			</table>
+ <div class="pagenav">{$show}</div>
+<include file="Public:exam_index_footer" />
+ 
+</div>
+</body>
+</html>

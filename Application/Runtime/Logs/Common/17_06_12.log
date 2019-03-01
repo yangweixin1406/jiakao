@@ -1,0 +1,48 @@
+[ 2017-06-12T01:53:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091804393623863_29_1.6753.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-12T01:53:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/456.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:456
+
+[ 2017-06-12T01:53:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s50/2016022417343437281_1_1.9767.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-12T01:53:22+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/123.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载模块:123
+
+[ 2017-06-12T01:53:22+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091803460971696_1_1.6753.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-12T01:53:22+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091803411841613_1_1.344.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+ERR: 无法加载模块:File
+
+[ 2017-06-12T01:53:22+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/%7Bphoto%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:{photo}
+
+[ 2017-06-12T01:53:22+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/file/s100/2015091804285992371_24_1.3333.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:File
+

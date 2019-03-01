@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>欢迎体验ThinkPHP登陆演示</title>
+    <style>
+	.table_detail th{ background-color:#CCC;}
+	.table_detail td{ background-color:#F5F5F5;}
+	.table_info{ background-color:#CCC;}
+	.table_info td{ background-color:#FFFFFF;}
+    </style>
+</head>
+<body>
+<center>
+	<h1>订单管理</h1>
+	<h4>
+		<if condition="$_SESSION['user'] eq null">
+<p>只有登陆成功才能看到！<a href="{:U('User/login')}">登陆</a></p>
+			<p><a href="{:U('Index/index')}">回首页</a></p>
+
+<else />
+			<p>欢迎{$_SESSION['user'][username]},<a href="{:U('Index/index')}">首页</a>||<a href="{:U('Orders/index')}">
+				订单管理</a>||<a href="{:U('Typebook/index')}">商品类型管理</a>||<a href="{:U('Book/index')}">商品管理
+			</a>||<a href="{:U('User/exits')}">注销退出</a></p><a href="{:U('Book/add')}">添加图书</a></p>
+			<table class="table_info" border="0" cellspacing="1" cellpadding="5">
+                <tr><td>订单编号：</td><td>{$info.ordersno}</td></tr>
+                <tr><td>商品数量:</td><td>{$info.nums}</td></tr>
+                <tr><td>订单总金额:</td><td>{$info.total}</td></tr>
+                <tr><td>下单日期:</td><td>{$info.addtime}</td></tr>
+                <tr><td>会员:</td><td>{$info.username}</td></tr>
+            </table>
+            <br />
+			<table cellspacing="1" cellpadding="10" class="table_detail">
+				<thead>
+					<tr>
+						<th>序号</th>
+						<th>书籍名称</th>
+                        <th>单价(元)</th>
+						<th>购买数量</th>
+						<th>小计</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<Volist name="detail" id="value">
+						<tr>
+                            <td>{$key+1}</td>
+                            <td>{$value.bookname}</td>
+                            <td>{$value.bookprice}</td>
+							<td>{$value.nums}</td>
+							<td>{$value.pricez}</td>
+						</tr>
+					</volist>
+				</tbody>
+			</table>
+
+</if>
+		</h4>
+			</center>
+		</body>
+		</html>

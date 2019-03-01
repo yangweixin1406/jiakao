@@ -1,0 +1,25 @@
+<script>
+//网站技术支持QQ 632175205 
+$(".ul_menusub2").css({"display":""});
+$(".ul_menu").each(function(){
+	$(this).find(".subtitle1").click(function(){
+		var ul=$(this).siblings("ul");
+		$(".ul_menusub1").each(function(){
+			if($(this)[0]!=ul[0]){
+				$(this).slideUp();
+			}
+		});
+		//$(".ul_menusub").slideUp();
+		//$(".ul_menusub").slideToggle();
+		ul.slideToggle();
+	});
+
+//	$(this).find(".subtitle2").click(function(){
+//		var parent=$(this).parent();
+//		var ul=$(this).siblings("ul");
+//		parent.parent().find("ul").not(ul).slideUp();
+//		ul.slideToggle();
+//	});
+});
+
+</script>

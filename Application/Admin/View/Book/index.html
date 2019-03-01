@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎体验ThinkPHP登陆演示</title>
+<style>
+.table_list th{ background-color:#CCC;}
+.table_list td{ background-color:#F5F5F5;}
+.pagenav{padding: 20px;background-color: #CCC;}
+.pagenav a{ padding-left:10px; padding-right:10px; text-decoration:none; font-size:15px;}
+.pagenav .current{ padding-left:10px; padding-right:10px;font-size:15px; color:#ffffff;}
+</style>
+</head>
+<body>
+<center>
+	<h1>用户信息</h1>
+	<h4>
+		<if condition="$_SESSION['user'] eq null">
+<p>只有登陆成功才能看到！<a href="{:U('User/login')}">登陆</a></p>
+			<p><a href="{:U('Index/index')}">回首页</a></p>
+
+<else />
+			<p>欢迎{$_SESSION['user'][username]},<a href="{:U('Index/index')}">首页</a>||<a href="{:U('Orders/index')}">
+				订单管理</a>||<a href="{:U('Typebook/index')}">商品类型管理</a>||<a href="{:U('Book/index')}">商品管理
+			</a>||<a href="{:U('User/exits')}">注销退出</a></p><a href="{:U('Book/add')}">添加图书</a></p>
+
+			
+			<table width="100%"cellspacing="1" class="table_list" cellpadding="10">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>商品名称</th>
+						<th>类型名称</th>
+						<th>作者</th>
+						<th>出版社</th>
+						<th>单价(元)</th>
+						<th>出版时间</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<Volist name="list" id="value">
+						<tr>
+							<td scope="row">{$value.bookid}</td>
+							<td>{$value.bookname}</td>
+							<td>{$value.typename}</td>
+							<td>{$value.author}</td>
+							<td>{$value.pubhouse}</td>
+							<td>{$value.bookprice}</td>
+							<td>{$value.pubdate}</td>
+							<td><a href="__CONTROLLER__/edit/id/{$value.bookid}">编辑</a>|<a href="__CONTROLLER__/delete/id/{$value.bookid}">删除</a></td>
+						</tr>
+					</volist>
+				</tbody>
+			</table>
+   <div class="pagenav">{$show}</div>      
+</if>
+		</h4>
+			</center>
+   
+		</body>
+		</html>

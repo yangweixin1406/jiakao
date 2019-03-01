@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$webtitle}</title>
+<include file="Public:head" />
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle" style="z-index:100;">
+	<div class="con">
+		<div class="left"><div class="tt">{$mytitle}&nbsp;({$item.num}/{$item.rowcountz})</div><div class="bb"><a href="__CONTROLLER__/info/">添加语言</a></div><span class="btchazhao">查找</span></div>
+		<div class="right">
+			<form id="form1" name="form1" method="get" action="__CONTROLLER__/lists/" ><div class="l"></div>
+			<div  class="r">
+				<div class="row">
+				   <span class="t">语言<em>：</em></span><span class="f"><input type="text" name="title" id="title" value="<?php echo $_GET[title]?>" class="txt1s"/></span>
+				</div>
+				<div class="row">
+				   <span class="t">ID<em>：</em></span><span class="f"><input type="text" name="id" id="id" value="<?php echo $_GET[id]?>"  class="txt1s"/></span>
+				</div>
+				<div class="row">
+					<span class="t ts">&nbsp;</span><span class="f"><input type="hidden" name="table" id="table" value="<?php echo $_GET[table]?>" /><input type="submit" name="search" id="button" value="查找" class="btsearch" /></span>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+               <table class="tablelist tableloglat" cellspacing="0">
+				<thead>
+					<tr>
+						<th class='tdck'><input type="checkbox" name="ckall"/></th>
+						<th class='td1'>编号</th>
+						<th class='td2'>语言名称</th>
+						<th class='td3'>所用表名</th>
+						<th class='td4'>所用大类</th>
+						<th class='td5'>开启状态</th>
+						<th class='td6'>录入日期</th>
+						<th class='tdop' style="width:auto">操作</th>
+					</tr>
+				</thead>
+				<tbody style="text-align:center;">
+					<foreach name="list" item="value">
+						<tr>
+                            <td class="tdck"><input type="checkbox" name="ck" value="{$value.id}" /></td>
+							<td class="td1">{$value.id}</td>
+							<td class="td2">{$value.title}</td>
+							<td class="td3">{$value.objtable}</td>
+                            <td class="td4">{$value.class_caption}</td>
+                            <td class="td5">
+								<?php if($value[status]==1){ ?>
+								 <span style="color:#009900">已开启</span>
+								<?php } else {?>
+								已关闭
+								<?php }?>
+							</td>
+							<td class="td6">{$value.addtime}</td>
+							<td class="tdop" style="width:auto"><a href="__CONTROLLER__/info/id/{$value.id}">编辑</a>|<a href="__CONTROLLER__/delete/id/{$value.id}">删除</a></td>
+						</tr>
+					</foreach>
+				</tbody>
+</table>
+</div>
+<!--主体结束-->
+
+</div>
+<div class="pagenav">{$show}</div>
+<div style=" text-align:center; display:none;"><a data-url="{:U('delete')}" onclick="Del(this);">删除选中</a></div>
+</div>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>
+
+
+

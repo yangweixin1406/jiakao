@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$info.webtitle}</title>
+<include file="Public:head" />
+<style>
+
+.ul_info li.li2 textarea.txt1{ width:98%; height:100px;}
+</style>
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t">{$webtitle}</div><div class="b"><a href="__CONTROLLER__/lists/">返回列表</a></div></div><div class="right"></div>
+  </div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+<form id="form1" name="form1" method="post" action="{:U('save')}">
+<div class="info1">
+       <div class="tab"><ol class="tab_ol"><li class="cur">基本信息</li><li>其它信息</li><li>全部展开</li></ol></div>
+	   <div class="tab_page">
+       <ul class="ul_info"><li class="li1">考题表：</li><li class="li2"><input type="text"   name="objtable" id="objtable"   class="txt1" value="{$info.objtable}"/></li></ul>
+	   <ul class="ul_info"><li class="li1">语言名称：</li><li class="li2"><input type="text"   name="title" id="title"   class="txt1" value="{$info.title}"/></li></ul>
+	   <ul class="ul_info"><li class="li1">所用大类：</li><li class="li2">
+						<select name="fatherno" id="fatherno">
+						    <foreach name="classlist" item="row">
+						      <option value="{$row.classno}">{$row.title}</option>
+					     	</foreach>
+						</select>
+	   </li></ul>
+	        <ul class="ul_info"><li class="li1">阅读方式：</li><li class="li2">
+						<select name="direction" id="direction">
+						      <option value="ltr">从左到右</option>
+							  <option value="rtl">从右到左</option>
+						</select>
+			</li>
+			</ul>
+	        <ul class="ul_info"><li class="li1">开启状态：</li><li class="li2">
+						<select name="status" id="status">
+						      <option value="0">关闭</option>
+							  <option value="1" selected="selected">开启</option>
+						</select>
+			</li>
+			</ul>
+ <ul class="ul_info"><li class="li1">语言简称：</li><li class="li2"><input type="text"   name="lang" id="lang"   class="txt1" value="{$info.lang}"/></li></ul>
+	  </div>
+	   <div class="tab_page" style="display:none;">
+	   <ul class="ul_info"><li class="li1">图片：</li><li class="li2">
+	   <input type="hidden" name="photo" id="photo"  value="{$info.photo}"/><iframe src="__PUBLIC__/upload_20150420/upload/php/img_iframe.php?panel_id=my_show&input_only_id=photo&input_more_id=ImageList&maxnum=10&width=80&height=80" scrolling="no" frameborder="0" height="80" width="80" style="margin:0px;"></iframe>
+	  </li></ul>
+		    <ul class="ul_info"><li class="li1">排序：</li><li class="li2"><input type="text"  name="sort" id="sort"   class="txt1" value="{$info.sort}"/></li></ul>
+			<ul class="ul_info"><li class="li1">副标题：</li><li class="li2"><input type="text"  name="title1" id="title1"   class="txt1" value="{$info.title1}"/></li></ul>
+		    <ul class="ul_info"><li class="li1">关键词：</li><li class="li2"><textarea type="text"  name="key" id="key"   class="txt1" >{$info.key}</textarea></li></ul>
+		    <ul class="ul_info"><li class="li1">简要：</li><li class="li2"><textarea type="text"  name="des" id="des"   class="txt1">{$info.des}</textarea></li></ul>
+		    <ul class="ul_info"><li class="li1">conf配置：</li><li class="li2"><textarea type="text"  name="conf" id="conf"   class="txt1">{$info.conf}</textarea></li></ul>
+		  <script> var id="<?php echo $id?>";if(id!=""){$("#ul_qturl").show();}</script>
+	   </div>
+	       <ul class="ul_info" id="ul_qturl" style="display:none;">
+		     <li class="li1">前台url：</li>
+		     <li class="li2">
+						<a href="__APP__?m=Qiyue&c=News&a=lists&classid={$info.id}" target="_blank">__APP__?m=Qiyue&c=News&a=lists&classid={$info.id}</a>
+						<br/>
+						<a href="__APP__?m=Qiyue&c=about&a=lists&classid={$info.id}" target="_blank">__APP__?m=Qiyue&c=about&a=lists&classid={$info.id}</a>
+			 </li>
+		   </ul>
+    </div>
+	
+  <div class="info_bts">
+    <div class="con">
+     <?php 
+       if(is_numeric($info[id])){
+	 ?>
+	 <input type="button" onclick="javascript:window.location='__CONTROLLER__/lists/';"value="返回列表" class="bt" /><input type="submit" name="btsend" class="btsend" value="更新" /><input id="id" type="hidden" name="id" value="{$info.id}"/><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
+	<?php }else{ ?>
+	
+	<input type="button" onclick="javascript:window.location='__CONTROLLER__/lists/';"value="返回列表" class="bt" /> <input type="submit" name="btsend" value="确定" class="btsend" /><input id="act" type="hidden" name="act" value="add"/> <input type="reset" value="重置" onclick="clearinput()" />
+      <?php }?>
+    </div>
+  </div>
+
+
+</form>
+</div>
+<!--主体结束-->
+</div>
+<div class="pagenav">{$show}</div>
+
+
+
+<script>
+
+$("#direction").val('{$info.direction}');
+
+$("#fatherno option").each(function(){
+   if($(this).val()=="{$info.fatherno}"){
+      $(this)[0].selected=true;
+   }
+})
+$("#direction option").each(function(){
+   if($(this).val()=="{$info.direction}"){
+      $(this)[0].selected=true;
+   }
+})
+$("#status option").each(function(){
+   if($(this).val()=="{$info.status}"){
+      $(this)[0].selected=true;
+   }
+})
+function check(){
+  var username=$("#username");
+  var userpwd=$("#userpwd");
+  var userpwd1=$("#userpwd1");
+   var id=$("#id");
+  if(username.val()==""){
+	 alert("请输入用户名");
+	 username.focus();
+	 return false;
+  }
+  if(id.val()==""){
+     if(userpwd.val()==""){
+	  alert("请输入密码");
+	  userpwd.focus();
+	  return false;
+	 }
+     if(userpwd1.val()==""){
+	  alert("请输入二次密码");
+	  userpwd1.focus();
+	  return false;
+	 }
+     if(userpwd.val()!=userpwd1.val()){
+	  alert("二次密码不一致");
+	  userpwd1.focus();
+	  return false;
+	 }
+  }
+   if(userpwd.val()!=userpwd1.val()){
+	 alert("请输入密码");
+	 //userpwd.focus();
+	 return false;
+  }
+}
+</script>
+</div>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>
+

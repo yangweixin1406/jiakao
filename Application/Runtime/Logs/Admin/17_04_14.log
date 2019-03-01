@@ -1,0 +1,693 @@
+[ 2017-04-14T18:00:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-04-14T18:00:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=content&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-04-14T18:00:55+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0840s ]
+NOTIC: [8] Undefined index: username F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\UserController.class.php 第 236 行.
+NOTIC: [8] Undefined index: userpwd F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\UserController.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-04-14T18:01:01+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '8786ae78604bcdf3b8d9134ec19a753e' AND `root` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-04-14T18:01:04+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+
+[ 2017-04-14T18:01:04+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=content&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `tb_content` [ RunTime:0.0902s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `tb_class` WHERE (  fatherno='00010002'  )  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_content` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `tb_content` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 25 行.
+NOTIC: [8] Undefined index: msg F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 34 行.
+NOTIC: [8] Undefined variable: title F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 145 行.
+NOTIC: [8] Undefined variable: id F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 148 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002980s ]
+
+[ 2017-04-14T18:01:11+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=Exam&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] Missing argument 1 for I(), called in F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php on line 99 and defined F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001593s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001883s ]
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 132 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Undefined variable: title F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 145 行.
+NOTIC: [8] Undefined variable: id F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 148 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-04-14T18:01:13+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/Admin/Exam/info/id/1119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant yes_caption - assumed 'yes_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 143 行.
+NOTIC: [8] Use of undefined constant no_caption - assumed 'no_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 144 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: webtitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 180 行.
+NOTIC: [8] Undefined variable: show F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2017-04-14T18:01:14+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0565s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004' ORDER BY sort asc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040002' ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-04-14T18:01:14+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0892s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010002' ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010003' ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2017-04-14T18:01:14+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.1002s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 110 行.
+NOTIC: [8] Undefined variable: json F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-04-14T18:01:38+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=Exam&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0618s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '0001000400010001' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `tb_exam` SET `classno`='0001000400010001',`name`='555555',`type`='2',`items`='[{\"lable\":\"A\",\"title\":\"选项标题\",\"value\":\"A\"},{\"lable\":\"B\",\"title\":\"选项标题\",\"value\":\"B\"},{\"lable\":\"C\",\"title\":\"选项标题\",\"value\":\"C\"},{\"lable\":\"D\",\"title\":\"选项标题\",\"value\":\"D\"}]',`value`='CD',`kemu`='1',`photo`='',`sort`='0',`key`='',`des`='',`see_num`='0',`id`='1119',`classid`='39' WHERE `id` = 1119 [ RunTime:0.1559s ]
+
+[ 2017-04-14T18:01:39+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=exam&a=info&id=1119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant yes_caption - assumed 'yes_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 143 行.
+NOTIC: [8] Use of undefined constant no_caption - assumed 'no_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 144 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined variable: webtitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 180 行.
+NOTIC: [8] Undefined variable: show F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2017-04-14T18:01:39+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.1200s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040002' ORDER BY sort asc  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2017-04-14T18:01:39+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010002' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010003' ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-04-14T18:01:39+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 110 行.
+NOTIC: [8] Undefined variable: json F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-04-14T18:01:57+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=Exam&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '0001000400010001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_exam` SET `classno`='0001000400010001',`name`='20170414多选测试题标题',`type`='2',`items`='[{\"lable\":\"A\",\"title\":\"选项标题\",\"value\":\"A\"},{\"lable\":\"B\",\"title\":\"选项标题\",\"value\":\"B\"},{\"lable\":\"C\",\"title\":\"选项标题\",\"value\":\"C\"},{\"lable\":\"D\",\"title\":\"选项标题\",\"value\":\"D\"}]',`value`='CD',`kemu`='1',`photo`='',`sort`='0',`key`='',`des`='',`see_num`='0',`id`='1119',`classid`='39' WHERE `id` = 1119 [ RunTime:0.0538s ]
+
+[ 2017-04-14T18:01:57+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=exam&a=info&id=1119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0661s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant yes_caption - assumed 'yes_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 143 行.
+NOTIC: [8] Use of undefined constant no_caption - assumed 'no_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 144 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: webtitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 180 行.
+NOTIC: [8] Undefined variable: show F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-04-14T18:01:58+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0709s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004' ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040002' ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-04-14T18:01:58+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0953s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010002' ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010003' ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-04-14T18:01:58+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 110 行.
+NOTIC: [8] Undefined variable: json F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2017-04-14T20:45:40+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-04-14T20:45:41+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=content&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `tb_content` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_class` WHERE (  fatherno='00010002'  )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_content` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tb_content` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 25 行.
+NOTIC: [8] Undefined variable: title F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 145 行.
+NOTIC: [8] Undefined variable: id F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 148 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2017-04-14T20:45:47+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=content&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `tb_content` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_class` WHERE (  fatherno='00010002'  )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_content` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_content` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 25 行.
+NOTIC: [8] Undefined variable: title F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 145 行.
+NOTIC: [8] Undefined variable: id F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 148 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2017-04-14T20:45:50+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=Exam&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] Missing argument 1 for I(), called in F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php on line 99 and defined F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name F:\phpsite\hc\kaoti\kaoti20170406\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 132 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 140 行.
+NOTIC: [8] Undefined variable: title F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 145 行.
+NOTIC: [8] Undefined variable: id F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 148 行.
+NOTIC: [8] Undefined variable: table F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2017-04-14T21:45:30+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=Exam&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '0001000400010001' LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `tb_exam` SET `classno`='0001000400010001',`name`='20170414多选测试题标题',`type`='2',`items`='[{\"lable\":\"A\",\"title\":\"选项标题\",\"value\":\"A\"},{\"lable\":\"B\",\"title\":\"选项标题\",\"value\":\"B\"},{\"lable\":\"C\",\"title\":\"选项标题\",\"value\":\"C\"},{\"lable\":\"D\",\"title\":\"选项标题\",\"value\":\"D\"}]',`value`='CD',`kemu`='1',`photo`='file/s50/2017041421452779675_1_1.4242.png',`sort`='0',`key`='',`des`='',`see_num`='0',`id`='1119',`classid`='39' WHERE `id` = 1119 [ RunTime:0.2605s ]
+
+[ 2017-04-14T21:45:30+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=exam&a=info&id=1119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant yes_caption - assumed 'yes_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 143 行.
+NOTIC: [8] Use of undefined constant no_caption - assumed 'no_caption' F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ExamController.class.php 第 144 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: webtitle F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 180 行.
+NOTIC: [8] Undefined variable: show F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2017-04-14T21:45:31+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.063334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.063627s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004' ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040002' ORDER BY sort asc  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002095s ]
+
+[ 2017-04-14T21:45:31+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010002' ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010003' ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2017-04-14T21:45:31+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=class&a=classoption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] Undefined index: tablename F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0011s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 110 行.
+NOTIC: [8] Undefined variable: json F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\ClassController.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+

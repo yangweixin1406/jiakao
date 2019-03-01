@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$info.webtitle}</title>
+<include file="Public:head" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/onoff/onoff.css" />
+<script language="javascript" src="__PUBLIC__/onoff/onoff.js"></script>  
+<style>
+fieldset{ margin-top:10px; margin-bottom:10px;}
+</style>
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t">{$webtitle}</div><div class="b"><a href="{$laiyuan}">返回</a></div></div><div class="right"></div>
+  </div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+<form id="form1" name="form1" method="post" action="{:U('save')}" onsubmit="return check();">
+<div class="info1">
+
+
+	   <div class="tab_page">
+
+	    <ul class="ul_info"><li class="li1">卡前缀：</li><li class="li2"><input type="text" name="cardqianzhui" id="cardqianzhui" value="{$info.cardqianzhui}" class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">默认密码：</li><li class="li2"><input type="text" name="cardpwd"   id="cardpwd" value="{$info.cardpwd}" class="txt1" /></li></ul>
+		<ul class="ul_info"><li class="li1">天数：</li><li class="li2"><input type="text" name="day" id="day"  class="txt1" /></li></ul>
+		<ul class="ul_info"><li class="li1">有效次数：</li><li class="li2"><input type="text" name="youxiaocishu" id="youxiaocishu" value="{$info.youxiaocishu}"   class="txt1"/></li></ul>
+		<ul class="ul_info"><li class="li1">生成会员数量：</li><li class="li2"><input type="password" name="num" id="num" value="{$info.num}"  class="txt1" /></li></ul>
+
+         </div>
+
+	  
+    </div>
+	
+  <div class="info_bts">
+    <div class="con">
+
+	 <input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回" class="bt" /><input type="submit" name="btsend" class="btsend" value="提交" /><input id="id" type="hidden" name="id" value="{$info.id}"/><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
+	
+    </div>
+  </div>
+
+
+</form>
+</div>
+<!--主体结束-->
+</div>
+<div class="pagenav">{$show}</div>
+
+</div>
+<script>
+
+function check(){
+  var cardqianzhui=$("#cardqianzhui");
+  var cardpwd=$("#cardpwd");
+  var day=$("#day");
+   var youxiaocishu=$("#youxiaocishu");
+   var num=$("#num");
+  if(cardqianzhui.val()==""){
+	 alert("请输入卡前缀");
+	 cardqianzhui.focus();
+	 return false;
+  }
+
+     if(cardpwd.val()==""){
+	  alert("请输入默认密码");
+	  cardpwd.focus();
+	  return false;
+	 }
+     if(day.val()==""){
+	  alert("请输入天数");
+	  day.focus();
+	  return false;
+	 }
+     if(youxiaocishu.val()==""){
+	  alert("请输入有效次数");
+	  youxiaocishu.focus();
+	  return false;
+	 }
+
+   if(num.val()==""){
+	 alert("请输入生成数量");
+	 num.focus();
+	 return false;
+  }
+}
+</script>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>
+
+
+
+

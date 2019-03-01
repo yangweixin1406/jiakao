@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="chezi">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$webtitle}</title>
+<include file="Public:head_exam" />
+<style>
+ .mymain{ width:1000px; margin-left:auto; margin-right:auto; margin-top:20px;}
+ .ul_menu_class1{ list-style:none; margin:0px; padding:0px;}
+ .ul_menu_class1 li{ list-style:none; margin:0px; padding:0px;}
+ .ul_menu_class1 li{ width:33%; float:left; padding-top:20px; padding-bottom:20px;}
+ .ul_menu_class1 li .item{height:100px;background-color: #099;  width:80%; margin-left:auto; margin-right:auto;}
+  .ul_menu_class1 li .item .rel{ height:100%; width:100%; position:relative;}
+  .ul_menu_class1 li .a1{font-size:20px;text-align:center; line-height:21px; color:#FFFFFF;word-wrap:break-word; word-break:normal; word-break:break-all;}
+  .ul_menu_class1 li .item table{ height:100%; width:100%;}
+  .ul_menu_class1 li .item .title1{ font-size:16px; margin:0px; padding:0px;}
+   .ul_menu_class1 li .item table td{ height:100%; width:100%; overflow:hidden;}
+ @media screen and (max-width:1000px){
+    .ul_menu_class1 li{ width:33%; float:left; padding-top:10px; padding-bottom:10px;}
+    .mymain{ width:100%;margin-top:0px;}
+	.ul_menu_class1 li .item{height:80px;width:98%;}
+	.ul_menu_class1 li{ width:33%; float:left; padding-top:10px; padding-bottom:10px;}
+ } 
+
+
+</style>
+</head>
+<body>
+
+<div class="mybody_b" style="display:none;">
+<div class="curnav"><a  class="back" href="__APP__"><em>d</em></a><center>{$webtitle}</center><a class="amenu">≡</a></div>
+
+<div id="exam_menu">
+<ul class="ul_menu">
+<foreach name="classlist" item="row">
+ <li class="ul_menu_li">
+   <div class="subtitle1"><a href1="__CONTROLLER__/list" classno="{$row.classno}" class="li_a1">{$row.title}</a></div>
+   <ul class="ul_menusub1" style="display:<if condition='$key neq 0'>none</if>;">
+   <foreach name="row['class1']" key="key1" item="row1">
+         <li classno="{$row1.classno}" class="ul_menusub1_li">
+          <div class="subtitle2">{$row1.title}</div>
+          <ul class="ul_menusub2" style="display:none;">
+           <foreach name="conf1.items" item="row2">
+           <if condition="$row2.value eq 'moni'">
+		    <li><a href="__CONTROLLER__/lists/table/{$table}/act/{$row2.value}/fatherid/{$data.fatherid}/classid/{$row1.id}/">{$row2.name}</a></li>
+             <else/>
+            <li><a href="__CONTROLLER__/lists/table/{$table}/act/{$row2.value}/fatherid/{$data.fatherid}/classid/{$row1.id}/tpl/lists_a">{$row2.name}</a></li>
+            </if>
+          </foreach>
+         </ul>
+        </li>
+   </foreach>
+  </ul>
+ </li>
+</foreach>
+</ul>
+</div>
+</div>
+<include file="Public:footer_exam_index" />
+<include file="Public:footer_exam_texiao" />
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="chezi">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$webtitle}</title>
+<include file="Public:head_exam" />
+</head>
+<body>
+<div class="mybody_b" style="display:none;">
+<div class="curnav"><a  class="back" href="__APP__"><em>d</em></a><center>{$webtitle}</center><a class="amenu">≡</a></div>
+<div class="padding10">
+<div id="exam_menu">
+<ul class="ul_menu">
+<foreach name="classlist" item="row">
+ <li class="ul_menu_li">
+   <div class="subtitle1"><a href1="__CONTROLLER__/list" classno="{$row.classno}" class="li_a1">{$row.title}</a></div>
+   <ul class="ul_menusub1" style="display:<if condition='$key neq 0'>none</if>;">
+   <foreach name="kemulist" key="key1" item="row1">
+       <if condition="$key1 neq 0">
+         <li classno="{$row1.kemu}" class="ul_menusub1_li">
+          <div class="subtitle2">{$row1.name}</div>
+          <ul class="ul_menusub2" style="display:none;">
+           <foreach name="modelist" item="row2">
+           <if condition="$row2.value eq 'moni'">
+		    <li><a href="__CONTROLLER__/lists/act/{$row2.value}/classid/{$row.id}/kemu/{$row1.value}">{$row2.name}</a></li>
+             <else/>
+            <li><a href="__CONTROLLER__/lists/act/{$row2.value}/classid/{$row.id}/kemu/{$row1.value}/tpl/lists_a">{$row2.name}</a></li>
+            </if>
+          </foreach>
+         </ul>
+        </li>
+    </if>
+      
+   </foreach>
+  </ul>
+ </li>
+</foreach>
+</ul>
+</div>
+</div>
+</div>
+<include file="Public:footer_exam_index" />
+<include file="Public:footer_exam_texiao" />
+</body>
+</html>

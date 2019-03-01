@@ -1,0 +1,8 @@
+[ 2017-06-12T01:53:21+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+

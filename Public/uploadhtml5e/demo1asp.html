@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>例子1</title>
+
+<script src="js/jquery-1.9.2.min.js?2"></script>
+<script src="js/hcfile.config-0.3.js?2"></script>
+<script src="js/hcfile-0.3.js?5"></script>
+<link href="js/hcfile03.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>例子1</h1>
+<div id="drop_div">
+<table>
+<tr><td>封面路径</td><td><input type="text"  id="photo"  value="file/201607/2016071403575958677.gif" style="width:600px;"/></td></tr>
+<tr><td>多图路径</td><td><textarea  id="photos" style="width:600px; font-size:12px;">file/201607/2016071403575958677.gif#file/201607/2016071403580067292.jpg</textarea></td></tr>
+<tr><td><span id="photos_weizhi">ddd</span></td><td><div id="photos_panel"></div></td></tr>
+</table>
+
+<label>
+<input type="submit" id="send" value="提交" />
+</label>
+</div>
+<script>
+
+		  hcfile().Init({
+				  url:"include/asp/ajax.asp",
+				  width:80,//按钮宽度
+				  height:80,//按钮高度
+				  maxnum:5,//只能上传N张
+				  type:"",//yinpin:仅上传音频文件,shipin:仅上传视频文件,img:仅上传图片,不填或all表示全部
+				  input_id:"photos",//存多张图片路径的input的id
+				  weizhi_id:"photos_weizhi",//按钮位置对像id
+				  panel_id:"photos_panel",//图片显示对象id
+				  input_fengmian_id:'photo',//存封面的图片路径input对象id
+				  bgsrc:"images/class4.png",//按钮图片
+				  nullstr:"<div style='text-align:center;line-height:80px;background-color:#f5f5f5; font-size:15px;'>请上传图片</div>",
+				  drop_to_id:"drop_div",
+				  send_id:"",//按钮位置对像id,填写我空表示选好自动上传
+				  item_class:"",
+				  upload_show:{date:0,size:0,name:1,bar:1,baifenbi:1,del:0},//上传过程中要显示的元素,1:显示,0不显示 date(日期) size(大小) name(标题) bar(进度条) baifenbi(进度条)
+				  success_show:{date:0,size:0,name:1,bar:0,baifenbi:0,del:1}//上传完后要显示的元素,1:显示,0不显示
+		 });
+
+</script>
+</body>
+</html>

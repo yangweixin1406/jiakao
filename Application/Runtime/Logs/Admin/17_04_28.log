@@ -1,0 +1,80 @@
+[ 2017-04-28T01:00:32+08:00 ] 127.0.0.1 /phpsite/hc/kaoti/kaoti20170406/index.php?m=Admin&c=link&a=lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004631s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.1568s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_link` [ RunTime:0.0577s ]
+NOTIC: [8] Undefined variable: where F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\LinkController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_link` LIMIT 1   [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: where F:\phpsite\hc\kaoti\kaoti20170406\Application\Admin\Controller\LinkController.class.php 第 41 行.
+SQL: SELECT * FROM `tb_link` ORDER BY sort asc,id desc LIMIT 0,20   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `tb_link_class` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `tb_link_class` WHERE (  id>0  )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_link_class` [ RunTime:0.0932s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_link_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 25 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 58 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 59 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 60 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 58 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 59 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 60 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 58 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 59 行.
+NOTIC: [8] Use of undefined constant objtable - assumed 'objtable' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 60 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+NOTIC: [8] Use of undefined constant photo_small - assumed 'photo_small' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 187 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpsite\hc\kaoti\kaoti20170406\Application\Runtime\Cache\Admin\5690ef7f2bf6c1354c20c01908eb3957.php 第 191 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+

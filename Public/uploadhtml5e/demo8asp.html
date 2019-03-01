@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>文件上传7</title>
+<script src="js/jquery-1.9.2.min.js?2"></script>
+<script src="js/hcfile.config-0.3.js?2"></script>
+<script src="js/hcfile-0.3.js?3"></script>
+<link href="js/hcfile03.css" rel="stylesheet" type="text/css">
+<style>
+*{ font-family:"微软雅黑";}
+.hcfile-h3{border-bottom:dashed 1px #CCCCCC; line-height:40px;}
+.content{width:400px; margin-left:auto; margin-right:auto;border:solid 0px #CCCCCC; padding:10px; overflow:hidden; height:auto;}
+img{ cursor:pointer;}
+</style>
+</head>
+<body>
+
+<div  class="content">
+ 
+            <div class="item">
+            <div style=" text-align:center;">
+			   <img src="" id="upload_touxiang_photo1" onerror="this.src='images/class1.png';return false;"/></div>
+	           <input type="hidden" value="" name="photo1"  id="photo1" class="one_img"/>
+			   <div id="upload_bt_photo1" class="upload-bt"><div class="jian">+</div><div class="text">请选择或拖拽上传文件、限制大小为2.0MB以内。</div></div>
+			   <div id="upload_panel_photo1"></div>
+			</div>
+			
+            <div class="item">
+               <div style=" text-align:center;"><img src="" id="upload_touxiang_photo2" onerror="this.src='images/class1.png';return false;"/></div>
+	           <input type="hidden" value="" name="photo2"  id="photo2" class="one_img"/>
+			   <div id="upload_bt_photo2" class="upload-bt"><div class="jian">+</div><div class="text">请选择或拖拽上传文件、限制大小为2.0MB以内。</div></div>
+			   <div id="upload_panel_photo2"></div>
+			</div>
+</div>
+</div>
+<script>
+var g_siteurl_file="../../";                    //重点，这个最好改一下 显示图片所在的网址 如http://www.hao123.com/file/1.jpg ,则是http://www.hao123.com/
+var g_ico_path="images/" ;//默认图标所在的文件夹路径
+		  hcfile().Init({
+				  url:"include/asp/ajax.asp",
+				  maxnum:1,//一张图片
+				  type:"img",
+				  item_class:"myitem1",
+				  bt_select_id:"upload_bt_photo1,upload_touxiang_photo1",
+				  input_id:"photo1",
+				  panel_id:"upload_panel_photo1",
+				  show_start_item:0,
+				  upload_show:{date:0,size:0,name:1,bar:1,baifenbi:1},//上传过程中要显示的元素,1:显示,0不显示 date(日期) size(大小) name(标题) bar(进度条) baifenbi(进度
+				  success_show:{chongxuan:1,baifenbi:0,del:1},
+				  success:function(data){
+				      var val=$("#photo1").val();
+					  $("#upload_touxiang_photo1").attr("src",g_siteurl_file+val);
+				  }
+		 });
+		  hcfile().Init({
+				  url:"include/asp/ajax.asp",
+				  maxnum:1,//一张图片
+				  type:"img",
+				  item_class:"myitem1",
+				  bt_select_id:"upload_bt_photo2,upload_touxiang_photo2",
+				  input_id:"photo2",
+				  panel_id:"upload_panel_photo2",
+				  show_start_item:0,
+				  upload_show:{date:0,size:0,name:1,bar:1,baifenbi:1},//上传过程中要显示的元素,1:显示,0不显示 date(日期) size(大小) name(标题) bar(进度条) baifenbi(进度
+				  success:function(data){
+				      var val=$("#photo2").val();
+					  $("#upload_touxiang_photo2").attr("src",g_siteurl_file+val);
+				  }
+		 });
+</script>
+</body>
+</html>

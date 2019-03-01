@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>首页</title>
+<script language="javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>  
+<script language="javascript" src="__PUBLIC__/js/jquery.cookie.js"></script>  
+<style>
+@charset "utf-8";
+*{ font-family:"微软雅黑";}
+html,body{ background-color:#FFF; margin:0px; overflow:hidden; height:100%;}
+body{ position:relative;}
+.myleft{ width:150px;position:absolute; left:0px;top:0px;background-color:#FFFFFF;border-right:solid #CCCCCC 1px; height:100%; overflow:hidden;
+/* box-shadow: 5px 0px 5px #888888; -webkit-box-shadow: 5px 0px 5px #888888; -moz-box-shadow: 5px 0px 5px #888888; -ms-box-shadow: 5px 0px 5px #888888;*/}
+.myright{ position:absolute; right:0px;top:0px;}
+.ul_menu{ list-style:none; margin:0px; padding:0px; height:auto; width:100%; overflow:hidden;}
+.ul_menu *{ color:#666; font-size:12px; cursor:pointer;}
+.ul_menu .li_a{ list-style:none; margin:0px;}
+.ul_menu .li_a h1,.ul_menu .li_a h1 a{ font-weight:normal; font-size:15px; margin:0px; padding:10px; border-bottom:solid #CCCCCC 1px;}
+.ul_menu .li_a .ul_b{ display:none;list-style-type: circle;}
+.ul_menu .li_a .ul_b li{ padding:5px;list-style-type: circle;}
+.ul_menu .li_a .ul_b li a{}
+#myleftcon{ overflow-y:auto;}
+</style>
+</head>
+<body>
+<div class="myleft" id="myleft">
+ <div id="myleftcon">
+ <ul class="ul_menu" id="myul"></ul>
+ <h1 style="font-size:15px;margin-left:20px;"><a href="__APP__/admin/User/login" style=" text-decoration:none;  color:#F60;">退出</a></h1>
+ </div>
+</div>
+<div class="myright" id="myright">
+     <iframe id="myiframe" name="myiframe" width="100%" height="100%" frameborder="0" src="__APP__/admin/content" style="float:left; top:0px; "></iframe>
+</div>
+</body>
+<script>
+var menu_str="{$menu}";
+var menus=eval(menu_str);
+var myul=$("#myul");
+for(var i=0;i<menus.length;i++){
+	var items=menus[i].items;
+	var ul_sub="";
+	ul_sub+="<ul class='ul_b' style='display:none;'>";
+	for(var j=0;j<items.length;j++){
+		var row=items[j];
+		ul_sub+="<li><a href='"+row.url+"'>"+row.name+"</a></li>";
+	}
+	ul_sub+="</ul>";
+	myul.append("<li class='li_a'><h1><a href='"+menus[i].url+"'>"+menus[i].title+"</a></h1>"+ul_sub+"</li>");
+}
+ var g_userstate="";
+var li_as=$(".ul_menu .li_a");
+  li_as.each(function(){
+	  var li_a=$(this);
+	  li_a.find("a").each(function(){
+			var a=$(this);
+			a.attr("myhref", a.attr("href"));
+			a.removeAttr("href");
+			a.click(function(e){
+				$("#myiframe").attr("src",$(this).attr("myhref"));
+			})
+	  });
+	  
+	  li_a.children().eq(0).click(function(){
+		  li_a.children().eq(1).slideToggle("slow");
+	  });
+    }
+  );
+  if(window.attachEvent){
+		window.attachEvent('onscroll',function(){BodySize()});
+		window.attachEvent('onresize',function(){BodySize()});
+  }else{
+		window.addEventListener("scroll",function(){BodySize()}, false );
+		window.addEventListener("resize",function(){BodySize()}, false );
+   }
+  var myleft=document.getElementById("myleft");
+  var myright=document.getElementById("myright");
+  var myleftcon=document.getElementById("myleftcon");
+  var myleftconul=null;
+  var uls=myleftcon.childNodes;
+  for(var i=0;i<uls.length;i++){
+	  if(uls[i].nodeName.toLowerCase()=="ul"){
+		  myleftconul=uls[i];
+	  }
+  }
+  BodySize();
+function BodySize(){
+	  GetWidthHeight();
+	  myleft.style.height=window.clientHeight+"px";
+	  myright.style.height=window.clientHeight+"px";
+	  var myleft_width=myleft.offsetWidth;
+	  myleftcon.style.width=myleft_width+20+"px";
+	  myleftconul.style.width=myleft_width+"px";
+	  myleftcon.style.height=window.clientHeight+"px";
+	  myright.style.width=window.clientWidth-myleft_width-1+"px";
+}
+function GetWidthHeight(){
+		  window.mybody=document.getElementsByTagName("body")[0];
+		  window.scrollHeight=document.documentElement.scrollHeight||document.body.scrollHeight;	
+		  window.scrollWidth=document.documentElement.scrollWidth||document.body.scrollWidth;
+		  window.clientHeight=document.documentElement.clientHeight||document.body.clientHeight;
+		  window.clientWidth=document.documentElement.clientWidth||document.body.clientWidth;
+		  window.scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+		  window.scrollLeft=document.documentElement.scrollLeft||document.body.scrollLeft;
+		  window.bodyHeight=window.clientHeight;
+		  window.bodyWidth=window.clientWidth;
+}
+var orderdetail_url="orders/info.php";
+if(g_userstate!="0"){
+	var orderdetail_url="orders/info_dianjia.php";
+}
+var tishiInfo={
+	  init:function(opt){
+			var oOrders=document.createElement("div");
+			oOrders.style.cssText="position:fixed;bottom:0px;_position:absolute; right:0px; z-index:2000; background-color:#ffffff; oveflow:visible;width:300px;border:solid #ccc 1px";
+			oOrders.innerHTML="<div style='margin:0px;padding:0px;color:#000; background-color:#f5f5f5;position:relative;height:30px;'><span style='position:absolute;top:5px;left:5px;' class='title'>显示</span><span style='position:absolute;top:5px;right:5px;' class='shanjia'>∧</span></div><div style='overflow-y:auto; height:150px; display:none;';></div>";
+			window.mybody.appendChild(oOrders);
+			window.mybody.appendChild(oOrders);
+			
+			var t=this;
+			t.index=0;
+			t.content=oOrders.childNodes[1];
+			t.title=oOrders.childNodes[0];
+			t.title.onclick=function(){
+				
+				if($(this).html().indexOf("显示")!=-1){
+					$(this).find(".title").html("隐藏");
+					$(this).find(".shanjia").html("∨");
+				}else{
+					$(this).find(".title").html("显示");
+					$(this).find(".shanjia").html("∧");
+					
+				}
+				 $(t.content).slideToggle("slow");
+			}
+			t.max_newid=opt.max_newid;
+			window.setInterval(function(){
+				t.neworders({max_newid:t.max_newid});
+			},7000);
+			t.neworders({max_newid:t.max_newid});
+	  },
+      neworders:function(opt){
+		  var t=this;
+		  var xml=$.ajax({
+		  url:"ajax/orders.php",
+		  type:'post',
+		  data:{act:"new",max_newid:opt.max_newid},
+		  dataType:"json",
+		  success:function(json){
+			 // alert(json);
+			  if(json.status=="success"){
+				 audio();
+				  t.max_newid=json.max_newid;
+				  var items=json.items;
+				 for(var i=0;i<items.length;i++){
+					 t.index++;
+					 var row=items[i];
+					 var div=document.createElement("div");
+					 div.style.cssText="padding:5px; border-bottom:solid #ccc 1px;font-size:12px;overflow:hidden;";
+					 var str="<table border='0' cellpadding='3' cellspacing='0'>";
+					 str+="<tr>";
+					 str+="<td style='width:30px;'>"+t.index+".</td>";
+					 str+="<td style='width:60px;overflow:hidden;' title='"+row.id+"'>"+row.contact+"</td>";
+					 str+="<td style='width:auto;'>"+row.thistime+"</td>";
+					 str+="<td style='width:50px;'><span style='color:#00CC00'>￥"+row.total+"</span></td>";
+					 str+="<td style='width:30px;'><a myhref='"+orderdetail_url+"?id="+row.id+"' target='_blank'>查看</a></td>";
+					 str+="</tr>";
+					 str+="</table>";
+//					 str+="<span style='float:left;width:20%;overflow:hidden;display:block;'>"+row.contact+"</span>";
+//					 str+="<span style='float:left;width:20%;overflow:hidden;display:block;'>"+row.contact+"</span>";
+//					 str+="<span style='float:left;width:50%;overflow:hidden;display:block;'>"+row.thistime+"</span>";
+//					 str+="<span style='float:left;width:20%;overflow:hidden;display:block;color:#00CC00'>￥"+row.total+"</span>";
+//					 str+="<span style='float:right;width:10%;overflow:hidden;display:block;'><a href='"+orderdetail_url+"?id="+row.id+"' target='_blank'>查看</a></span>";
+					 div.innerHTML=str;
+					 var a=div.getElementsByTagName("a")[0];
+					 a.onclick=function(){
+						 var iframe=document.getElementsByTagName("iframe")[0];
+						 iframe.src=a.getAttribute("myhref");
+						 this.innerHTML="已看";
+						 this.style.cssText="color:#666666;";
+					 }
+					 if(t.content.childNodes.length>0){
+					    t.content.insertBefore(div,t.content.childNodes[0]);
+					 }else{
+					    t.content.appendChild(div);
+					 }
+				 }
+			  }
+		  }
+	  });
+    }
+}
+//alert(g_userstate);
+if(g_userstate=="0"){
+ //tishiInfo.init({max_newid:""});
+}
+
+function audio(){
+	var oAudio=document.createElement("div");
+	var oBody=document.getElementsByTagName("body")[0];
+	oAudio.style.cssText="height:1px;overflow:hidden;position:absolute;top:-20px; left:0px; width:50px;";
+	oBody.appendChild(oAudio);
+	http://www.w3school.com.cn/tiy/t.asp?f=html_audio_embed
+	if(navigator.userAgent.indexOf('MSIE')!=-1){
+		 oAudio.innerHTML='<embed height="100" width="100" src="../public/audio/neworders.wav"></embed>';
+	}else{
+	     oAudio.innerHTML="<audio src='../public/audio/neworders.wav' autoplay=''></audio>";
+	}
+	 window.setTimeout(function(){
+	 oBody.removeChild(oAudio);
+	 },4000);
+}
+
+//PHP中获取当前页面的完整URL
+//http://www.cnblogs.com/A-Song/archive/2011/12/14/2288215.html
+//http://www.jb51.net/css/85965.html
+</script>
+</html>

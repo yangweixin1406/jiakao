@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>单图上传:自动产生上传按钮</title>
+<script src="js/hcfile.config-0.3.js?1"></script>
+<script src="js/hcfile-0.3.js?1"></script>
+<style>#mydiv .item{ width:80px; height:80px; float:left; overflow:hidden; position:absolute; cursor:pointer;}</style>
+</head>
+<body>
+<h1>单图上传:自动产生上传按钮</h1>
+<table>
+<tr><td><input type="hidden"  id="img"  value="" style="width:600px;"/></td></tr></table>
+<script>
+		  hcfile().Init({
+				  url:"include/php/ajax.php",
+				  width:200,
+				  height:100,
+				  maxnum:1,//一张图片
+				  type:"img",
+				  input_id:"img",
+				  border:0,
+				  bgsrc:"images/upload.png"
+		 });
+
+</script>
+</body>
+</html>

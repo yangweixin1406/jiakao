@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="chezi">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$webtitle}</title>
+<include file="Public:head_exam" />
+<style>
+  .mymain{ width:1000px; margin-left:auto; margin-right:auto; margin-top:20px; height:auto; overflow:hidden;}
+  .ul_menu_class1{ list-style:none; margin:0px; padding:0px;}
+  .ul_menu_class1 li{ list-style:none; margin:0px; padding:0px;}
+  .ul_menu_class1 li{ width:25%; float:left; padding-top:20px; padding-bottom:20px;}
+  .ul_menu_class1 li .item{height:90px; margin-bottom:10px;/*background-color: #099; */ width:80%; margin-left:auto; margin-right:auto;}
+  .ul_menu_class1 li .item .rel{ height:100%; width:100%; position:relative;}
+  .ul_menu_class1 li .item .photo{_border:solid #666 1px;*border:solid #666; height:80px; width:80px; background-color:#FFFFFF; background-color:rgba(255,255,255,0.7); margin-left:auto; margin-right:auto; border-radius:40px; box-shadow:0px 0px 1px 1px #666 inset;}
+  .ul_menu_class1 li .item a{font-size:20px;text-align:center; line-height:21px;display:block; color:#666;word-wrap:break-word; word-break:normal; word-break:break-all;}
+  .ul_menu_class1 li .item .a2{font-size:20px;text-align:center; line-height:21px;display:block; color:#666;word-wrap:break-word; word-break:normal; word-break:break-all;}
+  .ul_menu_class1 li .item .a1{font-size:20px;text-align:center; line-height:21px;display:block; color:#666;word-wrap:break-word; word-break:normal; word-break:break-all;}
+  .ul_menu_class1 li .item table{ height:100%; width:100%;}
+  .ul_menu_class1 li .item .title{ font-size:16px; margin:0px; padding:0px; text-align:center; border-radius:2px; margin-top:5px; padding:2px; color:#666;}
+  .ul_menu_class1 li .item .title a{color:#666;}
+  .ul_menu_class1 li .item table td{ height:100%; width:100%; overflow:hidden;word-wrap:break-word; word-break:normal; word-break:break-all;}
+  .ul_menu_class1 li.marginleft{margin-left: 115px;}
+  .ul_menu_class1 li.margintop{margin-top: -70px;} 
+  .ul_menu_class1 li table{ height:100%; width:100%;}
+  .ul_menu_class1 li p{ margin:0px; padding:0px;}
+  .con-show01{width: 200px;height: 250px;float: left;margin-left:0px;overflow: hidden;transform:rotate(120deg);-webkit-transform:rotate(120deg);}
+  .con-show02{width: 100%;height: 100%;overflow: hidden;transform:rotate(-60deg);-webkit-transform:rotate(-60deg);}
+  .con-show03{width: 100%;height: 100%;overflow: hidden;transform:rotate(-60deg);-webkit-transform:rotate(-60deg);position: relative;background: pink;}
+  .con-show03 > div{width: 100%;height: 100%;position: absolute;top: 0;left: 0;opacity: 0;line-height: 250px;text-align: center;color: #fff;cursor: pointer;background: url(../images/a.png);transition: opacity 0.3s;}
+  .con-show03 a{ font-size:15px;}
+  .con-show03:hover > div{opacity: 1;}
+
+ @media screen and (max-width:1000px){
+ 
+    .ul_menu_class1 li .item .photo{height:70px; width:70px;}
+	.ul_menu_class1 li .item .a1{ font-size:17px;}
+    .ul_menu_class1 li{ width:33%; float:left; padding-top:10px; padding-bottom:10px;}
+    .mymain{ width:100%;margin-top:0px;}
+	.ul_menu_class1 li{ width:33%; float:left; padding-top:10px; padding-bottom:10px;}
+	.ul_menu_class1 li{}
+  	.ul_menu_class1 li.marginleft{margin-left: 55px;}
+	.ul_menu_class1 li.margintop{margin-top: -20px;} 
+    .con-show01{width:120px;height:100px;}
+	.ul_menu_class1 li .con-show03 .a1{font-size:15px; line-height:16px;}
+ }
+body{
+/*background: #7acdd4;
+background-image: -webkit-linear-gradient(-90deg,#7acdd4,#549ed2);*/
+}
+ 
+</style>
+</head>
+<body>
+<div class="mybody_b" style="display:none;">
+<div class="curnav"><a  class="back" href="__APP__"><em>d</em></a><center>{$webtitle}</center><a class="amenu">≡</a></div>
+<div class="mymain" id="mymain">
+<div class="padding10" style="height:auto; overflow:auto;">
+<ul class="ul_menu_class1">
+<foreach name="classlist" item="row">
+   <li>
+  <div class="item">
+  <div class="rel"> 
+  <a href="__CONTROLLER__/class2/table/{$table}/fatherid/{$row.id}/" class="a2">
+   <div class="photo">
+   <table><tr><td valign="middle" align="center">
+ 
+  <?php  if(trim($row[title1])!=""){?>
+  <?php echo $row[title1];?>
+  <?php }else{ ?>
+  <?php 
+    echo $row[title];
+  }?>
+  
+  </td></tr>
+  </table>
+  </div>
+  <div class="title">{$row.title}</div>
+  </a>
+  </div>
+  </div>
+  </li>
+</foreach>
+
+</ul>
+</div>
+</div>
+</div>
+<script>
+var startindexl=3;
+$(".item .rel22").each(function(i){
+var index=i+1;
+var html=$(this).html();
+ var o=$('<div class="con-show01"><div class="con-show02"><div class="con-show03 bg02">'+html+'</div></div></div>');
+ var p=$(this).parent().parent().html("");
+ p.append(o);
+ if((index+1)%5==0){
+    p.addClass("marginleft");
+ }
+
+ if(index>3){
+  p.addClass("margintop");
+ }
+});
+</script>
+<include file="Public:footer_exam_index" />
+<include file="Public:footer_exam_texiao" />
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>{$info.webtitle}</title>
+<include file="Public:head" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/onoff/onoff.css" />
+<script language="javascript" src="__PUBLIC__/onoff/onoff.js"></script>  
+<style>
+fieldset{ margin-top:10px; margin-bottom:10px;}
+</style>
+</head>
+<body>
+<include file="Public:header" />
+<include file="Public:menu" />
+<div class="panel" id="panel">
+<div class="mybody">
+
+<!--标题开始-->
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t">{$webtitle}</div><div class="b"><a href="{$laiyuan}">返回</a></div></div><div class="right"></div>
+  </div>
+</div>
+<!--标题结束-->
+<!--主体开始-->
+<div class="mycontent paddingtop80" >
+<form id="form1" name="form1" method="post" action="{:U('pay')}" onsubmit="return check();">
+<div class="info1">
+
+
+	   <div class="tab_page">
+	   <fieldset><legend>支付宝配置</legend>
+	    <ul class="ul_info"><li class="li1">配置开关：</li><li class="li2"><input type="hidden" id="alipay_status" name="setting[alipay][status]" value="{$setting[alipay][status]}"   txt1="开"  txt2="关"/></li></ul>
+		<ul class="ul_info"><li class="li1">支付宝帐号：</li><li class="li2"><input type="text" name="setting[alipay][email]" value="{$setting[alipay][email]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">支付宝PID：</li><li class="li2"><input type="text" name="setting[alipay][pid]" value="{$setting[alipay][pid]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">支付宝KEY：</li><li class="li2"><input type="text" name="setting[alipay][key]" value="{$setting[alipay][key]}"  /></li></ul>
+	   </fieldset>
+	   <fieldset><legend>易宝配置</legend>
+	    <ul class="ul_info"><li class="li1">配置开关：</li><li class="li2"><input type="hidden" id="yeepay_status" name="setting[yeepay][status]" value="{$setting[yeepay][status]}"   txt1="开"  txt2="关"/></li></ul>
+		<ul class="ul_info"><li class="li1">易宝帐号：</li><li class="li2"><input type="text" name="setting[yeepay][email]" value="{$setting[yeepay][email]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">易宝PID：</li><li class="li2"><input type="text" name="setting[yeepay][pid]" value="{$setting[yeepay][pid]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">易宝KEY：</li><li class="li2"><input type="text" name="setting[yeepay][key]" value="{$setting[yeepay][key]}"  /></li></ul>
+	   </fieldset>
+	   <fieldset><legend>微信支付配置</legend>
+	    <ul class="ul_info"><li class="li1">配置开关：</li><li class="li2"><input type="hidden" id="wxpay_status" name="setting[wxpay][status]" value="{$setting[wxpay][status]}"   txt1="开"  txt2="关"/></li></ul>
+		<ul class="ul_info"><li class="li1">微信支付帐号：</li><li class="li2"><input type="text" name="setting[wxpay][email]" value="{$setting[wxpay][email]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">微信支付appid：</li><li class="li2"><input type="text" name="setting[wxpay][appid]" value="{$setting[wxpay][appid]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">微信支付appsecret：</li><li class="li2"><input type="text" name="setting[wxpay][appsecret]" value="{$setting[wxpay][appsecret]}"  /></li></ul>
+	   </fieldset>
+	   <fieldset><legend>云支付配置</legend>
+	    <ul class="ul_info"><li class="li1">配置开关：</li><li class="li2"><input type="hidden" id="yunpay_status" name="setting[yunpay][status]" value="{$setting[yunpay][status]}"   txt1="开"  txt2="关"/></li></ul>
+		<ul class="ul_info"><li class="li1">云支付帐号：</li><li class="li2"><input type="text" name="setting[yunpay][email]" value="{$setting[yunpay][email]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">云支付PID：</li><li class="li2"><input type="text" name="setting[yunpay][pid]" value="{$setting[yunpay][pid]}"  /></li></ul>
+		<ul class="ul_info"><li class="li1">云支付KEY：</li><li class="li2"><input type="text" name="setting[yunpay][key]" value="{$setting[yunpay][key]}"  /></li></ul>
+	   </fieldset>
+        <div class="clear"></div>
+         </div>
+
+	  
+    </div>
+	
+  <div class="info_bts">
+    <div class="con">
+
+	 <input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回" class="bt" /><input type="submit" name="btsend" class="btsend" value="更新" /><input id="id" type="hidden" name="id" value="{$info.id}"/><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
+	
+    </div>
+  </div>
+
+
+</form>
+</div>
+<!--主体结束-->
+</div>
+<div class="pagenav">{$show}</div>
+
+</div>
+<script>
+$("#state").val('{$info.state}');
+onoff("alipay_status",100);
+onoff("yeepay_status",100);
+onoff("wxpay_status",100);
+onoff("yunpay_status",100);
+</script>
+<include file="Public:foot" />
+<include file="Public:footer"/>
+</body>
+</html>
+
+
