@@ -61,15 +61,15 @@
 			<div class="clear"></div>
 	   </div>
     </div>
-	
+
   <div class="info_bts">
     <div class="con">
-     <?php 
+     <?php
        if(is_numeric($info[id])){
 	 ?>
 	 <input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回列表" class="bt" /><input type="submit" name="btsend" class="btsend" value="更新" /><input id="id" type="hidden" name="id" value="{$info.id}"/><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
 	<?php }else{ ?>
-	
+
 	<input type="button" onclick="javascript:window.location='{$laiyuan}';"value="返回列表" class="bt" /> <input type="submit" name="btsend" value="确定" class="btsend" /><input id="act" type="hidden" name="act" value="add"/> <input type="reset" value="重置" onclick="clearinput()" />
       <?php }?>
     </div>

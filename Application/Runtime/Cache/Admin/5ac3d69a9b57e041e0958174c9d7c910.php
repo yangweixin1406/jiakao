@@ -4,31 +4,31 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 <title><?php echo ($webtitle); ?></title>
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/jquery-1.7.2.min.js"></script>  
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/jquery.cookie.js"></script>  
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/ueditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/ueditor.all.min.js"> </script>
+<script language="javascript" src="/Public/js/jquery-1.7.2.min.js"></script>  
+<script language="javascript" src="/Public/js/jquery.cookie.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/ueditor.all.min.js"> </script>
 <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
 <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/admin/style.css?<?php echo $g_shuiji?>"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/func.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/public.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/create_select_option.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/classoption.js?<?php echo $g_shuiji?>"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/xuanxiang.js?<?php echo $g_shuiji?>"></script>
-<link rel="stylesheet" href="/phpsite/hc/kaoti/kaoti20170406/Public/lightbox/css/lightbox.css" media="screen"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/lightbox/js/lightbox-2.6.min.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/ajax.js"></script>
-<script  src="/phpsite/hc/kaoti/kaoti20170406/Public/duihuakuang/duihuakuang.js?<?php echo $g_shuiji?>"></script>
-<link type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/duihuakuang/duihuakuang.css?<?php echo $g_shuiji?>"  rel="stylesheet"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/layer-v2.3/layer/layer.js"></script>
-<link rel="stylesheet" type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/layer-v2.3/layer/skin/layer.css"/>
-<link rel="stylesheet" href="/phpsite/hc/kaoti/kaoti20170406/Public/font-awesome-4.7.0/css/font-awesome.min.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="/Public/admin/style.css?<?php echo $g_shuiji?>"/>
+<script src="/Public/admin/js/func.js"></script>
+<script src="/Public/admin/js/public.js"></script>
+<script src="/Public/admin/js/create_select_option.js"></script>
+<script src="/Public/admin/js/classoption.js?<?php echo $g_shuiji?>"></script>
+<script src="/Public/admin/js/xuanxiang.js?<?php echo $g_shuiji?>"></script>
+<link rel="stylesheet" href="/Public/lightbox/css/lightbox.css" media="screen"/>
+<script src="/Public/lightbox/js/lightbox-2.6.min.js"></script>
+<script src="/Public/admin/js/ajax.js"></script>
+<script  src="/Public/duihuakuang/duihuakuang.js?<?php echo $g_shuiji?>"></script>
+<link type="text/css" href="/Public/duihuakuang/duihuakuang.css?<?php echo $g_shuiji?>"  rel="stylesheet"/>
+<script src="/Public/layer-v2.3/layer/layer.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/layer-v2.3/layer/skin/layer.css"/>
+<link rel="stylesheet" href="/Public/font-awesome-4.7.0/css/font-awesome.min.css" media="screen"/>
 </head>
 <body>
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/loadico.js"></script>  
+<script language="javascript" src="/Public/js/loadico.js"></script>  
 <script>
 loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 </script>
@@ -43,28 +43,27 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 		<li><a href="<?php echo U('product/piliang');?>"><i class='ifa fa-random'></i>批量上传</a></li>
 	</ul>
   </li>
-  
-  <li class="li_a">
+<?php if($kaoti_setting["biaomoshi"] == '1'): ?><li class="li_a">
    <div class="tit">考题<span class="s">管理</span></div>
       <ul class="ul_b">
 	    <li><a href="<?php echo U('Exam/lists');?>"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="<?php echo U('Exam/info');?>"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
 		<li><a href="<?php echo U('Exam/daoru');?>"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
-  </li>
-<?php if(is_array($configex)): foreach($configex as $key=>$row): ?><li class="li_a">
+  </li><?php endif; ?>
+<?php if($kaoti_setting["biaomoshi"] == '2'): if(is_array($configex)): foreach($configex as $key=>$row): ?><li class="li_a">
    <div class="tit"><?php echo ($row["lang"]); ?><span class="s">管理</span></div>
       <ul class="ul_b">
 	    <li><a href="<?php echo U('Exam1/lists',array('table'=>$row[objtable]));?>"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="<?php echo U('Exam1/info',array('table'=>$row[objtable]));?>"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
 		<li><a href="<?php echo U('Exam1/daoru',array('table'=>$row[objtable]));?>"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
-  </li><?php endforeach; endif; ?>
+  </li><?php endforeach; endif; endif; ?>
   <li class="li_a">
    <div class="tit">用户<span class="s">管理</span></div>
       <ul class="ul_b">
-	    <li><a href="<?php echo U('user/lists');?>"><i class='ifa fa-bus'></i>用户列表</a></li>
-	    <li><a href="<?php echo U('user/info');?>"><i class='ifa ifa fa-tags'></i>添加用户</a></li>
+	    <li><a href="<?php echo U('user/lists');?>"><i class='ifa fa-user-circle-o'></i>用户列表</a></li>
+	    <li><a href="<?php echo U('user/info');?>"><i class='ifa ifa fa-user-circle-o'></i>添加用户</a></li>
 		<li><a href="<?php echo U('usergroup/lists');?>"><i class='ifa fa-random'></i>用户组</a></li>
 	</ul>
   </li>
@@ -118,7 +117,7 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
    <div class="tit">系统<span class="s">配置</span></div>
       <ul class="ul_b">
 	    <li><a href="<?php echo U('config/index');?>"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>
-		
+		<li><a href="<?php echo U('setting/kaoti');?>"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>
 	    <li><a href="<?php echo U('class/lists');?>"><i class='ifa ifa fa-tags'></i>分类列表</a></li>
 		<li><a href="<?php echo U('setting/reg');?>"><i class='ifa fa-unlock-alt'></i>会员注册</a></li>
 		<li><a href="<?php echo U('setting/pay');?>"><i class='ifa fa-unlock-alt'></i>支付接口</a></li>
@@ -127,7 +126,7 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 		<li><a href="<?php echo U('setting/sms');?>"><i class='ifa fa-unlock-alt'></i>短信配置</a></li>
 		<li><a href="<?php echo U('setting/point');?>"><i class='ifa fa-unlock-alt'></i>积分兑换</a></li>
 		<li><a href="<?php echo U('setting/kefu');?>"><i class='ifa fa-unlock-alt'></i>客服号码</a></li>
-		<li><a href="<?php echo U('configex/index');?>"><i class='ifa fa-unlock-alt'></i>考题语言</a></li>
+		<?php if($kaoti_setting["biaomoshi"] == '2'): ?><li><a href="<?php echo U('configex/index');?>"><i class='ifa fa-unlock-alt'></i>考题语言</a></li><?php endif; ?>
 	</ul>
   </li>
  </ul>
@@ -142,7 +141,7 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 	<div class="con">
 		<div class="left"><div class="tt"><?php echo ($mytitle); ?>&nbsp;(<?php echo ($item["num"]); ?>/<?php echo ($item["rowcountz"]); ?>)</div><div class="bb"><a href="<?php echo U('class/info');?>">添加分类</a></div><span class="btchazhao">查找</span></div>
 		<div class="right">
-			<form id="form1" name="form1" method="get" action="/phpsite/hc/kaoti/kaoti20170406/index.php/Admin/Class/lists/" ><div class="l"></div>
+			<form id="form1" name="form1" method="get" action="/index.php/Admin/Class/lists/" ><div class="l"></div>
 			<div  class="r">
 				<div class="row">
 				   <span class="t">分类名称<em>：</em></span><span class="f"><input type="text" name="title" id="title" value="<?php echo $_GET[title]?>" class="txt1s"/></span>
@@ -181,7 +180,7 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 							<td class="td3"><?php echo ($value["classno"]); ?></td>
                             <td class="td4"><?php echo ($value["sort"]); ?></td>
                             <td class="td5"><?php echo ($value["addtime"]); ?></td>
-							<td class="tdop" style="width:auto"><a href="/phpsite/hc/kaoti/kaoti20170406/index.php/Admin/Class/index/fatherno/<?php echo ($value["classno"]); ?>">查看子级</a>|<a href="/phpsite/hc/kaoti/kaoti20170406/index.php/Admin/Class/info/id/<?php echo ($value["id"]); ?>">编辑</a>|<a href="/phpsite/hc/kaoti/kaoti20170406/index.php/Admin/Class/delete/id/<?php echo ($value["id"]); ?>">删除</a></td>
+							<td class="tdop" style="width:auto"><a href="/index.php/Admin/Class/index/fatherno/<?php echo ($value["classno"]); ?>">查看子级</a>|<a href="/index.php/Admin/Class/info/id/<?php echo ($value["id"]); ?>">编辑</a>|<a href="/index.php/Admin/Class/delete/id/<?php echo ($value["id"]); ?>">删除</a></td>
 						</tr><?php endforeach; endif; ?>
 				</tbody>
 </table>

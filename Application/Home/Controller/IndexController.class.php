@@ -4,7 +4,7 @@ use Think\Controller;
 class IndexController extends \Home\Controller\CommExamController{
     public $fatherno="00010004";
     public function index(){
-		$this->assign("webtitle","考题网");
+		$this->assign("webtitle","大信驾考理论学习系统");
 		$tpl="index";
 		
 	  $mod=M("setting");

@@ -74,7 +74,6 @@ function loadimg(src){
 	img.src=src;
 }
 
-//网站技术支持QQ 632175205 
 window.g_lang="<?php echo ($lang); ?>";
 window.g_act="<?php echo ($act); ?>";
 window.userid="<?php echo ($_SESSION['userq']['id']); ?>";
@@ -112,33 +111,123 @@ var cururl=String(window.location);
 
 
 <style>
-.table_action{ max-width:400px; margin-left:auto; margin-right:auto;}
-.table_action td{ height:100px; width:100px;}
-.menu{ list-style:none; margin:0px; padding:10px; max-width:350px; margin-left:auto; margin-right:auto; background-color:transparent; }
-.menu li{ list-style:none; margin:0px; padding:0px; text-align:center; width:50%; float:left;} 
-.menu li afff{ background-color:#3CF; height:100%; padding-bottom:15px; width:100%; display:block; color:#FFF;}
-.menu li div.inner{ padding:15px;}
-.menu li div.rel{border:#099 solid 2px; position:relative; width:99%; height:90px; background-color:#FFF; overflow:hidden; cursor:pointer;}
-.menu li div.rel a{ display:block; position:absolute; height:20px; line-height:20px; font-size:18px; color:#099; left:0px; width:100%; margin-top:-10px; top:50%;
--webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
-.menu li p{ padding:10px; margin:0px; list-style:none; height:auto; overflow:hidden; display:block;}
-.menu li div.rel a.hover{color:#0E83CD; color:#F5F5F5; font-size:40px;}
+    .table_action {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.menu li div.rel .bg{ position:absolute; height:100%; width:100%; background-color:#099; left:0px;}
+    .table_action td {
+        height: 100px;
+        width: 100px;
+    }
+
+    .menu {
+        list-style: none;
+        margin: 0px;
+        padding: 10px;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+    }
+
+    .menu li {
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .menu li afff {
+        background-color: #3CF;
+        height: 100%;
+        padding-bottom: 15px;
+        width: 100%;
+        display: block;
+        color: #FFF;
+    }
+
+    .menu li div.inner {
+        padding: 15px;
+    }
+
+    .menu li div.rel {
+        border: #099 solid 2px;
+        position: relative;
+        width: 99%;
+        height: 90px;
+        background-color: #FFF;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .menu li div.rel a {
+        display: block;
+        position: absolute;
+        height: 20px;
+        line-height: 20px;
+        font-size: 18px;
+        color: #099;
+        left: 0px;
+        width: 100%;
+        margin-top: -10px;
+        top: 50%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .menu li p {
+        padding: 10px;
+        margin: 0px;
+        list-style: none;
+        height: auto;
+        overflow: hidden;
+        display: block;
+    }
+
+    .menu li div.rel a.hover {
+        color: #0E83CD;
+        color: #F5F5F5;
+        font-size: 25px;
+    }
+
+    .menu li div.rel .bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #099;
+        left: 0px;
+    }
 
 </style>
 </head>
 <body>
-<div class="mybody_b chezi" style="background-color:#F5F5F5;display:none">
+<div class="mybody_b" style="background-color:#F5F5F5;display:none">
 <div class="curnav"><center>汽车考题测试</center><a class="amenu">≡</a></div>
 <ul class="menu">
 
-<?php if(is_array($classlist)): foreach($classlist as $key=>$value): ?><li><div class="inner"><div class="rel"><span class="bg" style="height:0px;"></span><a title="" href="<?php echo U('Home/Exam/index',array('fatherid'=>$value[id]));?>"  class="a1"><?php echo ($value["title1"]); ?></a></div></div></li><?php endforeach; endif; ?>
-<!--<?php if(is_array($configex)): foreach($configex as $key=>$value): ?><li><div class="inner"><div class="rel"><span class="bg" style="height:0px;"></span><a title="<?php echo ($value["title"]); ?>" href="<?php echo U('Home/Exam1/class1',array('table'=>$value[objtable]));?>"  class="a1"><?php echo ($value["title"]); ?></a></div></div></li><?php endforeach; endif; ?>-->
+<!--<?php if(is_array($classlist)): foreach($classlist as $key=>$value): ?>-->
+    <!--<li>-->
+        <!--<div class="inner">-->
+            <!--<div class="rel">-->
+                <!--<span class="bg" style="height:0px;"></span>-->
+                <!--<a title="" href="<?php echo U('Home/Exam/index',array('fatherid'=>$value[id]));?>" class="a1"><?php echo ($value["title1"]); ?></a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</li>-->
+<!--<?php endforeach; endif; ?>-->
 
-<li style="display:none"><div class="inner"><div class="rel"><span class="bg" style="height:0px;"></span><a href="/index.php/Home/Examh" class="a3">Kazakh</a></div></div></li>
-<li style="display:none"><div class="inner"><div class="rel"><span class="bg" style="height:0px;"></span><a href="/index.php/Home/Exame" class="a4">英文</a></div></div></li>
-<li style="display:none"><div class="inner"><div class="rel"><span class="bg" style="height:0px;"></span><a href="/index.php/Home/Exama2" class="a4">阿拉2</a></div></div></li>
+    <li>
+        <div class="inner">
+            <div class="rel">
+                <span class="bg" style="height:0px;"></span>
+                <a title="" href="<?php echo U('Home/Exam/index/fatherid/38');?>" class="a1">理论学习</a>
+            </div>
+        </div>
+    </li>
 </ul>
 </div>
 <script>
@@ -161,13 +250,10 @@ $(".menu li").each(function(){
 	});
 	
 })
-//css3按钮动画特效大全鼠标滑过按钮动画特效 http://www.17sucai.com/demoshow/1435.html
-//thinkphp教程 http://www.vso8.com/Play/id/bsIYcrWT33
 </script>
 <style>
 </style>
 <script>
-//网站技术支持QQ 632175205 
 var mybody_b=$(".mybody_b");
 var mymain=$("#mymain");
 //mybody_b.css({height:$(window).height()+"px",width:$(window).width()+"px"});

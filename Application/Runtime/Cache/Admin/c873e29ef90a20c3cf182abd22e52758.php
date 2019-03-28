@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-<title><?php echo ($webtitle); ?></title>
+<title><?php echo ($info["webtitle"]); ?></title>
 <script language="javascript" src="/Public/js/jquery-1.7.2.min.js"></script>  
 <script language="javascript" src="/Public/js/jquery.cookie.js"></script>  
 <script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/ueditor.config.js"></script>
@@ -137,73 +137,94 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 <div class="mybody">
 
 <!--标题开始-->
-<div class="mytitle" style="z-index:100;">
-	<div class="con">
-		<div class="left"><div class="tt"><?php echo ($mytitle); ?>&nbsp;(<?php echo ($item["num"]); ?>/<?php echo ($item["rowcountz"]); ?>)</div><div class="bb"><a href="<?php echo U('info');?>">添加</a></div><span class="btchazhao">查找</span></div>
-		<div class="right">
-			<form id="form1" name="form1" method="get" action="/index.php/Admin/Link/lists/" ><div class="l"></div>
-			<div  class="r">
-				<div class="row">
-					 <span class="t">分类<em>：</em></span>
-					 <span class="f">
-						 <select name="classid" id="classid" title="分类">
-						 <option value="">请选择</option>
-						<?php if(is_array($classlist)): foreach($classlist as $key=>$row): ?><option value="<?php echo ($row["id"]); ?>"><?php echo ($row["title"]); ?></option><?php endforeach; endif; ?>
-						</select>
-					</span>
-				</div>
-				<div class="row">
-				   <span class="t">标题<em>：</em></span><span class="f"><input type="text" name="title" id="title" value="" class="txt1s"/></span>
-				</div>
-				<div class="row">
-				   <span class="t">ID<em>：</em></span><span class="f"><input type="text" name="id" id="id" value=""  class="txt1s"/></span>
-				</div>
-				<div class="row">
-					<span class="t ts">&nbsp;</span><span class="f"><input type="hidden" name="table" id="table" value="" /><input type="submit" name="search1" id="button" value="查找" class="btsearch44" /></span>
-				</div>
-			</div>
-			</form>
-		</div>
-	</div>
+<div class="mytitle">
+  <div class="con">
+    <div class="left"><div class="t"><?php echo ($webtitle); ?></div><div class="b"><a href="<?php echo U('link/lists');?>">返回列表</a></div></div><div class="right"></div>
+  </div>
 </div>
 <!--标题结束-->
 <!--主体开始-->
 <div class="mycontent paddingtop80" >
-               <table class="tablelist tableloglat" cellspacing="0">
-				<thead>
-					<tr>
-							<th class="tdck"><input type="checkbox" name="ckall"/></th>
-							<th class="td1">编号</th>
-							<th class="td2">标题名称</th>
-							<th class="td3">图片</th>
-							<th class="td4">所在分类</th>
-							<th class="td5">排序</th>
-							<th class="td6">录入日期</th>
-							<th class="tdop">操作</th>
-					</tr>
-				</thead>
-				<tbody style="text-align:center;">
-					<?php if(is_array($list)): foreach($list as $key=>$value): ?><tr>
-                            <td class="tdck"><input type="checkbox" name="ck" value="<?php echo ($value["id"]); ?>" title="<?php echo ($value["id"]); ?>" /></td>
-							<td class="td1"><?php echo ($value["id"]); ?></td>
-							<td class="td2"><?php echo ($value["title"]); ?></td>
-                            <td class="td3"><?php if($value[photo_small] == '' ): else: ?><img src="/<?php echo ($value["photo_small"]); ?>" style="height:50px;"/><?php endif; ?></td>
-							<td class="td4"><a  href="<?php echo U('link/lists',array('classid'=>$value[classid]));?>"><?php echo ($value["class_caption"]); ?></a></td>
-							<td class="td5"><?php echo ($value["sort"]); ?></td>
-                            <td class="td6"><?php echo ($value["addtime"]); ?></td>
-							<td class="tdop"><a href="<?php echo U('link/info',array('id'=>$value[id]));?>">编辑</a>|<a href="/index.php/Admin/Link/delete/id/<?php echo ($value["id"]); ?>">删除</a></td>
-						</tr><?php endforeach; endif; ?>
-				</tbody>
-</table>
+<form id="form1" name="form1" method="post" action="<?php echo U('save');?>" onsubmit="return check();">
+<div class="info1">
+
+       <div class="tab"><ol class="tab_ol"><li class="cur">基本信息</li><li>其它信息</li><li>全部展开</li></ol></div>
+	   <div class="tab_page">
+	   <ul class="ul_info"><li class="li1">分类：</li><li class="li2">
+			<select name="classid" id="classid">
+			 <option value="">请选择</option>
+			<?php if(is_array($classlist)): foreach($classlist as $key=>$row): ?><option value="<?php echo ($row["id"]); ?>"><?php echo ($row["title"]); ?></option><?php endforeach; endif; ?>
+			</select>
+	   </li></ul>
+       <ul class="ul_info"><li class="li1">标题：</li><li class="li2"><input type="text"   name="title" id="title"   class="txt1" value="<?php echo ($info["title"]); ?>"/></li></ul>
+       <ul class="ul_info"><li class="li1">链接：</li><li class="li2"><input type="text"   name="href" id="href"   class="txt1" value="<?php echo ($info["href"]); ?>"/></li></ul>
+	   <ul class="ul_info"><li class="li1">排序：</li><li class="li2"><input type="text"   name="sort" id="sort"   class="txt1" value="<?php echo ($info["sort"]); ?>"/></li></ul>
+
+	   <ul class="ul_info"><li class="li1">图片：</li><li class="li2"><input type="hidden" name="photo_small" id="photo_small"  value="<?php echo ($info["photo_small"]); ?>"/><iframe src="/Public/upload_20150420/upload/php/img_iframe.php?panel_id=my_show&input_only_id=photo_small&input_more_id=ImageList&maxnum=10" scrolling="no" frameborder="0" height="80" width="80" style="margin:0px;"></iframe></li></ul>
+
+		 <div class="clear"></div>
+         </div>
+		 <div class="tab_page" style="display:none;">
+		    <ul class="ul_info"><li class="li1">打开方式：</li><li class="li2">
+			<select name="target" id="target" class="txt1">
+			 <option value="">请选择</option>
+			<?php if(is_array($targetlist)): foreach($targetlist as $key=>$row): ?><option value="<?php echo ($row["value"]); ?>"><?php echo ($row["name"]); ?></option><?php endforeach; endif; ?>
+			</select></li></ul>
+            <ul class="ul_info"><li class="li1">简要：</li><li class="li2"><textarea name="about" id="about"  class="txt1"><?php echo ($info["about"]); ?></textarea></li></ul>
+		    <ul class="ul_info"><li class="li1">内容：</li><li class="li2">
+	   <script id="content" name="content" type="text/plain" style="width:100%;height:500px;"><?php echo ($info["content"]); ?></script>
+	   <script> var ue = UE.getEditor('content');</script>
+			</li></ul>
+
+
+		 </div>
+	  	     <ul class="ul_info" id="ul_qturl" style="display:none;">
+		     <li class="li1">前台url：</li>
+		     <li class="li2">
+						<a href="<?php echo ($info["href"]); ?>" target="_blank"><?php echo ($info["href"]); ?></a>
+			 </li>
+		    </ul>
+			<script> var id="<?php echo ($info["id"]); ?>";if(id!=""){$("#ul_qturl").show();}</script>
+    </div>
+	
+  <div class="info_bts">
+    <div class="con">
+     <?php  if(is_numeric($info[id])){ ?>
+	 <input type="button" onclick="javascript:window.location='<?php echo ($laiyuan); ?>';"value="返回列表" class="bt" /><input type="submit" name="btsend" class="btsend" value="更新" /><input id="id" type="hidden" name="id" value="<?php echo ($info["id"]); ?>"/><input id="act" type="hidden" name="act" value="update"/> <input type="reset" value="重置" onclick="clearinput()" />
+	<?php }else{ ?>
+	
+	<input type="button" onclick="javascript:window.location='<?php echo ($laiyuan); ?>';"value="返回列表" class="bt" /> <input type="submit" name="btsend" value="确定" class="btsend" /><input id="act" type="hidden" name="act" value="add"/> <input type="reset" value="重置" onclick="clearinput()" />
+      <?php }?>
+    </div>
+  </div>
+
+
+</form>
 </div>
 <!--主体结束-->
- <script>
- $("#classid").val('<?php echo ($classid); ?>');
- </script>
 </div>
 <div class="pagenav"><?php echo ($show); ?></div>
-<div style=" text-align:center;"><a data-url="<?php echo U('delete');?>" onclick="Del(this);">删除选中</a></div>
+
 </div>
+<script>
+$("#classid").val('<?php echo ($info["classid"]); ?>');
+function check_banner(){
+  var title=$("#title");
+  var classid=$("#classid");
+   var id=$("#id");
+    if(classid.val()==""){
+	 alert("请选择分类");
+	 classid.focus();
+	 return false;
+  }
+  if(title.val()==""){
+	 alert("请输入标题");
+	 title.focus();
+	 return false;
+  }
+
+}
+</script>
 <script>
   if(window.attachEvent){
 		window.attachEvent('onscroll',function(){BodySize()});

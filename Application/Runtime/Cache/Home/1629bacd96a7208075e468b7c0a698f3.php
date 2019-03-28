@@ -74,7 +74,6 @@ function loadimg(src){
 	img.src=src;
 }
 
-//网站技术支持QQ 632175205 
 window.g_lang="<?php echo ($lang); ?>";
 window.g_act="<?php echo ($act); ?>";
 window.userid="<?php echo ($_SESSION['userq']['id']); ?>";

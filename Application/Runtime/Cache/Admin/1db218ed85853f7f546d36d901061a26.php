@@ -35,14 +35,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 <div class="menu" id="menu" style="left:-300px;">
  <div id="menucon" class="menu_con">
  <ul class="ul_menu">
-  <li class="li_a">
-   <div class="tit">商品<span class="s">管理</span></div>
-      <ul class="ul_b">
-	    <li><a href="<?php echo U('product/lists');?>"><i class='ifa fa-bus'></i>商品列表</a></li>
-	    <li><a href="<?php echo U('product/info');?>"><i class='ifa ifa fa-tags'></i>添加商品</a></li>
-		<li><a href="<?php echo U('product/piliang');?>"><i class='ifa fa-random'></i>批量上传</a></li>
-	</ul>
-  </li>
 <?php if($kaoti_setting["biaomoshi"] == '1'): ?><li class="li_a">
    <div class="tit">考题<span class="s">管理</span></div>
       <ul class="ul_b">
@@ -64,16 +56,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
       <ul class="ul_b">
 	    <li><a href="<?php echo U('user/lists');?>"><i class='ifa fa-user-circle-o'></i>用户列表</a></li>
 	    <li><a href="<?php echo U('user/info');?>"><i class='ifa ifa fa-user-circle-o'></i>添加用户</a></li>
-		<li><a href="<?php echo U('usergroup/lists');?>"><i class='ifa fa-random'></i>用户组</a></li>
-	</ul>
-  </li>
-  
-  <li class="li_a">
-   <div class="tit">文章<span class="s">管理</span></div>
-      <ul class="ul_b">
-	    <li><a href="<?php echo U('content/lists');?>"><i class='ifa fa-file-text-o'></i>文章列表</a></li>
-	    <li><a href="<?php echo U('content/info');?>"><i class='ifa ifa fa-tags'></i>添加文章</a></li>
-		<li><a href="<?php echo U('class/lists');?>"><i class='ifa fa-tags'></i>文章分类</a></li>
 	</ul>
   </li>
   
@@ -85,20 +67,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 	</ul>
   </li>
   <li class="li_a">
-   <div class="tit">交易<span class="s">管理</span></div>
-      <ul class="ul_b">
-	    <li><a href="<?php echo U('paylog/lists');?>"><i class='ifa fa-bus'></i>交易记录</a></li>
-	    <li><a href="<?php echo U('orders/lists');?>"><i class='ifa fa-bus'></i>订单记录</a></li>
-	</ul>
-  </li>
-  <li class="li_a">
-   <div class="tit">综合<span class="s">管理</span></div>
-      <ul class="ul_b">
-	    <li><a href="<?php echo U('link/lists');?>"><i class='ifa fa-bus'></i>综合列表</a></li>
-		<li><a href="<?php echo U('link/info');?>"><i class='ifa ifa fa-tags'></i>添加综合</a></li>
-	</ul>
-  </li>
-  <li class="li_a">
    <div class="tit">我的<span class="s">资料</span></div>
       <ul class="ul_b">
 	    <li><a href="<?php echo U('user/only');?>"><i class='ifa fa-user-circle-o'></i>基本信息</a></li>
@@ -107,25 +75,10 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 	</ul>
   </li>
   <li class="li_a">
-   <div class="tit">留言<span class="s">管理</span></div>
-      <ul class="ul_b">
-	    <li><a href="<?php echo U('message/lists');?>"><i class='ifa fa-user-circle-o'></i>留言列表</a></li>
-		<li><a href="<?php echo U('message/pwd');?>"><i class='ifa fa-unlock-alt'></i>修改密码</a></li>
-	</ul>
-  </li>
-  <li class="li_a">
    <div class="tit">系统<span class="s">配置</span></div>
       <ul class="ul_b">
 	    <li><a href="<?php echo U('config/index');?>"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>
 		<li><a href="<?php echo U('setting/kaoti');?>"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>
-	    <li><a href="<?php echo U('class/lists');?>"><i class='ifa ifa fa-tags'></i>分类列表</a></li>
-		<li><a href="<?php echo U('setting/reg');?>"><i class='ifa fa-unlock-alt'></i>会员注册</a></li>
-		<li><a href="<?php echo U('setting/pay');?>"><i class='ifa fa-unlock-alt'></i>支付接口</a></li>
-		<li><a href="<?php echo U('setting/weixin_api');?>"><i class='ifa fa-unlock-alt'></i>微信公众号</a></li>
-		<li><a href="<?php echo U('setting/email');?>"><i class='ifa fa-unlock-alt'></i>邮箱配置</a></li>
-		<li><a href="<?php echo U('setting/sms');?>"><i class='ifa fa-unlock-alt'></i>短信配置</a></li>
-		<li><a href="<?php echo U('setting/point');?>"><i class='ifa fa-unlock-alt'></i>积分兑换</a></li>
-		<li><a href="<?php echo U('setting/kefu');?>"><i class='ifa fa-unlock-alt'></i>客服号码</a></li>
 		<?php if($kaoti_setting["biaomoshi"] == '2'): ?><li><a href="<?php echo U('configex/index');?>"><i class='ifa fa-unlock-alt'></i>考题语言</a></li><?php endif; ?>
 	</ul>
   </li>
@@ -139,27 +92,18 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 <!--标题开始-->
 <div class="mytitle" style="z-index:100;">
 	<div class="con">
-		<div class="left"><div class="tt"><?php echo ($mytitle); ?>&nbsp;(<?php echo ($item["num"]); ?>/<?php echo ($item["rowcountz"]); ?>)</div><div class="bb"><a href="<?php echo U('info');?>">添加</a></div><span class="btchazhao">查找</span></div>
+		<div class="left"><div class="tt"><?php echo ($mytitle); ?>&nbsp;(<?php echo ($item["num"]); ?>/<?php echo ($item["rowcountz"]); ?>)</div><div class="bb"><a href="<?php echo U('shouquan/info');?>">添加授权</a></div><span class="btchazhao">查找</span></div>
 		<div class="right">
-			<form id="form1" name="form1" method="get" action="/index.php/Admin/Link/lists/" ><div class="l"></div>
+			<form id="form1" name="form1" method="get" action="/index.php/Admin/Shouquan/lists/"><div class="l"></div>
 			<div  class="r">
 				<div class="row">
-					 <span class="t">分类<em>：</em></span>
-					 <span class="f">
-						 <select name="classid" id="classid" title="分类">
-						 <option value="">请选择</option>
-						<?php if(is_array($classlist)): foreach($classlist as $key=>$row): ?><option value="<?php echo ($row["id"]); ?>"><?php echo ($row["title"]); ?></option><?php endforeach; endif; ?>
-						</select>
-					</span>
+				   <span class="t">关键词<em>：</em></span><span class="f"><input type="text" name="key" id="key" value="<?php echo $_GET[key]?>" class="txt1s"/></span>
 				</div>
 				<div class="row">
-				   <span class="t">标题<em>：</em></span><span class="f"><input type="text" name="title" id="title" value="" class="txt1s"/></span>
+				   <span class="t">ID<em>：</em></span><span class="f"><input type="text" name="id" id="id" value="<?php echo $_GET[id]?>"  class="txt1s"/></span>
 				</div>
 				<div class="row">
-				   <span class="t">ID<em>：</em></span><span class="f"><input type="text" name="id" id="id" value=""  class="txt1s"/></span>
-				</div>
-				<div class="row">
-					<span class="t ts">&nbsp;</span><span class="f"><input type="hidden" name="table" id="table" value="" /><input type="submit" name="search1" id="button" value="查找" class="btsearch44" /></span>
+					<span class="t ts">&nbsp;</span><span class="f"><input type="hidden" name="table" id="table" value="<?php echo $_GET[table]?>" /><input type="submit" name="search" id="button" value="查找" class="btsearch" /></span>
 				</div>
 			</div>
 			</form>
@@ -172,37 +116,33 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
                <table class="tablelist tableloglat" cellspacing="0">
 				<thead>
 					<tr>
-							<th class="tdck"><input type="checkbox" name="ckall"/></th>
-							<th class="td1">编号</th>
-							<th class="td2">标题名称</th>
-							<th class="td3">图片</th>
-							<th class="td4">所在分类</th>
-							<th class="td5">排序</th>
-							<th class="td6">录入日期</th>
-							<th class="tdop">操作</th>
+						<th class='tdck'><input type="checkbox" name="ckall"/></th>
+						<th class='td1'>姓名</th>
+						<th class='td2'>微信号</th>
+						<th class='td3'>起始日期</th>
+                        <th class='td4'>终止日期</th>
+						<th class='td5'>录入日期</th>
+						<th class='tdop'>操作</th>
 					</tr>
 				</thead>
 				<tbody style="text-align:center;">
 					<?php if(is_array($list)): foreach($list as $key=>$value): ?><tr>
-                            <td class="tdck"><input type="checkbox" name="ck" value="<?php echo ($value["id"]); ?>" title="<?php echo ($value["id"]); ?>" /></td>
-							<td class="td1"><?php echo ($value["id"]); ?></td>
-							<td class="td2"><?php echo ($value["title"]); ?></td>
-                            <td class="td3"><?php if($value[photo_small] == '' ): else: ?><img src="/<?php echo ($value["photo_small"]); ?>" style="height:50px;"/><?php endif; ?></td>
-							<td class="td4"><a  href="<?php echo U('link/lists',array('classid'=>$value[classid]));?>"><?php echo ($value["class_caption"]); ?></a></td>
-							<td class="td5"><?php echo ($value["sort"]); ?></td>
-                            <td class="td6"><?php echo ($value["addtime"]); ?></td>
-							<td class="tdop"><a href="<?php echo U('link/info',array('id'=>$value[id]));?>">编辑</a>|<a href="/index.php/Admin/Link/delete/id/<?php echo ($value["id"]); ?>">删除</a></td>
+                            <td class="tdck"><input type="checkbox" name="ck" value="<?php echo ($value["id"]); ?>"  title="ID:<?php echo ($value["id"]); ?>"/></td>
+							<td class="td1"><?php echo ($value["contact"]); ?></td>
+							<td class="td2"><?php echo ($value["weixin"]); ?></td>
+                            <td class="td3"><?php echo ($value["startdate"]); ?></td>
+							<td class="td4"><?php echo ($value["enddate"]); ?></td>
+                            <td class="td5"><?php echo ($value["addtime"]); ?></td>
+							<td class="tdop"><a href="/index.php/Admin/Shouquan/info/id/<?php echo ($value["id"]); ?>">编辑</a>|<a href="/index.php/Admin/Shouquan/delete/id/<?php echo ($value["id"]); ?>">删除</a></td>
 						</tr><?php endforeach; endif; ?>
 				</tbody>
 </table>
 </div>
 <!--主体结束-->
- <script>
- $("#classid").val('<?php echo ($classid); ?>');
- </script>
+
 </div>
 <div class="pagenav"><?php echo ($show); ?></div>
-<div style=" text-align:center;"><a data-url="<?php echo U('delete');?>" onclick="Del(this);">删除选中</a></div>
+<div style=" text-align:center;"><a onclick="Del();">删除选中</a></div>
 </div>
 <script>
   if(window.attachEvent){

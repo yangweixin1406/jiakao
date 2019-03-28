@@ -42,7 +42,6 @@ a{ text-decoration:none;}
 -moz-transform: scale(0.01);
 -ms-transform: scale(0.01);
 transform: scale(0.01); }
-.chezi{ background-image:url(images/che.png);_background-image:url(images/che.gif); background-repeat:no-repeat; background-position:right bottom;}
 *{ outline:none;}
 .listscontent{}
 .listscontent .myleft .bt{ float:left; overflow:hidden; cursor:pointer;}

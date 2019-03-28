@@ -3,28 +3,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>后台管理</title>
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/jquery-1.7.2.min.js"></script>  
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/jquery.cookie.js"></script>  
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/ueditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/ueditor.all.min.js"> </script>
+<script language="javascript" src="/Public/js/jquery-1.7.2.min.js"></script>  
+<script language="javascript" src="/Public/js/jquery.cookie.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/ueditor.all.min.js"> </script>
 <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
 <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/admin/style.css?<?php echo $g_shuiji?>"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/func.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/public.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/create_select_option.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/classoption.js?<?php echo $g_shuiji?>"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/xuanxiang.js?<?php echo $g_shuiji?>"></script>
-<link rel="stylesheet" href="/phpsite/hc/kaoti/kaoti20170406/Public/lightbox/css/lightbox.css" media="screen"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/lightbox/js/lightbox-2.6.min.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/ajax.js"></script>
-<script  src="/phpsite/hc/kaoti/kaoti20170406/Public/duihuakuang/duihuakuang.js?<?php echo $g_shuiji?>"></script>
-<link type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/duihuakuang/duihuakuang.css?<?php echo $g_shuiji?>"  rel="stylesheet"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/layer-v2.3/layer/layer.js"></script>
-<link rel="stylesheet" type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/layer-v2.3/layer/skin/layer.css"/>
-<link rel="stylesheet" href="/phpsite/hc/kaoti/kaoti20170406/Public/font-awesome-4.7.0/css/font-awesome.min.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="/Public/admin/style.css?<?php echo $g_shuiji?>"/>
+<script src="/Public/admin/js/func.js"></script>
+<script src="/Public/admin/js/public.js"></script>
+<script src="/Public/admin/js/create_select_option.js"></script>
+<script src="/Public/admin/js/classoption.js?<?php echo $g_shuiji?>"></script>
+<script src="/Public/admin/js/xuanxiang.js?<?php echo $g_shuiji?>"></script>
+<link rel="stylesheet" href="/Public/lightbox/css/lightbox.css" media="screen"/>
+<script src="/Public/lightbox/js/lightbox-2.6.min.js"></script>
+<script src="/Public/admin/js/ajax.js"></script>
+<script  src="/Public/duihuakuang/duihuakuang.js?<?php echo $g_shuiji?>"></script>
+<link type="text/css" href="/Public/duihuakuang/duihuakuang.css?<?php echo $g_shuiji?>"  rel="stylesheet"/>
+<script src="/Public/layer-v2.3/layer/layer.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/layer-v2.3/layer/skin/layer.css"/>
+<link rel="stylesheet" href="/Public/font-awesome-4.7.0/css/font-awesome.min.css" media="screen"/>
 <style>
 *{font-size:12px;}
 html,body{ padding:0px;margin:0px;}

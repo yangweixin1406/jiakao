@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>欢迎体验ThinkPHP登陆演示</title>
+<title>大信驾考理论学习系统后台</title>
 <style>
 *{ font-family:"微软雅黑"}
 .table_login{ background-color:#CCC}
@@ -24,7 +24,7 @@
     </tr>
     <tr>
       <td>密码：</td>
-      <td> <input type="text" name="userpwd" id="textfield2" /></td>
+      <td> <input type="password" name="userpwd" id="textfield2" /></td>
     </tr>
     <tr>
       <td colspan="2" align="center">

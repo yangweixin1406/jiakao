@@ -74,7 +74,6 @@ function loadimg(src){
 	img.src=src;
 }
 
-//网站技术支持QQ 632175205 
 window.g_lang="<?php echo ($lang); ?>";
 window.g_act="<?php echo ($act); ?>";
 window.userid="<?php echo ($_SESSION['userq']['id']); ?>";
@@ -128,7 +127,6 @@ body,html,.listscontent{ overflow:hidden;}
 </style>
 <script language="javascript" src="/Public/exam/kaoti.js"></script>
 <script>
-//APP技术服务:QQ 632175205 下午在线
 var examstr='<?php echo ($examstr); ?>';
 if($.cookie('exam')==""){
    $.cookie('exam', '', { expires: 7, path: '/' });
@@ -186,7 +184,6 @@ $(function(){
 <style>
 </style>
 <script>
-//网站技术支持QQ 632175205 
 var mybody_b=$(".mybody_b");
 var mymain=$("#mymain");
 //mybody_b.css({height:$(window).height()+"px",width:$(window).width()+"px"});

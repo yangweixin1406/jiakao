@@ -75,7 +75,6 @@ function loadimg(src){
 	img.src=src;
 }
 
-//网站技术支持QQ 632175205 
 window.g_lang="<?php echo ($lang); ?>";
 window.g_act="<?php echo ($act); ?>";
 window.userid="<?php echo ($_SESSION['userq']['id']); ?>";
@@ -113,17 +112,71 @@ var cururl=String(window.location);
 
 
 <style>
-*{ font-family:"微软雅黑"}
-.table_login{ mmbackground-color:#CCC; width:300px;}
-.table_login th{ mmmbackground-color:#CCC}
-.table_login td{ mmbackground-color:#FFF}
-.table_login .td1{ color:#fff;}
-.txt{ padding:15px; width:260px; border:solid #099 1px;}
-.mytitle{font-size:30px; text-align:center; height:auto; overflow:hidden; color:#fff; margin:10px; border-bottom:#77f4d5 solid 2px; padding-top:30px; padding-bottom:30px; margin-bottom:30px; }
-.mytitle h1{ margin:0px;}
-.btsend{ height:50px; width:120px; cursor:pointer; background-color:#099; color:#FFFFFF; border:0px;}
-html{background-color:#0C9; background-attachment:fixed; background-color:#1BBC9B; height:100%; background-image:url(/Public/home/images/che.png);_background-image:url(/Public/home/images/che.gif); background-repeat:no-repeat; background-position:right bottom;}
-.pline a{ padding:5px; color:#666; background-color:#FFFFFF}
+  * {
+    font-family: "微软雅黑"
+  }
+
+  .table_login {
+    mmbackground-color: #CCC;
+    width: 300px;
+  }
+
+  .table_login th {
+    mmmbackground-color: #CCC
+  }
+
+  .table_login td {
+    mmbackground-color: #FFF
+  }
+
+  .table_login .td1 {
+    color: #fff;
+  }
+
+  .txt {
+    padding: 15px;
+    width: 260px;
+    border: solid #099 1px;
+  }
+
+  .mytitle {
+    font-size: 30px;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    color: #fff;
+    margin: 10px;
+    border-bottom: #77f4d5 solid 2px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .mytitle h1 {
+    margin: 0px;
+  }
+
+  .btsend {
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    background-color: #099;
+    color: #FFFFFF;
+    border: 0px;
+  }
+
+  html {
+    background-color: #0C9;
+    background-attachment: fixed;
+    background-color: #1BBC9B;
+    height: 100%;
+  }
+
+  .pline a {
+    padding: 5px;
+    color: #666;
+    background-color: #FFFFFF
+  }
 </style>
 </head>
 <body>

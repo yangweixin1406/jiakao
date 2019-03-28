@@ -4,31 +4,31 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 <title><?php echo ($webtitle); ?></title>
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/jquery-1.7.2.min.js"></script>  
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/jquery.cookie.js"></script>  
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/ueditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/ueditor.all.min.js"> </script>
+<script language="javascript" src="/Public/js/jquery-1.7.2.min.js"></script>  
+<script language="javascript" src="/Public/js/jquery.cookie.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/ueditor.all.min.js"> </script>
 <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
 <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
-<script type="text/javascript" charset="utf-8" src="/phpsite/hc/kaoti/kaoti20170406/Public/ueditor1_4_3_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/ueditor1_4_3_2-utf8-php/lang/zh-cn/zh-cn.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/admin/style.css?<?php echo $g_shuiji?>"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/func.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/public.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/create_select_option.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/classoption.js?<?php echo $g_shuiji?>"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/xuanxiang.js?<?php echo $g_shuiji?>"></script>
-<link rel="stylesheet" href="/phpsite/hc/kaoti/kaoti20170406/Public/lightbox/css/lightbox.css" media="screen"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/lightbox/js/lightbox-2.6.min.js"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/admin/js/ajax.js"></script>
-<script  src="/phpsite/hc/kaoti/kaoti20170406/Public/duihuakuang/duihuakuang.js?<?php echo $g_shuiji?>"></script>
-<link type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/duihuakuang/duihuakuang.css?<?php echo $g_shuiji?>"  rel="stylesheet"/>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/layer-v2.3/layer/layer.js"></script>
-<link rel="stylesheet" type="text/css" href="/phpsite/hc/kaoti/kaoti20170406/Public/layer-v2.3/layer/skin/layer.css"/>
-<link rel="stylesheet" href="/phpsite/hc/kaoti/kaoti20170406/Public/font-awesome-4.7.0/css/font-awesome.min.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="/Public/admin/style.css?<?php echo $g_shuiji?>"/>
+<script src="/Public/admin/js/func.js"></script>
+<script src="/Public/admin/js/public.js"></script>
+<script src="/Public/admin/js/create_select_option.js"></script>
+<script src="/Public/admin/js/classoption.js?<?php echo $g_shuiji?>"></script>
+<script src="/Public/admin/js/xuanxiang.js?<?php echo $g_shuiji?>"></script>
+<link rel="stylesheet" href="/Public/lightbox/css/lightbox.css" media="screen"/>
+<script src="/Public/lightbox/js/lightbox-2.6.min.js"></script>
+<script src="/Public/admin/js/ajax.js"></script>
+<script  src="/Public/duihuakuang/duihuakuang.js?<?php echo $g_shuiji?>"></script>
+<link type="text/css" href="/Public/duihuakuang/duihuakuang.css?<?php echo $g_shuiji?>"  rel="stylesheet"/>
+<script src="/Public/layer-v2.3/layer/layer.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/layer-v2.3/layer/skin/layer.css"/>
+<link rel="stylesheet" href="/Public/font-awesome-4.7.0/css/font-awesome.min.css" media="screen"/>
 </head>
 <body>
-<script language="javascript" src="/phpsite/hc/kaoti/kaoti20170406/Public/js/loadico.js"></script>  
+<script language="javascript" src="/Public/js/loadico.js"></script>  
 <script>
 loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 </script>
@@ -179,9 +179,9 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 	     <ul class="ul_info" id="ul_qturl" style="display:none;">
 		     <li class="li1">前台url：</li>
 		     <li class="li2">
-						<a href="/phpsite/hc/kaoti/kaoti20170406/index.php?m=Qiyue&c=News&a=info&id=<?php echo ($info["id"]); ?>" target="_blank">/phpsite/hc/kaoti/kaoti20170406/index.php?m=Qiyue&c=News&a=info&id=<?php echo ($info["id"]); ?></a>
+						<a href="/index.php?m=Qiyue&c=News&a=info&id=<?php echo ($info["id"]); ?>" target="_blank">/index.php?m=Qiyue&c=News&a=info&id=<?php echo ($info["id"]); ?></a>
 						<br/>
-						<a href="/phpsite/hc/kaoti/kaoti20170406/index.php?m=Qiyue&c=about&a=info&id=<?php echo ($info["id"]); ?>" target="_blank">/phpsite/hc/kaoti/kaoti20170406/index.php?m=Qiyue&c=about&a=info&id=<?php echo ($info["id"]); ?></a>
+						<a href="/index.php?m=Qiyue&c=about&a=info&id=<?php echo ($info["id"]); ?>" target="_blank">/index.php?m=Qiyue&c=about&a=info&id=<?php echo ($info["id"]); ?></a>
 			 </li>
 		 </ul>
 		 <script> var id="<?php echo ($info["id"]); ?>";if(id!=""){$("#ul_qturl").show();}</script>
@@ -227,10 +227,10 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 ClassOption().init({url:"<?php echo U('class/classoption');?>","id":"classno","fatherno":"<?php echo $GLOBALS['g_product']['classno']?>","classno":"<?php echo $info['classno']?>"});
 </script>
 
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/uploadhtml5e/js/hcsy.js?3"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/uploadhtml5e/js/hcfile.config-0.3.js?2"></script>
-<script src="/phpsite/hc/kaoti/kaoti20170406/Public/uploadhtml5e/js/hcfile-0.3.js?3"></script>
-<link href="/phpsite/hc/kaoti/kaoti20170406/Public/uploadhtml5e/js/hcfile03.css" rel="stylesheet" type="text/css">
+<script src="/Public/uploadhtml5e/js/hcsy.js?3"></script>
+<script src="/Public/uploadhtml5e/js/hcfile.config-0.3.js?2"></script>
+<script src="/Public/uploadhtml5e/js/hcfile-0.3.js?3"></script>
+<link href="/Public/uploadhtml5e/js/hcfile03.css" rel="stylesheet" type="text/css">
 <script>
 
 var priceoption_json='<?php echo ($info["priceoption"]); ?>';
@@ -242,7 +242,7 @@ xuanxiang().init({parentid:"canshuoption1",name:"canshuoption",fields:[{"title":
 <script>
 
   hcfile().Init({
-		  url:"/phpsite/hc/kaoti/kaoti20170406/Public/uploadhtml5e/include/php/ajax.php",
+		  url:"/Public/uploadhtml5e/include/php/ajax.php",
 		  maxnum:10,//只能上传N张
 		  type:"img",//yinpin:仅上传音频文件,shipin:仅上传视频文件,img:仅上传图片,不填或all表示全部
 		  input_id:"photos",//存多张图片路径的input的id
@@ -258,9 +258,9 @@ xuanxiang().init({parentid:"canshuoption1",name:"canshuoption",fields:[{"title":
 		  select_num_id:"select_num", //可以不填写，显示当前要上传的文件个数的对象id
 		  success_num_id:"success_num", //可以不填写，显示当前要已上传的文件总个数的对象id
 		  max_num_id:"max_num", //可以不填写，显示允许上传的个数
-		  siteurl_file:"/phpsite/hc/kaoti/kaoti20170406/",
-		  ico_path:"/phpsite/hc/kaoti/kaoti20170406/Public/uploadhtml5e/images/",
-		  down_url:"/phpsite/hc/kaoti/kaoti20170406/Public/uploadhtml5e/include/php/down.php",//可以不填写，下载的
+		  siteurl_file:"/",
+		  ico_path:"/Public/uploadhtml5e/images/",
+		  down_url:"/Public/uploadhtml5e/include/php/down.php",//可以不填写，下载的
 		  bt_del_text:"删除",
 		  upload_show:{date:0,size:0,name:0,bar:1,baifenbi:1,del:0,bg:1},//上传过程中要显示的元素,1:显示,0不显示 date(日期) size(大小) name(标题) bar(进度条) baifenbi(进度条) del(删除按钮)
 		  success_show:{date:0,size:0,name:1,bar:0,baifenbi:0,del:1,bg:0},//上传完后要显示的元素,1:显示,0不显
