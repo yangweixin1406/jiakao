@@ -1,0 +1,1963 @@
+[ 2019-04-15T09:37:42+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013688s ]
+
+[ 2019-04-15T09:37:42+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-04-15T09:37:43+08:00 ] ::1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.1491s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 64 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 65 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 67 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 78 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 79 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 80 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 85 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.178621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044647s ]
+
+[ 2019-04-15T09:37:49+08:00 ] ::1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-04-15T09:37:50+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2019-04-15T09:37:55+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 78 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2019-04-15T09:38:57+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2019-04-15T09:39:36+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 78 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2019-04-15T09:39:40+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0501s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0113s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0023s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2019-04-15T09:39:45+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2019-04-15T09:48:36+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 78 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2019-04-15T09:48:40+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2019-04-15T09:58:07+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 78 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2019-04-15T09:58:11+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0101s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0031s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2019-04-15T09:58:14+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='8',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '5a927c3d8ebd346a8ac31c164e0bfaec' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','366','5a927c3d8ebd346a8ac31c164e0bfaec','1','exam','Y','车辆在冰雪路面紧急制动易产生侧滑，应低速行驶，可利用发动机制动进行减速。','1','1555293494') [ RunTime:0.0054s ]
+
+[ 2019-04-15T09:58:16+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='9',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '2d634d36b2f091c06a6f923b54189073' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','8','2d634d36b2f091c06a6f923b54189073','1','exam','N','这个标志的含义是提醒车辆驾驶人前方是堤坝路段。','1','1555293496') [ RunTime:0.0029s ]
+
+[ 2019-04-15T09:58:18+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='10',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'd8340f930c12b2c388fba3cd10c82ec5' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','426','d8340f930c12b2c388fba3cd10c82ec5','0','exam','Y','如图所示，在这种情况下，A车可以向左变更车道。','1','1555293498') [ RunTime:0.0019s ]
+
+[ 2019-04-15T09:58:24+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='11',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'a018c48d834e34ce7e109af6b1f304ab' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','280','a018c48d834e34ce7e109af6b1f304ab','1','exam','Y','这个标志的含义是警告车辆驾驶人注意前方设有信号灯。','1','1555293504') [ RunTime:0.0019s ]
+
+[ 2019-04-15T09:58:32+08:00 ] ::1 /index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: p D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 92 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 66 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2019-04-15T09:58:42+08:00 ] ::1 /index.php/Home/Exam/lists/act/suiji/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY RAND() LIMIT 0,100   [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 66 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2019-04-15T09:59:11+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+
+[ 2019-04-15T09:59:14+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2019-04-15T09:59:29+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 78 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2019-04-15T09:59:38+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2019-04-15T10:02:19+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 61 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 63 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 64 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2019-04-15T10:24:13+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 66 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 77 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 78 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2019-04-15T10:24:34+08:00 ] ::1 /index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: p D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 92 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 66 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2019-04-15T10:24:40+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2019-04-15T10:24:45+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='12',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '963e4d572db36b575d5e55062a3744e9' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','242','963e4d572db36b575d5e55062a3744e9','1','exam','Y','仪表显示油箱内存油量已在警告线以内。','1','1555295085') [ RunTime:0.0011s ]
+
+[ 2019-04-15T10:24:49+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='13',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '740a1e5570ab9e4177a76041564a4b05' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','164','740a1e5570ab9e4177a76041564a4b05','1','exam','N','通过急转弯路段时，在车辆较少的情况下可以超车。','1','1555295089') [ RunTime:0.0014s ]
+
+[ 2019-04-15T10:24:54+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='14',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'dfb2c7b8840fdad6e38262458abc8f0d' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','206','dfb2c7b8840fdad6e38262458abc8f0d','1','exam','N','驾驶机动车在道路上超车时可以不使用转向灯。','1','1555295094') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:25:02+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='15',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '84d76b6d8513fe44978664886d14d82b' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','323','84d76b6d8513fe44978664886d14d82b','1','exam','N','驾驶机动车遇到这种信号灯，可在对面直行车前直接向左转弯。','1','1555295102') [ RunTime:0.0007s ]
+
+[ 2019-04-15T10:25:05+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='16',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'fa5e46d05e19353ec41def26cf0ceb06' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','315','fa5e46d05e19353ec41def26cf0ceb06','1','exam','Y','道路交通安全违法行为累积记分一个周期满分为12分。','1','1555295105') [ RunTime:0.0015s ]
+
+[ 2019-04-15T10:25:09+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='17',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'a7bf3d5ff8e6fd7c489735621d626175' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','212','a7bf3d5ff8e6fd7c489735621d626175','1','exam','N','驾驶机动车在道路上向右变更车道可以不使用转向灯。','1','1555295109') [ RunTime:0.0016s ]
+
+[ 2019-04-15T10:25:19+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='18',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '53116dc1160d9ae425b876b60f368017' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','234','53116dc1160d9ae425b876b60f368017','0','exam','N','车辆下长坡时要减挡行驶，以充分利用发动机的制动作用。','1','1555295119') [ RunTime:0.0023s ]
+
+[ 2019-04-15T10:25:20+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='19',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'eaa2d1be86409618da0a1c1267b26de8' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','76','eaa2d1be86409618da0a1c1267b26de8','1','exam','Y','牵引故障车时，牵引与被牵引的机动车，在行驶中都要开启危险报警闪光灯。','1','1555295120') [ RunTime:0.0009s ]
+
+[ 2019-04-15T10:25:32+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='20',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '3c7518667d6f77cc4bc001a13786d322' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','52','3c7518667d6f77cc4bc001a13786d322','1','exam','N','这个路段可以在非机动车道上临时停车。','1','1555295132') [ RunTime:0.0021s ]
+
+[ 2019-04-15T10:25:39+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='21',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '2f9a90af2ca0a7009ffcf72e917ef097' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','411','2f9a90af2ca0a7009ffcf72e917ef097','1','exam','Y','机动车仪表板上（如图所示）亮时，表示驻车制动器处于制动状态。','1','1555295139') [ RunTime:0.0022s ]
+
+[ 2019-04-15T10:25:49+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='22',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'a217e7bc13094baa79cf0e2d0717973a' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','265','a217e7bc13094baa79cf0e2d0717973a','1','exam','Y','驾驶有ABS系统的机动车在紧急制动的同时转向可能会发生侧滑。','1','1555295149') [ RunTime:0.0022s ]
+
+[ 2019-04-15T10:25:52+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='23',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'c96b9479753fda52c7e7d7a01acb49c8' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','357','c96b9479753fda52c7e7d7a01acb49c8','1','exam','N','饮酒后只要不影响驾驶操作可以短距离驾驶机动车。','1','1555295152') [ RunTime:0.0021s ]
+
+[ 2019-04-15T10:25:57+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='24',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '035c145f748237c5132e54d45dd6902e' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','116','035c145f748237c5132e54d45dd6902e','0','exam','N','如图所示，当您超越右侧车辆时，应该尽快超越，减少并行时间。','1','1555295157') [ RunTime:0.0010s ]
+
+[ 2019-04-15T10:26:30+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='25',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '498e1f7ed788e9a3b44c933cc14fe3e4' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','365','498e1f7ed788e9a3b44c933cc14fe3e4','1','exam','N','在这个路口可以掉头。','1','1555295190') [ RunTime:0.0011s ]
+
+[ 2019-04-15T10:26:35+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='26',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '13d51703b0cad03887c492769629d9a4' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','432','13d51703b0cad03887c492769629d9a4','1','exam','N','如图所示，在这种情况下遇到红灯交替闪烁时，要尽快通过道口。','1','1555295195') [ RunTime:0.0022s ]
+
+[ 2019-04-15T10:26:38+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='27',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '111e0bf0c01ebb9fe1ccba2d1dca6d04' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','68','111e0bf0c01ebb9fe1ccba2d1dca6d04','1','exam','Y','打开机动车车门时，不得妨碍其他车辆和行人通行。','1','1555295198') [ RunTime:0.0018s ]
+
+[ 2019-04-15T10:26:44+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='28',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '33dd83cd9281bf4687d71905dba24f6b' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','272','33dd83cd9281bf4687d71905dba24f6b','1','exam','N','对有使用伪造或变造检验合格标志嫌疑的车辆，交通警察只进行罚款处罚。','1','1555295204') [ RunTime:0.0008s ]
+
+[ 2019-04-15T10:26:52+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='29',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '813a218ccb38fb10ec0f0303d6c57c40' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','109','813a218ccb38fb10ec0f0303d6c57c40','1','exam','Y','驾驶车辆进入交叉路口前，应降低行驶速度，注意观察，确认安全。','1','1555295212') [ RunTime:0.0025s ]
+
+[ 2019-04-15T10:26:56+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='30',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'fbf27310f5253e72af7c0e3b6008bf81' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','101','fbf27310f5253e72af7c0e3b6008bf81','1','exam','N','车辆驶入匝道后，迅速将车速提高到每小时60公里以上。','1','1555295216') [ RunTime:0.0010s ]
+
+[ 2019-04-15T10:27:02+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='31',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'e5da5f6e8430990568ac8457a38532aa' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','267','e5da5f6e8430990568ac8457a38532aa','1','exam','Y','夜间行车，遇对面来车未关闭远光灯时，应减速行驶，以防两车灯光的交汇处有行人通过时发生事故。','1','1555295222') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:27:07+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='32',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'eaa94b5ee1d95600e17dadc79cb572b4' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','122','eaa94b5ee1d95600e17dadc79cb572b4','0','exam','N','如图所示，这这种情况下只要后方、对向无来车，可以掉头。','1','1555295227') [ RunTime:0.0021s ]
+
+[ 2019-04-15T10:27:40+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='33',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '7418c09f856559b3be6910c17d36b961' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','438','7418c09f856559b3be6910c17d36b961','0','exam','Y','机动车驾驶证有效期分为6年、10年、20年。','1','1555295260') [ RunTime:0.0020s ]
+
+[ 2019-04-15T10:28:01+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='34',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '51d6391a01dee119ffae7599b4c21979' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','290','51d6391a01dee119ffae7599b4c21979','0','exam','N','这个标志的含义是提醒车辆驾驶人前方路面颠簸或有桥头跳车现象。','1','1555295281') [ RunTime:0.0014s ]
+
+[ 2019-04-15T10:28:05+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='35',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'd9ec835e2b3c079e8827b93ade2aa2bb' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','745','d9ec835e2b3c079e8827b93ade2aa2bb','0','exam','N','机动车仪表板上（如图所示）亮时表示什么？','1','1555295285') [ RunTime:0.0021s ]
+
+[ 2019-04-15T10:28:06+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='36',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'cf14fd1fc5187555bec0aae0e0d67476' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','157','cf14fd1fc5187555bec0aae0e0d67476','1','exam','N','使用其他机动车号牌、行驶证的一次记3分。','1','1555295286') [ RunTime:0.0008s ]
+
+[ 2019-04-15T10:28:09+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='37',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '72a084bd0f893a6b0f0cd1ed0fd34750' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','393','72a084bd0f893a6b0f0cd1ed0fd34750','0','exam','N','驾驶机动车要选择绿色箭头灯亮的车道行驶。','1','1555295289') [ RunTime:0.0010s ]
+
+[ 2019-04-15T10:28:10+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='38',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'ebe1fe91d63db52e1889546a0dbe6c29' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','137','ebe1fe91d63db52e1889546a0dbe6c29','0','exam','Y','在道路上超车时，应尽量加大横向距离，必要时可越实线超车。','1','1555295290') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:28:12+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='39',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '3374d220edea5f6b63fbc0858c144b79' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','108','3374d220edea5f6b63fbc0858c144b79','0','exam','N','通过窄路、窄桥时，不得超车。','1','1555295292') [ RunTime:0.0014s ]
+
+[ 2019-04-15T10:28:19+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='40',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'ea3f70c4e6a8e885d43bacdb282e1e8a' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','124','ea3f70c4e6a8e885d43bacdb282e1e8a','1','exam','N','遇前方路段车道减少，车辆行驶缓慢，为保证道路通畅，应借对向车道迅速通过。','1','1555295299') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:28:32+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='41',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '0e55a06f0dae71242e3c8543c8c43f28' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','177','0e55a06f0dae71242e3c8543c8c43f28','1','exam','Y','行车中当车辆前轮爆胎已发生转向时，驾驶人应双手紧握转向盘，尽力控制车辆直线行驶。','1','1555295312') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:28:38+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='42',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '26b68150bba34d9a1479eb8ede0d40b9' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','310','26b68150bba34d9a1479eb8ede0d40b9','1','exam','Y','驾驶机动车在上道路行驶前驾驶人要按规定系好安全带。','1','1555295318') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:28:44+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='43',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'ca0266f037cd03ecd0645ed8f7058e9f' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','74','ca0266f037cd03ecd0645ed8f7058e9f','1','exam','Y','如图所示，机动车遇行人正在通过人行横道时，要停车让行，是因为行人享有优先通行权。','1','1555295324') [ RunTime:0.0009s ]
+
+[ 2019-04-15T10:28:50+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='44',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'd14a72a4ae586009b0cb3135a60ab43d' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','47','d14a72a4ae586009b0cb3135a60ab43d','0','exam','Y','驾驶机动车找不到停车位时可以借人行道停放。','1','1555295330') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:29:17+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='45',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '7fcb191b954f48aba99dfdf7824d1d0d' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','202','7fcb191b954f48aba99dfdf7824d1d0d','1','exam','N','驾驶机动车行驶到这个位置时，如果车前轮已越过停止线可以继续通过。','1','1555295357') [ RunTime:0.0014s ]
+
+[ 2019-04-15T10:29:22+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='46',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'b6e25da770658ac5c0248a3b4cd5b73d' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','193','b6e25da770658ac5c0248a3b4cd5b73d','1','exam','Y','驾驶人有使用其他车辆检验合格标志嫌疑的，交通警察依法扣留车辆。','1','1555295362') [ RunTime:0.0009s ]
+
+[ 2019-04-15T10:29:26+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='47',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'd48f6bd07d350687c25455ef267a2e02' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','139','d48f6bd07d350687c25455ef267a2e02','1','exam','Y','驾驶人有使用其他车辆号牌、行驶证嫌疑的，交通警察依法扣留车辆。','1','1555295366') [ RunTime:0.0023s ]
+
+[ 2019-04-15T10:29:30+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='48',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '9c8cad61899907e9c422f883d5515992' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','311','9c8cad61899907e9c422f883d5515992','1','exam','N','机动车上路行驶时，前排乘车人可不系安全带。','1','1555295370') [ RunTime:0.0008s ]
+
+[ 2019-04-15T10:29:42+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='49',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'c04f30113ab888fe9ebe077499704023' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','407','c04f30113ab888fe9ebe077499704023','1','exam','Y','机动车驾驶人在实习期内有记满12分记录的，注销其实习的准驾车型驾驶资格。','1','1555295382') [ RunTime:0.0020s ]
+
+[ 2019-04-15T10:29:49+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='50',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '5aec6dd003feab18b4f3dc0254fc9e0e' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','62','5aec6dd003feab18b4f3dc0254fc9e0e','1','exam','N','变更车道时只需开启转向灯，便可迅速转向驶入相应的行车道。','1','1555295389') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:30:15+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='51',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '6c4fecd4618015221e1d3353b8ca0cf4' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','608','6c4fecd4618015221e1d3353b8ca0cf4','0','exam','D','这是什么交通标志？','1','1555295415') [ RunTime:0.0019s ]
+
+[ 2019-04-15T10:30:36+08:00 ] ::1 /index.php/Home/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+
+[ 2019-04-15T10:30:53+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='52',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '963e4d572db36b575d5e55062a3744e9' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_answer` SET `time`='1555295453' WHERE `id` = 67 [ RunTime:0.0014s ]
+
+[ 2019-04-15T10:31:01+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0017s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2019-04-15T10:31:08+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0025s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2019-04-15T10:31:14+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='53',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '0485f2f140c84748587e65892d739bd1' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','185','0485f2f140c84748587e65892d739bd1','0','exam','Y','机动车仪表板上（如图所示）亮时，防抱死制动系统处于打开状态。','1','1555295474') [ RunTime:0.0020s ]
+
+[ 2019-04-15T10:31:20+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0023s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 61 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2019-04-15T10:31:24+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='54',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'f40b815b8768b6c4e491ce3cc0075b44' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','37','f40b815b8768b6c4e491ce3cc0075b44','1','exam','Y','驾驶车辆通过人行横道线时，应注意礼让行人。','1','1555295484') [ RunTime:0.0024s ]
+
+[ 2019-04-15T10:32:18+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='55',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'ba02dcb3f8c921155d5e0ca3305eb08b' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('1','208','ba02dcb3f8c921155d5e0ca3305eb08b','1','exam','Y','不要在驾驶室的前后窗范围内悬挂和放置妨碍驾驶人视线的物品。','1','1555295538') [ RunTime:0.0020s ]
+

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?php echo ($webtitle); ?></title>
+<title>理论学习中心</title>
 <meta name="viewport" content="target-densitydpi=medium-dpi,  initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 <script language="javascript" src="/Public/js/jquery-1.8.3.min.js"></script>
 <script language="javascript" src="/Public/js/jquery.cookie.js"></script>
@@ -113,7 +113,7 @@ var cururl=String(window.location);
 </head>
 <body>
 <div class="mybody_b" style="display:none;">
-<div class="curnav"><a  class="back" href="/index.php"><em>d</em></a><center><?php echo ($webtitle); ?></center><a class="amenu">≡</a></div>
+<div class="curnav"><a  class="back" href="/index.php"><em>d</em></a><center>理论学习中心</center><a class="amenu">≡</a></div>
 <div class="padding10">
 <div id="exam_menu">
 <ul class="ul_menu">

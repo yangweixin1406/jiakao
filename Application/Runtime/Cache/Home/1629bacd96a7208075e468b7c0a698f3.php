@@ -158,7 +158,6 @@ kaoti20170414.init({table:conf.table,app:conf.app,module:conf.module});
 <style>
 </style>
 <script>
-//网站技术支持QQ 632175205 
 var mybody_b=$(".mybody_b");
 var mymain=$("#mymain");
 //mybody_b.css({height:$(window).height()+"px",width:$(window).width()+"px"});

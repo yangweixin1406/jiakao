@@ -1,5 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" class="chezi">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php echo ($web["title"]); ?></title>
@@ -74,7 +74,6 @@ function loadimg(src){
 	img.src=src;
 }
 
-//网站技术支持QQ 632175205 
 window.g_lang="<?php echo ($lang); ?>";
 window.g_act="<?php echo ($act); ?>";
 window.userid="<?php echo ($_SESSION['userq']['id']); ?>";
@@ -117,7 +116,7 @@ var cururl=String(window.location);
 <div class="curnav"><a  class="back" href="/index.php"><em>d</em></a><center><?php echo ($web["title"]); ?></center><a class="amenu">≡</a></div>
 <div class="mymain" id="mymain">
 <div class="padding10">
-<div class="titleinfo1">在线购买</div>
+<div class="titleinfo1">注册账户</div>
 <form method="post" id="form1" action="/index.php/Home/User/reg" onsubmit="return check();">
           <table style="width:100%; margin-left:auto; margin-right:auto;" cellpadding="1" class="tableinfo2">
 				  <tr>
@@ -159,7 +158,6 @@ var cururl=String(window.location);
 </div>
 </div>
 <script>
-//网站技术支持QQ 632175205 
 $(".ul_menusub2").css({"display":""});
 $(".ul_menu").each(function(){
 	$(this).find(".subtitle1").click(function(){
@@ -186,7 +184,6 @@ $(".ul_menu").each(function(){
 <style>
 </style>
 <script>
-//网站技术支持QQ 632175205 
 var mybody_b=$(".mybody_b");
 var mymain=$("#mymain");
 //mybody_b.css({height:$(window).height()+"px",width:$(window).width()+"px"});
@@ -302,18 +299,18 @@ $(".smscode").click(function(){
 					  var timedj=window.setInterval(function(){
 					        dj++;
 					        if(dj<60){
-					          bt.val("已发送("+dj+")"); 
+					          bt.val("已发送("+dj+")");
 							}else{
-							  bt.val("重新发送"); 
+							  bt.val("重新发送");
 							  bt.removeAttr("disabled");
 							  window.clearInterval(timedj);
 							}
 					  },1000);
-					  
+
 				      window.setTimeout(function(){
-					          bt.val("重新发送");  
+					          bt.val("重新发送");
 					  },1000*60);
-				      bt.val("已发送"); 
+				      bt.val("已发送");
 
 	}
 	})
@@ -338,23 +335,23 @@ $(".emailcode").click(function(){
 					  var timedj=window.setInterval(function(){
 					        dj++;
 					        if(dj<60){
-					          bt.val("已发送("+dj+")"); 
+					          bt.val("已发送("+dj+")");
 							}else{
 							  bt.removeAttr("disabled");
-							  bt.val("重新发送"); 
+							  bt.val("重新发送");
 							  window.clearInterval(timedj);
 							}
 					  },1000);
-					  
+
 				      window.setTimeout(function(){
-					          bt.val("重新发送");  
+					          bt.val("重新发送");
 					  },1000*60);
-				      bt.val("已发送"); 
+				      bt.val("已发送");
 
 	}
 	})
 });
-//$.cookie("currentMenuID", "menuID", { path: "/"}); 
+//$.cookie("currentMenuID", "menuID", { path: "/"});
 var weburl="";//右键查看网页源码，你会看出这个有值，有关 thinkphp 常量：http://document.thinkphp.cn/manual_3_2.html#const_reference
 
 function check(){
@@ -385,7 +382,7 @@ function check(){
 					 return false;
 				 }
 		   }
-		   
+
 	       if(databijiao!=null){
 		     var input1=$("input[name='"+databijiao+"']");
 		      if(input.val()!=input1.val()){

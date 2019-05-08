@@ -74,7 +74,6 @@ function loadimg(src){
 	img.src=src;
 }
 
-//网站技术支持QQ 632175205 
 window.g_lang="<?php echo ($lang); ?>";
 window.g_act="<?php echo ($act); ?>";
 window.userid="<?php echo ($_SESSION['userq']['id']); ?>";
@@ -161,7 +160,6 @@ kaoti20170414.init({table:"<?php echo ($objtable); ?>",app:conf.app,module:conf.
 <style>
 </style>
 <script>
-//网站技术支持QQ 632175205 
 var mybody_b=$(".mybody_b");
 var mymain=$("#mymain");
 //mybody_b.css({height:$(window).height()+"px",width:$(window).width()+"px"});

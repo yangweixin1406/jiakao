@@ -10,7 +10,7 @@
 <div class="curnav"><a  class="back" href="__APP__"><em>d</em></a><center>{$web.title}</center><a class="amenu">≡</a></div>
 <div class="mymain" id="mymain">
 <div class="padding10">
-<div class="titleinfo1">在线购买</div>
+<div class="titleinfo1">注册账户</div>
 <form method="post" id="form1" action="__CONTROLLER__/reg" onsubmit="return check();">
           <table style="width:100%; margin-left:auto; margin-right:auto;" cellpadding="1" class="tableinfo2">
 				  <tr>
@@ -42,7 +42,7 @@
 					 <td class="td1">验证码：</td>
 					 <td class="td2"><input type="text"  value="" class="txt"  style="width:40%; float:left;"  name="code" placeholder="请输入验证码" /><img id="mycode" src="" class="imgcode1" style="float:left; height:32px;"/></td>
 				  </tr>
-<else/> 
+<else/>
 
 </if>
 				  <tr>
@@ -86,18 +86,18 @@ $(".smscode").click(function(){
 					  var timedj=window.setInterval(function(){
 					        dj++;
 					        if(dj<60){
-					          bt.val("已发送("+dj+")"); 
+					          bt.val("已发送("+dj+")");
 							}else{
-							  bt.val("重新发送"); 
+							  bt.val("重新发送");
 							  bt.removeAttr("disabled");
 							  window.clearInterval(timedj);
 							}
 					  },1000);
-					  
+
 				      window.setTimeout(function(){
-					          bt.val("重新发送");  
+					          bt.val("重新发送");
 					  },1000*60);
-				      bt.val("已发送"); 
+				      bt.val("已发送");
 
 	}
 	})
@@ -122,23 +122,23 @@ $(".emailcode").click(function(){
 					  var timedj=window.setInterval(function(){
 					        dj++;
 					        if(dj<60){
-					          bt.val("已发送("+dj+")"); 
+					          bt.val("已发送("+dj+")");
 							}else{
 							  bt.removeAttr("disabled");
-							  bt.val("重新发送"); 
+							  bt.val("重新发送");
 							  window.clearInterval(timedj);
 							}
 					  },1000);
-					  
+
 				      window.setTimeout(function(){
-					          bt.val("重新发送");  
+					          bt.val("重新发送");
 					  },1000*60);
-				      bt.val("已发送"); 
+				      bt.val("已发送");
 
 	}
 	})
 });
-//$.cookie("currentMenuID", "menuID", { path: "/"}); 
+//$.cookie("currentMenuID", "menuID", { path: "/"});
 var weburl="__ROOT__";//右键查看网页源码，你会看出这个有值，有关 thinkphp 常量：http://document.thinkphp.cn/manual_3_2.html#const_reference
 
 function check(){
@@ -169,7 +169,7 @@ function check(){
 					 return false;
 				 }
 		   }
-		   
+
 	       if(databijiao!=null){
 		     var input1=$("input[name='"+databijiao+"']");
 		      if(input.val()!=input1.val()){

@@ -6,16 +6,14 @@ class ExamController extends \Home\Controller\CommExamController {
 	public $fatherno="00010004";
 	public $lang="汉语";
     public function index(){
-		//http://document.thinkphp.cn/manual_3_2.html#where
-
 		$mod=D($this->tablename);
 		$class=M("class");
 		
 			  $w["id"]=I("fatherid");
-			  $class_one=M("class")->where($w)->find();
+			  $class_one=M("class")->where($w)->find(); //select * from tb_class where id = farherid;
 			  if($class_one){
 				        $map_class["fatherno"]=$class_one["classno"];
-				  		$classlist=$class->where($map_class)->select();
+				  		$classlist=$class->where($map_class)->select();  //select * from tb_class where classno = 00010004;
 	                 	$this->assign("classlist",$classlist);
 			  }
 			  
@@ -23,7 +21,7 @@ class ExamController extends \Home\Controller\CommExamController {
 		//echo C("exam_mode");
 		//exit();
 			  $w_["id"]=I("fatherid");
-			  $fatherclass=M("class")->where($w_)->find();
+			  $fatherclass=M("class")->where($w_)->find(); //find from tb_class where id = fatherid;
 			  if($fatherclass){
 				 $conf=json_decode(C("lang_".$fatherclass['lang']),true);
 
@@ -44,7 +42,7 @@ class ExamController extends \Home\Controller\CommExamController {
     }
     public function lists(){
 			  $w_["id"]=I("classid");
-			  $class_one=M("class")->where($w_)->find();
+			  $class_one=M("class")->where($w_)->find();  //find * from tb_class where id = classid;
 			  if($class_one){
 				        $map_class["classno"]=$class_one["fatherno"];
 				  		$fatherclass=M("class")->where($map_class)->find();

@@ -153,16 +153,16 @@ var cururl=String(window.location);
   }
 
   .mytitle h1 {
-    margin: 0px;
+    margin: 0;
   }
 
   .btsend {
-    height: 50px;
-    width: 120px;
+    height: 40px;
+    width: 100px;
     cursor: pointer;
     background-color: #099;
     color: #FFFFFF;
-    border: 0px;
+    border: 0;
   }
 
   html {
@@ -174,13 +174,18 @@ var cururl=String(window.location);
 
   .pline a {
     padding: 5px;
-    color: #666;
-    background-color: #FFFFFF
+    color: #616166;
+    background-color: #77f4d5;
+    border-radius: 5px;
+  }
+
+  input{
+    border-radius: 8px;
   }
 </style>
 </head>
 <body>
-<div class="mytitle">驾校会员登录</div>
+<div class="mytitle">学员登录</div>
   <form id="form1" name="form1" method="post" onsubmit="return check();">
   <table width="100%" border="0" cellspacing="1" cellpadding="10" class="table_login" align="center">
     <tr>
@@ -192,11 +197,15 @@ var cururl=String(window.location);
     <tr>
       <td align="left"><input type="reset" name="button2" id="button2" value="重置"  class="btsend" />
         </td>
-      <td align="right"><input type="submit" name="button" id="button" class="btsend" value="登陆" /></td>
+      <td align="right"><input type="submit" name="button" id="button" class="btsend" value="登录" /></td>
       </tr>
   </table>
   </form>
-  <p style="padding:10px; text-align:center;" class="pline"><a href="<?php echo U('user/zhaohuimima',array('type'=>'email'));?>">邮箱找回密码</a><a href="<?php echo U('user/zhaohuimima');?>">短信找回密码</a><a href="<?php echo U('user/reg');?>">新用户注册</a></p>
+  <p style="padding:10px; text-align:center;" class="pline">
+    <a href="<?php echo U('user/zhaohuimima',array('type'=>'email'));?>">邮箱找回密码</a>
+    <a href="<?php echo U('user/zhaohuimima');?>">短信找回密码</a>
+    <a href="<?php echo U('user/reg');?>">新用户注册</a>
+  </p>
 <script>
 function check(){
 	if($("#username").val()==""){
