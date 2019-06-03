@@ -41,7 +41,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
       <ul class="ul_b">
 	    <li><a href="<?php echo U('Exam/lists');?>"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="<?php echo U('Exam/info');?>"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
-		<li><a href="<?php echo U('Exam/daoru');?>"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
   </li><?php endif; ?>
 <?php if($kaoti_setting["biaomoshi"] == '2'): if(is_array($configex)): foreach($configex as $key=>$row): ?><li class="li_a">
@@ -49,7 +48,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
       <ul class="ul_b">
 	    <li><a href="<?php echo U('Exam1/lists',array('table'=>$row[objtable]));?>"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="<?php echo U('Exam1/info',array('table'=>$row[objtable]));?>"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
-		<li><a href="<?php echo U('Exam1/daoru',array('table'=>$row[objtable]));?>"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
   </li><?php endforeach; endif; endif; ?>
   <li class="li_a">
@@ -75,14 +73,16 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 		<li><a href="<?php echo U('user/login');?>"><i class='ifa fa-sign-in'></i>退出系统</a></li>
 	</ul>
   </li>
-  <li class="li_a">
-   <div class="tit">系统<span class="s">配置</span></div>
-      <ul class="ul_b">
-	    <li><a href="<?php echo U('config/index');?>"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>
-		<li><a href="<?php echo U('setting/kaoti');?>"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>
-		<?php if($kaoti_setting["biaomoshi"] == '2'): ?><li><a href="<?php echo U('configex/index');?>"><i class='ifa fa-unlock-alt'></i>考题语言</a></li><?php endif; ?>
-	</ul>
-  </li>
+  <!--<li class="li_a">-->
+   <!--<div class="tit">系统<span class="s">配置</span></div>-->
+      <!--<ul class="ul_b">-->
+	    <!--<li><a href="<?php echo U('config/index');?>"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>-->
+		<!--<li><a href="<?php echo U('setting/kaoti');?>"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>-->
+		<!--<?php if($kaoti_setting["biaomoshi"] == '2'): ?>-->
+		<!--<li><a href="<?php echo U('configex/index');?>"><i class='ifa fa-unlock-alt'></i>考题语言</a></li>-->
+		<!--<?php endif; ?>-->
+	<!--</ul>-->
+  <!--</li>-->
  </ul>
  <h1 style="font-size:15px;margin-left:20px;" class="h1_close"><a href="<?php echo U('user/login');?>" style=" text-decoration:none;  color:#F60;">退出</a></h1>
  </div>
@@ -104,7 +104,7 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
        <div class="tab"><ol class="tab_ol"><li class="cur">基本信息</li><li>其它信息</li><li>全部展开</li></ol></div>
 	   <div class="tab_page">
 	   <ul class="ul_info"><li class="li1">考题分类：</li><li class="li2"><input type="hidden"   name="classno" id="classno"   class="txt1" value="<?php echo ($info["classno"]); ?>"/></li></ul>
-       <ul class="ul_info"><li class="li1">标题：</li><li class="li2"><input type="text"   name="name" id="name"   class="txt1" value="<?php echo ($info["name"]); ?>"/></li></ul>
+       <ul class="ul_info"><li class="li1">分值：</li><li class="li2"><input type="text"   name="name" id="name"   class="txt1" value="<?php echo ($info["name"]); ?>"/></li></ul>
 	   <ul class="ul_info"><li class="li1">类型：</li><li class="li2"><select name="type" id="type"><option value="0" >判断题 </option><option value="1" >单选题</option><option value="2" >多选题</option></select></li></ul>
        <ul class="ul_info"><li class="li1">选项：</li><li class="li2">
 	      <div class="td_items"><table class="table_items"></table></div>
@@ -119,7 +119,7 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 	   </li>
       </ul>
        <ul class="ul_info">
-	   <li class="li1">分数：</li><li class="li2"><input type="text"   name="name" id="fenshu"   class="txt1" value="<?php echo ($info["fenshu"]); ?>"/>
+	   <li class="li1">标题：</li><li class="li2"><input type="text"   name="name" id="fenshu"   class="txt1" value="<?php echo ($info["fenshu"]); ?>"/>
 	   </li>
 	   </ul>
 	     <ul class="ul_info" id="ul_qturl" style="display:none;">

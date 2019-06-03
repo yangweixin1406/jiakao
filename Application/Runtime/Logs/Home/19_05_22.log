@@ -1,0 +1,90 @@
+[ 2019-05-22T17:14:52+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015201s ]
+
+[ 2019-05-22T17:14:54+08:00 ] ::1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.1679s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 206 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 207 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 208 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 210 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 221 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 222 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 223 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 228 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 229 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036444s ]
+
+[ 2019-05-22T17:15:00+08:00 ] ::1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-05-22T17:15:01+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 204 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 207 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 221 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+

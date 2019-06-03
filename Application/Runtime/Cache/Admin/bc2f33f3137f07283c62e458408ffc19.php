@@ -40,7 +40,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
       <ul class="ul_b">
 	    <li><a href="<?php echo U('Exam/lists');?>"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="<?php echo U('Exam/info');?>"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
-		<li><a href="<?php echo U('Exam/daoru');?>"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
   </li><?php endif; ?>
 <?php if($kaoti_setting["biaomoshi"] == '2'): if(is_array($configex)): foreach($configex as $key=>$row): ?><li class="li_a">
@@ -48,7 +47,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
       <ul class="ul_b">
 	    <li><a href="<?php echo U('Exam1/lists',array('table'=>$row[objtable]));?>"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="<?php echo U('Exam1/info',array('table'=>$row[objtable]));?>"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
-		<li><a href="<?php echo U('Exam1/daoru',array('table'=>$row[objtable]));?>"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
   </li><?php endforeach; endif; endif; ?>
   <li class="li_a">
@@ -56,7 +54,6 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
       <ul class="ul_b">
 	    <li><a href="<?php echo U('user/lists');?>"><i class='ifa fa-user-circle-o'></i>用户列表</a></li>
 	    <li><a href="<?php echo U('user/info');?>"><i class='ifa ifa fa-user-circle-o'></i>添加用户</a></li>
-		<li><a href="<?php echo U('usergroup/lists');?>"><i class='ifa fa-random'></i>用户组</a></li>
 	</ul>
   </li>
   
@@ -75,14 +72,16 @@ loadico.show({txt:"<?php echo $_SESSION["msg"];?>"});
 		<li><a href="<?php echo U('user/login');?>"><i class='ifa fa-sign-in'></i>退出系统</a></li>
 	</ul>
   </li>
-  <li class="li_a">
-   <div class="tit">系统<span class="s">配置</span></div>
-      <ul class="ul_b">
-	    <li><a href="<?php echo U('config/index');?>"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>
-		<li><a href="<?php echo U('setting/kaoti');?>"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>
-		<?php if($kaoti_setting["biaomoshi"] == '2'): ?><li><a href="<?php echo U('configex/index');?>"><i class='ifa fa-unlock-alt'></i>考题语言</a></li><?php endif; ?>
-	</ul>
-  </li>
+  <!--<li class="li_a">-->
+   <!--<div class="tit">系统<span class="s">配置</span></div>-->
+      <!--<ul class="ul_b">-->
+	    <!--<li><a href="<?php echo U('config/index');?>"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>-->
+		<!--<li><a href="<?php echo U('setting/kaoti');?>"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>-->
+		<!--<?php if($kaoti_setting["biaomoshi"] == '2'): ?>-->
+		<!--<li><a href="<?php echo U('configex/index');?>"><i class='ifa fa-unlock-alt'></i>考题语言</a></li>-->
+		<!--<?php endif; ?>-->
+	<!--</ul>-->
+  <!--</li>-->
  </ul>
  <h1 style="font-size:15px;margin-left:20px;" class="h1_close"><a href="<?php echo U('user/login');?>" style=" text-decoration:none;  color:#F60;">退出</a></h1>
  </div>

@@ -1,0 +1,1439 @@
+[ 2019-05-25T13:31:44+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013560s ]
+
+[ 2019-05-25T13:31:45+08:00 ] ::1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 206 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 207 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 208 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 210 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 221 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 222 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 223 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 228 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 229 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012064s ]
+
+[ 2019-05-25T13:33:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+
+[ 2019-05-25T13:33:48+08:00 ] ::1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 206 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 207 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 208 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 210 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 221 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 222 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 223 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 228 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 229 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2019-05-25T13:33:57+08:00 ] ::1 /index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-05-25T13:33:58+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 204 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 207 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 221 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2019-05-25T13:34:01+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 221 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2019-05-25T13:34:05+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0237s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0033s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 114 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0036s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2019-05-25T13:34:12+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='64',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'b27b7f5686de5cc4375e13e038194972' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('4','996','b27b7f5686de5cc4375e13e038194972','0','exam','Y','驾车的时候可以玩手机？','1','1558762452') [ RunTime:0.0120s ]
+
+[ 2019-05-25T13:34:20+08:00 ] ::1 /index.php/Home/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+
+[ 2019-05-25T13:34:24+08:00 ] ::1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 204 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 207 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 221 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2019-05-25T13:35:21+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 221 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2019-05-25T13:35:25+08:00 ] ::1 /index.php/Home/Answer/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0123s ]
+NOTIC: [8] Undefined index: act D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 75 行.
+NOTIC: [8] Undefined index: objtable D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 76 行.
+NOTIC: [8] Undefined index: lang D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 80 行.
+NOTIC: [8] Undefined index: isok D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 83 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 94 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_answer` WHERE `userid` = 1 AND `objtable` = 'exam' AND `isok` = 0 LIMIT 1   [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: p D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 100 行.
+SQL: SELECT * FROM `tb_answer` WHERE `userid` = 1 AND `objtable` = 'exam' AND `isok` = 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 996 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1121 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 185 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 608 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 137 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 393 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 745 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 290 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 438 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 122 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 234 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 426 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 432 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 153 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1119 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 993 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: modelist D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 148 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 204 行.
+NOTIC: [8] Undefined index: classid D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 205 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 206 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 209 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2019-05-25T13:36:22+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 221 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2019-05-25T13:36:25+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0405s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0036s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 114 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0038s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2019-05-25T13:36:29+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='65',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0023s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'b27b7f5686de5cc4375e13e038194972' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_answer` SET `time`='1558762589' WHERE `id` = 199 [ RunTime:0.0011s ]
+
+[ 2019-05-25T13:36:39+08:00 ] ::1 /index.php/Home/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-05-25T13:36:43+08:00 ] ::1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 204 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 207 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 221 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2019-05-25T13:38:46+08:00 ] ::1 /index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0327s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Home\Controller\UserController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 206 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 207 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 208 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 210 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 221 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 222 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 223 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 228 行.
+NOTIC: [8] Undefined index: userq D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 229 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2019-05-25T13:42:10+08:00 ] ::1 /index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-05-25T13:42:11+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 204 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 207 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 221 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2019-05-25T13:42:14+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 221 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2019-05-25T13:42:17+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0015s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2019-05-25T13:42:25+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0027s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 114 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0026s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2019-05-25T13:42:35+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.1911s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='66',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '4f4a461e989d128b3cd66c7eea68c7ce' AND `userid` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('4','1002','4f4a461e989d128b3cd66c7eea68c7ce','1','exam','undefined','如图所示，在这种情况下，您应该轻踩制动踏板减速。','1','1558762955') [ RunTime:0.0026s ]
+
+[ 2019-05-25T13:42:38+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='67',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'c9226f304419789710e3aac88d87e002' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('4','1000','c9226f304419789710e3aac88d87e002','0','exam','Y','可以随便开车吗？','1','1558762958') [ RunTime:0.0026s ]
+
+[ 2019-05-25T13:44:15+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0393s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0023s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 114 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0022s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2019-05-25T13:44:22+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='68',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = '4f4a461e989d128b3cd66c7eea68c7ce' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `tb_answer` (`type`,`objid`,`objidno`,`isok`,`objtable`,`value`,`title`,`userid`,`time`) VALUES ('4','1002','4f4a461e989d128b3cd66c7eea68c7ce','0','exam','undefined','如图所示，在这种情况下，您应该轻踩制动踏板减速。','1','1558763062') [ RunTime:0.0023s ]
+
+[ 2019-05-25T13:44:31+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 221 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2019-05-25T13:44:34+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0036s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0033s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 114 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0034s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2019-05-25T13:45:14+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0033s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 114 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0032s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2019-05-25T13:45:20+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0115s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0118s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0036s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2019-05-25T13:45:24+08:00 ] ::1 /index.php/Home/Exam/lists/act/shunxi/classid/39/kemu/1/tpl/lists_a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: p D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 92 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 1 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 209 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\1629bacd96a7208075e468b7c0a698f3.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2019-05-25T13:45:35+08:00 ] ::1 /index.php/Home/Exam/lists/act/moni/classid/39/kemu/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_class` WHERE `classno` = '000100040001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 0 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 1 ORDER BY RAND() LIMIT 0,40   [ RunTime:0.0043s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 114 行.
+SQL: SELECT * FROM `tb_exam` WHERE `classid` = '39' AND `kemu` = 4 AND `type` = 2 ORDER BY RAND() LIMIT 0,20   [ RunTime:0.0035s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 121 行.
+NOTIC: [8] Undefined index: ajax D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 136 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 151 行.
+NOTIC: [8] Undefined index: tpl D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\bfb98a2b56c27ea7e4a591fb49e9a818.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2019-05-25T13:45:38+08:00 ] ::1 /index.php/Home/answer/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_user` SET `exam_error_count`='69',`jifen`='0' WHERE (  id=1 ) [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_answer` WHERE `objidno` = 'c9226f304419789710e3aac88d87e002' AND `userid` = 1 AND `isok` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_answer` SET `time`='1558763138' WHERE `id` = 201 [ RunTime:0.0012s ]
+
+[ 2019-05-25T13:45:46+08:00 ] ::1 /index.php/Home/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+
+[ 2019-05-25T13:45:50+08:00 ] ::1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 204 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 207 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 221 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2019-05-25T13:45:54+08:00 ] ::1 /index.php/Home/Exam/index/fatherid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Home\Controller\ExamController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 204 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 221 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\3b55929aa3ece9bdb3aa5aa8c12f4fd5.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2019-05-25T13:52:10+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 204 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 206 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 207 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 209 行.
+NOTIC: [8] Undefined variable: lang D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 220 行.
+NOTIC: [8] Undefined variable: act D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 221 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2019-05-25T13:52:14+08:00 ] ::1 /index.php/Home/Favorites/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0601s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_favorites` [ RunTime:0.0278s ]
+NOTIC: [8] Undefined index: act D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 78 行.
+NOTIC: [8] Undefined index: objtable D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 79 行.
+NOTIC: [8] Undefined index: lang D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 84 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 96 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 98 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_favorites` WHERE `userid` = 1 AND `objtable` = 'exam' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 104 行.
+SQL: SELECT * FROM `tb_favorites` WHERE `userid` = 1 AND `objtable` = 'exam' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 993 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: value D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 135 行.
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1121 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: value D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 135 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 150 行.
+NOTIC: [8] Undefined variable: modelist D:\resource\bishe\jiakao\Application\Home\Controller\FavoritesController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 204 行.
+NOTIC: [8] Undefined index: classid D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 205 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 206 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 209 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\e3b8112c4708611e03dc45a35ebf63dc.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2019-05-25T13:52:19+08:00 ] ::1 /index.php/Home/favorites/remove.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_favorites` [ RunTime:0.0423s ]
+SQL: DELETE FROM `tb_favorites` WHERE `objtable` = 'exam' AND `objid` = 993 AND `userid` = 1 [ RunTime:0.0016s ]
+
+[ 2019-05-25T13:52:22+08:00 ] ::1 /index.php/Home/Answer/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: act D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 75 行.
+NOTIC: [8] Undefined index: objtable D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 76 行.
+NOTIC: [8] Undefined index: lang D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 80 行.
+NOTIC: [8] Undefined index: isok D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 83 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 94 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_answer` WHERE `userid` = 1 AND `objtable` = 'exam' AND `isok` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 100 行.
+SQL: SELECT * FROM `tb_answer` WHERE `userid` = 1 AND `objtable` = 'exam' AND `isok` = 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1002 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1000 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 996 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 1121 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 185 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 608 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 108 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 137 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 393 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 745 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 290 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 438 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 122 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 234 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 426 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 183 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 432 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` = 153 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: conf D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: modelist D:\resource\bishe\jiakao\Application\Home\Controller\AnswerController.class.php 第 148 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 204 行.
+NOTIC: [8] Undefined index: classid D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 205 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 206 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 209 行.
+NOTIC: [8] Undefined index: value D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 267 行.
+NOTIC: [8] Undefined index: name D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 267 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 267 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 267 行.
+NOTIC: [8] Undefined index: idno D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 267 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 267 行.
+NOTIC: [8] Undefined index: name D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 269 行.
+NOTIC: [8] Undefined index: value D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 269 行.
+NOTIC: [8] Undefined index: items D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 271 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Undefined index: photo D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 284 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+NOTIC: [8] Use of undefined constant photo - assumed 'photo' D:\resource\bishe\jiakao\Application\Runtime\Cache\Home\27891a250e1118c379d4c0287f7427d2.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2019-05-25T13:52:39+08:00 ] ::1 /index.php/Home/answer/remove.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_answer` [ RunTime:0.0186s ]
+SQL: DELETE FROM `tb_answer` WHERE `objtable` = 'exam' AND `userid` = 1 [ RunTime:0.0042s ]
+

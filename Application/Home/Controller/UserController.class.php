@@ -172,7 +172,7 @@ class UserController extends Controller {
 				 }
 		
      }
-      $web["title"]="会员注册";
+      $web["title"]="用户注册";
 	  $this->assign('reg_setting',$reg_setting);
        $this->assign('web',$web);
        $this->display("reg");
@@ -247,7 +247,7 @@ class UserController extends Controller {
 							  exit("{\"status\":\"error\",\"msg\":\"邮箱找回密码已关闭\"}"); 
 						  }
 					   //email
-					    $title="找回会员密码";
+					    $title="找回用户密码";
 						$userpwd=newrand(6);
 						$content=$email_setting["content1"];
 						$content=str_ireplace("{pwd}",$userpwd,$content);

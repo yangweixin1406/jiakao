@@ -12,44 +12,187 @@
 <link rel="stylesheet" type="text/css" href="/Public/home/css.css?1">
 <link rel="stylesheet" type="text/css" href="/Public/css/public.css?1">
 <style>
-.curnav .amenu{font-size:30px; font-weight:bold; position:absolute; top:0px; right:0px; color:#ffffff; height:45px; line-height:50px; width:60px;display:block; text-align:center; cursor:pointer;}
-.curnav .amenu:hover{ background-color:#0C9;}
-.curnav .amenu:active{ background-color:#F90;}
-.caidanbg{position:absolute; background-color:#000;top:0px;left:0px;opacity:0.8;filter:alpha(opacity=80);z-index:30000;}
-.caidanleft{/* background-color:#FFF;filter:alpha(opacity=80);*background-color:#FFF;*/ background-color:transparent;}
-.caidan{position:absolute;top:0px;right:0px;width:120px;overflow:hidden; z-index:30001;}
-.caidan .rel{ position:relative; width:100%; height:auto;}
-.caidan .rel .con{ height:auto;width:100%; height:auto; position:absolute;background-color:#000;}
-.caidan .rel .con a{ color:#fff; font-size:15px; cursor:pointer;}
-.caidan .rel .con ul{ list-style:none; margin:0px; padding:0px; width:100%;}
-.caidan .rel .con ul li{ list-style:none; margin:0px; padding:10px;border-bottom:solid #000 1px; height:20px; line-height:20px; background-color:#0C9; /*margin:5px; border-left:solid #1BBC9B 2px;border-bottom:solid #000 2px;*/ padding-left:20px; }
-.caidan .rel .con ul li.liclose{background-color:#F90;}
-.caidan .rel .con ul li.litran{background-color:transparent; height:20px;}
+    .curnav .amenu {
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        color: #ffffff;
+        height: 45px;
+        line-height: 50px;
+        width: 60px;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+    }
 
-.caidan .rel .con h1.username{ color:#FFFFFF; font-weight:bold; margin:0px; font-size:15px; text-align:center; border-bottom:solid #000 0px; margin-bottom:0px; padding-bottom:10px;}
-.caidan .rel .con .inner{ position:relative; width:100%; height:100%;}
-.metop .metop_touxiang{  overflow:hidden; height:80px; width:80px; position:absolute;  top:20px; z-index:2000; left:50%; margin-left:-40px;}
-.metop .metop_touxiang div{overflow:hidden;height:80px; width:80px;background-color:#8bf98b; background-color:#1BBC9B; border-radius:41px; -webkit-border-radius:41px;}
-.metop .metop_touxiang i{ display:block; height:70px; width:70px; overflow:hidden; margin-top:20px; margin-left:auto; margin-right:auto; }
-.metop .metop_touxiang i span{ display:block; width:100%; height:70px;overflow:hidden;background-size:100% auto;background-position:center top; background-repeat:no-repeat;background-image:url("/Public/images/user.png");}
-.btback{margin:3px; width:100px; display:block; margin-left:auto; margin-right:auto;font-family: "微软雅黑"; list-style:none; cursor:pointer; padding:0px;vertical-align:middle; font-size:14px; text-align:center; line-height:13px;padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px; overflow:hidden;  border:solid 1px #099; color:#FFFFFF; overflow:hidden;  background-color:#1BBC9B;border-radius:4px;-ms-border-radius:4px;-wekit-border-radius:4px; }
+    .curnav .amenu:hover {
+        background-color: #0C9;
+    }
+
+    .curnav .amenu:active {
+        background-color: #F90;
+    }
+
+    .caidanbg {
+        position: absolute;
+        background-color: #000;
+        top: 0px;
+        left: 0px;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        z-index: 30000;
+    }
+
+    .caidanleft { /* background-color:#FFF;filter:alpha(opacity=80);*background-color:#FFF;*/
+        background-color: transparent;
+    }
+
+    .caidan {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 120px;
+        overflow: hidden;
+        z-index: 30001;
+    }
+
+    .caidan .rel {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .caidan .rel .con {
+        height: auto;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        background-color: #000;
+    }
+
+    .caidan .rel .con a {
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .caidan .rel .con ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .caidan .rel .con ul li {
+        list-style: none;
+        margin: 0px;
+        padding: 10px;
+        border-bottom: solid #000 1px;
+        height: 20px;
+        line-height: 20px;
+        background-color: #0C9; /*margin:5px; border-left:solid #1BBC9B 2px;border-bottom:solid #000 2px;*/
+        padding-left: 20px;
+    }
+
+    .caidan .rel .con ul li.liclose {
+        background-color: #F90;
+    }
+
+    .caidan .rel .con ul li.litran {
+        background-color: transparent;
+        height: 20px;
+    }
+
+    .caidan .rel .con h1.username {
+        color: #FFFFFF;
+        font-weight: bold;
+        margin: 0px;
+        font-size: 15px;
+        text-align: center;
+        border-bottom: solid #000 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+
+    .caidan .rel .con .inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .metop .metop_touxiang {
+        overflow: hidden;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 20px;
+        z-index: 2000;
+        left: 50%;
+        margin-left: -40px;
+    }
+
+    .metop .metop_touxiang div {
+        overflow: hidden;
+        height: 80px;
+        width: 80px;
+        background-color: #8bf98b;
+        background-color: #1BBC9B;
+        border-radius: 41px;
+        -webkit-border-radius: 41px;
+    }
+
+    .metop .metop_touxiang i {
+        display: block;
+        height: 70px;
+        width: 70px;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .metop .metop_touxiang i span {
+        display: block;
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+        background-size: 100% auto;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-image: url("/Public/images/user.png");
+    }
+
+    .btback {
+        margin: 3px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "微软雅黑";
+        list-style: none;
+        cursor: pointer;
+        padding: 0px;
+        vertical-align: middle;
+        font-size: 14px;
+        text-align: center;
+        line-height: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+        border: solid 1px #099;
+        color: #FFFFFF;
+        overflow: hidden;
+        background-color: #1BBC9B;
+        border-radius: 4px;
+        -ms-border-radius: 4px;
+        -wekit-border-radius: 4px;
+    }
 
 </style>
-<!--[if IE 6]>
-<style>
-.metop .metop_touxiang i span{background-image:url("/Public/home/images/user.gif");}
-</style>
-<![endif]-->
-<!--[if IE 7]>
-<style>
-.metop .metop_touxiang i span{background-image:url("/Public/home/images/user.gif");}
-</style>
-<![endif]-->
-<!--[if IE 8]>
-<style>
-.metop .metop_touxiang i span{background-image:url("/Public/home/images/user.gif");}
-</style>
-<![endif]-->
 <script>
 var conf={
 	yes_src:"/Public/home/images/yes.png",
@@ -190,9 +333,7 @@ var mymain=$("#mymain");
 var scale_maxvalue=1;
 var scale_curvalue=0;
 var touch =("createTouch" in document); 
-if($.browser.msie) { 
-//mybody_b.css({"height":"1px","display":"","overflow":"hidden","position":"relative"});
-//mybody_b.animate({"height":$(window).height()+"px"},function(){mybody_b.css({"overflow":"auto"});});
+if($.browser.msie) {
 
 mybody_b.css({"filter":"alpha(opacity=0)","opacity":"0","display":"","overflow":"hidden","position":"relative","width":"100%"});
 window.timer_scale=window.setInterval(function(){
@@ -208,7 +349,7 @@ window.timer_scale=window.setInterval(function(){
   	    window.clearInterval(window.timer_scale);	
   }
   
-},50);
+},0);
 }else{
   if($(".myleft").length<=0&&!touch){
 			mybody_b.css({"transform":"scale(0)","-webkit-transform":"scale(0)","-moz-transform":"scale(0)","-ms-transform":"scale(0)","display":"","overflow":"hidden"});
@@ -227,7 +368,7 @@ window.timer_scale=window.setInterval(function(){
 					// $(".myleft_inner_con").css({"float":"left"});	
 					mybody_b.css({"width":"100%"});
 			  }
-			},80);
+			},0);
   }else{
 	  mybody_b.css({"display":"","overflow":"hidden","position":"relative","width":"100%"});
   }

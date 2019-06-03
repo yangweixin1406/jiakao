@@ -16,7 +16,6 @@ require 'global.php';
 
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
-// 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
 define('APP_DEBUG',true);
 define('DEFAULT_MODULE',"Home");
 
@@ -25,6 +24,4 @@ define('APP_PATH','./Application/');
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
-//曾落魄到吃垃圾 现逆袭成男神
-// 亲^_^ 后面不需要任何代码了 就是如此简单
 ?>

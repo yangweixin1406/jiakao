@@ -1,0 +1,1305 @@
+[ 2019-05-15T18:26:45+08:00 ] ::1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000720s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+
+[ 2019-05-15T18:26:45+08:00 ] ::1 /index.php/Admin/content/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+
+[ 2019-05-15T18:26:46+08:00 ] ::1 /index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0321s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 267 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 268 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2019-05-15T18:26:53+08:00 ] ::1 /index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' AND `root` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2019-05-15T18:26:53+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-05-15T18:26:54+08:00 ] ::1 /index.php/Admin/content/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jiaxiao.tb_content' doesn't exist
+
+[ 2019-05-15T18:27:01+08:00 ] ::1 /index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0252s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 267 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 268 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2019-05-15T18:27:15+08:00 ] ::1 /index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' AND `root` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2019-05-15T18:27:15+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+
+[ 2019-05-15T18:27:16+08:00 ] ::1 /index.php/Admin/content/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jiaxiao.tb_content' doesn't exist
+
+[ 2019-05-15T18:29:44+08:00 ] ::1 /index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0274s ]
+NOTIC: [8] Undefined index: username D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 267 行.
+NOTIC: [8] Undefined index: userpwd D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 268 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2019-05-15T18:29:49+08:00 ] ::1 /index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'admin' AND `userpwd` = '21232f297a57a5a743894a0e4a801fc3' AND `root` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-05-15T18:29:49+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+
+[ 2019-05-15T18:29:50+08:00 ] ::1 /index.php/Admin/content/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_content` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `tb_class` WHERE (  fatherno='00010002'  )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_content` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0208s ]
+SQL: SELECT * FROM `tb_content` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\resource\bishe\jiakao\Application\Admin\Controller\ContentController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 25 行.
+NOTIC: [8] Undefined index: msg D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ab45c68eddd7a5d1e654574606ff6703.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2019-05-15T18:30:12+08:00 ] ::1 /index.php/Admin/setting/kaoti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: info D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 25 行.
+NOTIC: [8] Undefined variable: info D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 128 行.
+NOTIC: [8] Undefined variable: show D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 138 行.
+NOTIC: [8] Use of undefined constant kaoti - assumed 'kaoti' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 146 行.
+NOTIC: [8] Use of undefined constant biaomoshi - assumed 'biaomoshi' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\ba682ad77eae5b475cdc9f78187445a6.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002625s ]
+
+[ 2019-05-15T18:30:18+08:00 ] ::1 /index.php/Admin/config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_config` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tb_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tb_class` WHERE (  fatherno='' or classno=''  )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\0ee55f6f42ab72857ecf9538fd5b06a5.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\0ee55f6f42ab72857ecf9538fd5b06a5.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\0ee55f6f42ab72857ecf9538fd5b06a5.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\0ee55f6f42ab72857ecf9538fd5b06a5.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\0ee55f6f42ab72857ecf9538fd5b06a5.php 第 25 行.
+NOTIC: [8] Use of undefined constant copyright - assumed 'copyright' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\0ee55f6f42ab72857ecf9538fd5b06a5.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2019-05-15T21:09:50+08:00 ] ::1 /index.php/Admin/user/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined variable: where D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 49 行.
+SQL: SELECT * FROM `tb_user` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php on line 63 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 25 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 38 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 46 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07a7390f5188fd09cd264af8c6efc1dc.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2019-05-15T21:11:27+08:00 ] ::1 /index.php/Admin/User/info/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '20' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: webtitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 25 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 38 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 46 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 82 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 151 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 152 行.
+NOTIC: [8] Undefined variable: show D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc2f33f3137f07283c62e458408ffc19.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2019-05-15T21:15:41+08:00 ] ::1 /index.php/Admin/Exam/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2019-05-15T21:16:43+08:00 ] ::1 /index.php/Admin/Exam/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant yes_caption - assumed 'yes_caption' D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Use of undefined constant no_caption - assumed 'no_caption' D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php 第 149 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined variable: webtitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 25 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 102 行.
+NOTIC: [8] Undefined index: classno D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 106 行.
+NOTIC: [8] Undefined index: name D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 107 行.
+NOTIC: [8] Undefined index: value D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 112 行.
+NOTIC: [8] Undefined index: photo D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 118 行.
+NOTIC: [8] Undefined index: fenshu D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 122 行.
+NOTIC: [8] Undefined index: sort D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 137 行.
+NOTIC: [8] Undefined index: key D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 138 行.
+NOTIC: [8] Undefined index: des D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 139 行.
+NOTIC: [8] Undefined index: see_num D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 140 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 147 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 147 行.
+NOTIC: [8] Undefined variable: show D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 161 行.
+NOTIC: [8] Undefined index: classno D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 164 行.
+NOTIC: [8] Undefined index: items D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 409 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 410 行.
+NOTIC: [8] Undefined index: classno D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 411 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 412 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 413 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2019-05-15T21:16:44+08:00 ] ::1 /index.php/Admin/class/classoption.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: tablename D:\resource\bishe\jiakao\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004' ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2019-05-15T21:16:46+08:00 ] ::1 /index.php/Admin/Exam/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2019-05-15T21:16:58+08:00 ] ::1 /index.php/Admin/Exam/delete/id/1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0154s ]
+SQL: DELETE FROM `tb_exam` WHERE `id` IN ('1111') [ RunTime:0.0480s ]
+
+[ 2019-05-15T21:17:00+08:00 ] ::1 /index.php/Admin/exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2019-05-15T21:17:04+08:00 ] ::1 /index.php/Admin/Exam/delete/id/1110
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0102s ]
+SQL: DELETE FROM `tb_exam` WHERE `id` IN ('1110') [ RunTime:0.0022s ]
+
+[ 2019-05-15T21:17:05+08:00 ] ::1 /index.php/Admin/exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2019-05-15T21:17:09+08:00 ] ::1 /index.php/Admin/Exam/delete/id/1109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0151s ]
+SQL: DELETE FROM `tb_exam` WHERE `id` IN ('1109') [ RunTime:0.0025s ]
+
+[ 2019-05-15T21:17:10+08:00 ] ::1 /index.php/Admin/exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2019-05-15T21:17:16+08:00 ] ::1 /index.php/Admin/Exam/index/p/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 1100,20   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2019-05-15T21:17:21+08:00 ] ::1 /index.php/Admin/Exam/index/p/50.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 980,20   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2019-05-15T21:17:25+08:00 ] ::1 /index.php/Admin/Exam/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_exam` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_exam` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_class` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php on line 104 and defined D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\resource\bishe\jiakao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 25 行.
+NOTIC: [8] Undefined variable: mytitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 96 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Use of undefined constant classno - assumed 'classno' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Array to string conversion D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 104 行.
+NOTIC: [8] Undefined variable: title D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\3342b4d79a9fc38ce3012d260a807f1f.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2019-05-15T21:19:08+08:00 ] ::1 /index.php/Admin/Exam/daoru.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: webtitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 25 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 102 行.
+NOTIC: [8] Undefined variable: info D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 106 行.
+NOTIC: [8] Undefined variable: show D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 131 行.
+NOTIC: [8] Undefined variable: info D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\03c243eb0ed4b16862dcb323d49a9198.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002539s ]
+
+[ 2019-05-15T21:19:09+08:00 ] ::1 /index.php/Admin/Upload.html?folder=file/txt/&quan=&ObjId=filepath
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_content` [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\57338fdf56f4aa5254bb767d603b91ba.php 第 14 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\57338fdf56f4aa5254bb767d603b91ba.php 第 18 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\57338fdf56f4aa5254bb767d603b91ba.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\57338fdf56f4aa5254bb767d603b91ba.php 第 23 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\57338fdf56f4aa5254bb767d603b91ba.php 第 24 行.
+NOTIC: [8] Undefined variable: pathfile D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\57338fdf56f4aa5254bb767d603b91ba.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2019-05-15T21:19:10+08:00 ] ::1 /index.php/Admin/class/classoption.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: tablename D:\resource\bishe\jiakao\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004' ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2019-05-15T21:19:13+08:00 ] ::1 /index.php/Admin/class/classoption.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: tablename D:\resource\bishe\jiakao\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010001' ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010002' ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '0001000400010003' ORDER BY sort asc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2019-05-15T21:19:18+08:00 ] ::1 /index.php/Admin/Exam/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_exam` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant yes_caption - assumed 'yes_caption' D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php 第 148 行.
+NOTIC: [8] Use of undefined constant no_caption - assumed 'no_caption' D:\resource\bishe\jiakao\Application\Admin\Controller\ExamController.class.php 第 149 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: webtitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 25 行.
+NOTIC: [8] Undefined variable: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 102 行.
+NOTIC: [8] Undefined index: classno D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 106 行.
+NOTIC: [8] Undefined index: name D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 107 行.
+NOTIC: [8] Undefined index: value D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 112 行.
+NOTIC: [8] Undefined index: photo D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 118 行.
+NOTIC: [8] Undefined index: fenshu D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 122 行.
+NOTIC: [8] Undefined index: sort D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 137 行.
+NOTIC: [8] Undefined index: key D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 138 行.
+NOTIC: [8] Undefined index: des D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 139 行.
+NOTIC: [8] Undefined index: see_num D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 140 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 147 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 147 行.
+NOTIC: [8] Undefined variable: show D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 161 行.
+NOTIC: [8] Undefined index: classno D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 164 行.
+NOTIC: [8] Undefined index: items D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 409 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 410 行.
+NOTIC: [8] Undefined index: classno D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 411 行.
+NOTIC: [8] Undefined index: type D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 412 行.
+NOTIC: [8] Undefined index: kemu D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\07b3918d49ae8fa60dcbb33e1ea71f9a.php 第 413 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2019-05-15T21:19:19+08:00 ] ::1 /index.php/Admin/class/classoption.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: tablename D:\resource\bishe\jiakao\Application\Admin\Controller\ClassController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '00010004' ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_class` WHERE `fatherno` = '000100040001' ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2019-05-15T21:24:44+08:00 ] ::1 /index.php/Admin/shouquan/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_shouquan` [ RunTime:0.0283s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_shouquan` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_shouquan` WHERE `id` > 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 25 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 100 行.
+NOTIC: [8] Undefined index: key D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 100 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 103 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 103 行.
+NOTIC: [8] Use of undefined constant table - assumed 'table' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 106 行.
+NOTIC: [8] Undefined index: table D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\1db218ed85853f7f546d36d901061a26.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2019-05-15T21:24:49+08:00 ] ::1 /index.php/Admin/shouquan/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `tb_configex` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `tb_configex` WHERE ( 1=1 ) ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_setting` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tb_setting` WHERE `setting_key` = 'kaoti' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_shouquan` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `tb_class` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `tb_class` WHERE (  fatherno='' or classno=''  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 25 行.
+NOTIC: [8] Undefined index: contact D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 104 行.
+NOTIC: [8] Undefined index: weixin D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 105 行.
+NOTIC: [8] Undefined index: idno D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 108 行.
+NOTIC: [8] Undefined index: dailidengji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 109 行.
+NOTIC: [8] Undefined index: phone D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 110 行.
+NOTIC: [8] Undefined index: address D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 111 行.
+NOTIC: [8] Undefined index: company D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 112 行.
+NOTIC: [8] Undefined index: photo D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 114 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 120 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 120 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 122 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 122 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 125 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 132 行.
+NOTIC: [8] Undefined index: id D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\bc6f4d58a2c1b21fce930dacb74c836d.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2019-05-15T21:27:53+08:00 ] ::1 /index.php/Admin/user/only.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 186 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: webtitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 25 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 38 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 46 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 82 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 149 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 150 行.
+NOTIC: [8] Undefined variable: show D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\8edf9030bc448186204d86dedec432e6.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2019-05-15T21:27:58+08:00 ] ::1 /index.php/Admin/user/pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `tb_user` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id D:\resource\bishe\jiakao\Application\Admin\Controller\UserController.class.php 第 218 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: webtitle D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 6 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 15 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 19 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 20 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 24 行.
+NOTIC: [8] Undefined variable: g_shuiji D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 25 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 38 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 46 行.
+NOTIC: [8] Undefined variable: kaoti_setting D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 82 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 118 行.
+NOTIC: [8] Undefined variable: laiyuan D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 119 行.
+NOTIC: [8] Undefined variable: show D:\resource\bishe\jiakao\Application\Runtime\Cache\Admin\410555d24dfa1d86573ca5bdff3527ba.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+

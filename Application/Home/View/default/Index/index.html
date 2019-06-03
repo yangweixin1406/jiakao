@@ -5,6 +5,10 @@
 <title>{$webtitle}</title>
 <include file="Public:head_exam" />
 <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .table_action {
         max-width: 400px;
         margin-left: auto;
@@ -16,113 +20,92 @@
         width: 100px;
     }
 
-    .menu {
-        list-style: none;
-        margin: 0px;
-        padding: 10px;
-        max-width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: transparent;
+    .nav{
+        width: 60%;
+        height: 80px;
+        margin: 150px auto;
     }
 
-    .menu li {
+    .nav ul{
         list-style: none;
-        padding: 0px;
+        display: flex;
+    }
+
+    .nav ul li{
+        flex: 1;
+        line-height: 80px;
         text-align: center;
-        width: 50%;
-        margin: 100px auto;
+        background: #1BBC9B;
+        border-radius: 20px;
+        margin-left: 20px;
     }
 
-    .menu li afff {
-        background-color: #3CF;
-        height: 100%;
-        padding-bottom: 15px;
+    .nav ul li a{
+        font-size: 20px;
+        color: white;
+    }
+
+    .bottom{
         width: 100%;
-        display: block;
-        color: #FFF;
-    }
+        text-align: center;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
 
-    .menu li div.inner {
-        padding: 15px;
     }
-
-    .menu li div.rel {
-        border: #099 solid 2px;
-        position: relative;
-        width: 99%;
-        height: 90px;
-        background-color: #FFF;
-        overflow: hidden;
-        cursor: pointer;
+    .bottom span{
+        font-size: 16px;
+        color: rgba(106, 112, 112, 0.99);
     }
-
-    .menu li div.rel a {
-        display: block;
-        position: absolute;
-        height: 20px;
-        line-height: 20px;
-        font-size: 18px;
-        color: #099;
-        left: 0px;
-        width: 100%;
-        margin-top: -10px;
-        top: 50%;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
+    
+    @media (max-width: 700px) {
+        .nav ul{
+            list-style: none;
+            display: flex;
+        }
+        .nav ul li{
+            flex: 1;
+            line-height: 30px;
+            text-align: center;
+            background: #1BBC9B;
+            border-radius: 10px;
+        }
+        .nav ul li a{
+            font-size: 14px;
+            color: white;
+        }
+        .bottom{
+            width: 100%;
+            text-align: center;
+            height: 50px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        .bottom span{
+            font-size: 12px;
+            color: rgba(106, 112, 112, 0.99);
+        }
     }
-
-    .menu li p {
-        padding: 10px;
-        margin: 0px;
-        list-style: none;
-        height: auto;
-        overflow: hidden;
-        display: block;
-    }
-
-    .menu li div.rel a.hover {
-        color: #0E83CD;
-        color: #F5F5F5;
-        font-size: 25px;
-    }
-
-    .menu li div.rel .bg {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: #099;
-        left: 0px;
-    }
-
 </style>
 </head>
 <body>
 <div class="mybody_b" style="background-color:#F5F5F5;display:none">
 <div class="curnav"><center>汽车考题测试</center><a class="amenu">≡</a></div>
-<ul class="menu">
+<div class="nav">
+    <ul>
+        <li><a title="__ROOT__" href="{:U('Home/Exam/index/fatherid/38')}" class="a1">理论学习</a></li>
+        <li><a title="__ROOT__" href="{:U('Home/Favorites/lists')}" class="a2">我的收藏</a></li>
+        <li><a title="__ROOT__" href="{:U('Home/Answer/lists')}" class="a2">我的错题</a></li>
+        <li><a title="__ROOT__" href="{:U('Home/User/my')}" class="a2">我的资料</a></li>
+    </ul>
+</div>
+<div class="bottom">
+    <span>研发平台 关于数据中心 数据合作 网站导航 帮助中心 联系我们</span><br>
+    <span>驾考理论学习，提供学员学习</span>
 
-<!--<foreach name="classlist" item="value">-->
-    <!--<li>-->
-        <!--<div class="inner">-->
-            <!--<div class="rel">-->
-                <!--<span class="bg" style="height:0px;"></span>-->
-                <!--<a title="__ROOT__" href="{:U('Home/Exam/index',array('fatherid'=>$value[id]))}" class="a1">{$value.title1}</a>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</li>-->
-<!--</foreach>-->
-
-    <li>
-        <div class="inner">
-            <div class="rel">
-                <span class="bg" style="height:0px;"></span>
-                <a title="__ROOT__" href="{:U('Home/Exam/index/fatherid/38')}" class="a1">理论学习</a>
-            </div>
-        </div>
-    </li>
-</ul>
+</div>
 </div>
 <script>
 $(".mybody_a").css({height:$(window).height()+"px",width:$(window).width()+"px"});

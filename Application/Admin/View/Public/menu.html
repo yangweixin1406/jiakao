@@ -7,7 +7,6 @@
       <ul class="ul_b">
 	    <li><a href="{:U('Exam/lists')}"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="{:U('Exam/info')}"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
-		<li><a href="{:U('Exam/daoru')}"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
   </li>
 </if>
@@ -18,7 +17,6 @@
       <ul class="ul_b">
 	    <li><a href="{:U('Exam1/lists',array('table'=>$row[objtable]))}"><i class='ifa fa-bus'></i>考题列表</a></li>
 	    <li><a href="{:U('Exam1/info',array('table'=>$row[objtable]))}"><i class='ifa ifa fa-tags'></i>添加考题</a></li>
-		<li><a href="{:U('Exam1/daoru',array('table'=>$row[objtable]))}"><i class='ifa ifa fa-tags'></i>导入考题</a></li>
 	</ul>
   </li>
 </foreach>
@@ -46,16 +44,16 @@
 		<li><a href="{:U('user/login')}"><i class='ifa fa-sign-in'></i>退出系统</a></li>
 	</ul>
   </li>
-  <li class="li_a">
-   <div class="tit">系统<span class="s">配置</span></div>
-      <ul class="ul_b">
-	    <li><a href="{:U('config/index')}"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>
-		<li><a href="{:U('setting/kaoti')}"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>
-		<if condition="$kaoti_setting.biaomoshi eq '2'">
-		<li><a href="{:U('configex/index')}"><i class='ifa fa-unlock-alt'></i>考题语言</a></li>
-		</if>
-	</ul>
-  </li>
+  <!--<li class="li_a">-->
+   <!--<div class="tit">系统<span class="s">配置</span></div>-->
+      <!--<ul class="ul_b">-->
+	    <!--<li><a href="{:U('config/index')}"><i class='ifa fa-unlock-alt'></i>基础信息</a></li>-->
+		<!--<li><a href="{:U('setting/kaoti')}"><i class='ifa fa-unlock-alt'></i>考题系统</a></li>-->
+		<!--<if condition="$kaoti_setting.biaomoshi eq '2'">-->
+		<!--<li><a href="{:U('configex/index')}"><i class='ifa fa-unlock-alt'></i>考题语言</a></li>-->
+		<!--</if>-->
+	<!--</ul>-->
+  <!--</li>-->
  </ul>
  <h1 style="font-size:15px;margin-left:20px;" class="h1_close"><a href="{:U('user/login')}" style=" text-decoration:none;  color:#F60;">退出</a></h1>
  </div>

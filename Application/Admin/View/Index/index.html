@@ -8,20 +8,83 @@
 <script language="javascript" src="__PUBLIC__/js/jquery.cookie.js"></script>  
 <style>
 @charset "utf-8";
-*{ font-family:"微软雅黑";}
-html,body{ background-color:#FFF; margin:0px; overflow:hidden; height:100%;}
-body{ position:relative;}
-.myleft{ width:150px;position:absolute; left:0px;top:0px;background-color:#FFFFFF;border-right:solid #CCCCCC 1px; height:100%; overflow:hidden;
-/* box-shadow: 5px 0px 5px #888888; -webkit-box-shadow: 5px 0px 5px #888888; -moz-box-shadow: 5px 0px 5px #888888; -ms-box-shadow: 5px 0px 5px #888888;*/}
-.myright{ position:absolute; right:0px;top:0px;}
-.ul_menu{ list-style:none; margin:0px; padding:0px; height:auto; width:100%; overflow:hidden;}
-.ul_menu *{ color:#666; font-size:12px; cursor:pointer;}
-.ul_menu .li_a{ list-style:none; margin:0px;}
-.ul_menu .li_a h1,.ul_menu .li_a h1 a{ font-weight:normal; font-size:15px; margin:0px; padding:10px; border-bottom:solid #CCCCCC 1px;}
-.ul_menu .li_a .ul_b{ display:none;list-style-type: circle;}
-.ul_menu .li_a .ul_b li{ padding:5px;list-style-type: circle;}
-.ul_menu .li_a .ul_b li a{}
-#myleftcon{ overflow-y:auto;}
+* {
+    font-family: "微软雅黑";
+}
+
+html, body {
+    background-color: #FFF;
+    margin: 0px;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.myleft {
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+    border-right: solid #CCCCCC 1px;
+    height: 100%;
+    overflow: hidden;
+    /* box-shadow: 5px 0px 5px #888888; -webkit-box-shadow: 5px 0px 5px #888888; -moz-box-shadow: 5px 0px 5px #888888; -ms-box-shadow: 5px 0px 5px #888888;*/
+}
+
+.myright {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.ul_menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ul_menu * {
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.ul_menu .li_a {
+    list-style: none;
+    margin: 0px;
+}
+
+.ul_menu .li_a h1, .ul_menu .li_a h1 a {
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0px;
+    padding: 10px;
+    border-bottom: solid #CCCCCC 1px;
+}
+
+.ul_menu .li_a .ul_b {
+    display: none;
+    list-style-type: circle;
+}
+
+.ul_menu .li_a .ul_b li {
+    padding: 5px;
+    list-style-type: circle;
+}
+
+.ul_menu .li_a .ul_b li a {
+}
+
+#myleftcon {
+    overflow-y: auto;
+}
 </style>
 </head>
 <body>
@@ -168,12 +231,6 @@ var tishiInfo={
 					 str+="<td style='width:30px;'><a myhref='"+orderdetail_url+"?id="+row.id+"' target='_blank'>查看</a></td>";
 					 str+="</tr>";
 					 str+="</table>";
-//					 str+="<span style='float:left;width:20%;overflow:hidden;display:block;'>"+row.contact+"</span>";
-//					 str+="<span style='float:left;width:20%;overflow:hidden;display:block;'>"+row.contact+"</span>";
-//					 str+="<span style='float:left;width:50%;overflow:hidden;display:block;'>"+row.thistime+"</span>";
-//					 str+="<span style='float:left;width:20%;overflow:hidden;display:block;color:#00CC00'>￥"+row.total+"</span>";
-//					 str+="<span style='float:right;width:10%;overflow:hidden;display:block;'><a href='"+orderdetail_url+"?id="+row.id+"' target='_blank'>查看</a></span>";
-					 div.innerHTML=str;
 					 var a=div.getElementsByTagName("a")[0];
 					 a.onclick=function(){
 						 var iframe=document.getElementsByTagName("iframe")[0];

@@ -20,24 +20,21 @@
 		<div class="right">
 			<form id="form1" name="form1" method="get" action="__CONTROLLER__/lists/" ><div class="l"></div>
 			<div  class="r">
-				<div class="row">
-					 <span class="t">考题分类<em>：</em></span>
-					 <span class="f">
-						<select name="classno" id="classno" title="分类">
-						<foreach name="classlist" item="row">
-						  
-	<option value="{$row.classno}"  <if condition="$row.classno==$item.classno">checked</if>>{$row.title}</option>
+				<!--<div class="row">-->
+					 <!--<span class="t">考题分类<em>：</em></span>-->
+					 <!--<span class="f">-->
+						<!--<select name="classno" id="classno" title="分类">-->
+						<!--<foreach name="classlist" item="row">-->
+						  <!---->
+	<!--<option value="{$row.classno}"  <if condition="$row.classno==$item.classno">checked</if>>{$row.title}</option>-->
 
-						   
-						</foreach>
-						</select>
-					</span>
-				</div>
+						   <!---->
+						<!--</foreach>-->
+						<!--</select>-->
+					<!--</span>-->
+				<!--</div>-->
 				<div class="row">
 				   <span class="t">考题名称<em>：</em></span><span class="f"><input type="text" name="title" id="title" value="<?php echo $title?>" class="txt1s"/></span>
-				</div>
-				<div class="row">
-				   <span class="t">考题ID<em>：</em></span><span class="f"><input type="text" name="id" id="id" value="<?php echo $id?>"  class="txt1s"/></span>
 				</div>
 				<div class="row">
 					<span class="t ts">&nbsp;</span><span class="f"><input type="hidden" name="table" id="table" value="<?php echo $table?>" /><input type="submit" name="search" id="button" value="查找" class="btsearch" /></span>

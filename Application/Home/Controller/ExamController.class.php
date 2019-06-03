@@ -10,18 +10,17 @@ class ExamController extends \Home\Controller\CommExamController {
 		$class=M("class");
 		
 			  $w["id"]=I("fatherid");
-			  $class_one=M("class")->where($w)->find(); //select * from tb_class where id = farherid;
+			  $class_one=M("class")->where($w)->find();
 			  if($class_one){
 				        $map_class["fatherno"]=$class_one["classno"];
-				  		$classlist=$class->where($map_class)->select();  //select * from tb_class where classno = 00010004;
+				  		$classlist=$class->where($map_class)->select();
 	                 	$this->assign("classlist",$classlist);
 			  }
-			  
 
 		//echo C("exam_mode");
 		//exit();
 			  $w_["id"]=I("fatherid");
-			  $fatherclass=M("class")->where($w_)->find(); //find from tb_class where id = fatherid;
+			  $fatherclass=M("class")->where($w_)->find();
 			  if($fatherclass){
 				 $conf=json_decode(C("lang_".$fatherclass['lang']),true);
 
@@ -42,7 +41,7 @@ class ExamController extends \Home\Controller\CommExamController {
     }
     public function lists(){
 			  $w_["id"]=I("classid");
-			  $class_one=M("class")->where($w_)->find();  //find * from tb_class where id = classid;
+			  $class_one=M("class")->where($w_)->find();
 			  if($class_one){
 				        $map_class["classno"]=$class_one["fatherno"];
 				  		$fatherclass=M("class")->where($map_class)->find();
@@ -89,7 +88,7 @@ class ExamController extends \Home\Controller\CommExamController {
 			 if(!isset($_GET["p"])){
 				$_GET["p"]=$data["p"];
 			 }
-			$pagesize=100; //分页分几条
+			$pagesize=200; //分页分几条
 			$page = new \Think\Page($count,$pagesize);//thinkphp 3.2 //这个分页只能get??
 			$show = $page->show();
 			$list = $mod->where($w)->order('id desc')->limit($page->firstRow.",".$page->listRows)->select();
@@ -103,12 +102,12 @@ class ExamController extends \Home\Controller\CommExamController {
 	  if($act=="moni"){
 		  $w1=$w;
 		  $w1["type"]=0;
-		  $rs1=$mod->where($w1)->limit('0,40')->order("RAND()")->field("*")->select();
+		  $rs1=$mod->where($w1)->limit('0,50')->order("RAND()")->field("*")->select();
 		  $list=$rs1;
 		  
 		  $w2=$w;
 		  $w2["type"]=1;
-		  $rs2=$mod->where($w2)->limit('0,40')->order("RAND()")->field("*")->select();
+		  $rs2=$mod->where($w2)->limit('0,50')->order("RAND()")->field("*")->select();
 		  foreach($rs2 as $row){
 		  $list[] =$row;
 		  }

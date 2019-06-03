@@ -12,44 +12,187 @@
 <link rel="stylesheet" type="text/css" href="/Public/home/css.css?1">
 <link rel="stylesheet" type="text/css" href="/Public/css/public.css?1">
 <style>
-.curnav .amenu{font-size:30px; font-weight:bold; position:absolute; top:0px; right:0px; color:#ffffff; height:45px; line-height:50px; width:60px;display:block; text-align:center; cursor:pointer;}
-.curnav .amenu:hover{ background-color:#0C9;}
-.curnav .amenu:active{ background-color:#F90;}
-.caidanbg{position:absolute; background-color:#000;top:0px;left:0px;opacity:0.8;filter:alpha(opacity=80);z-index:30000;}
-.caidanleft{/* background-color:#FFF;filter:alpha(opacity=80);*background-color:#FFF;*/ background-color:transparent;}
-.caidan{position:absolute;top:0px;right:0px;width:120px;overflow:hidden; z-index:30001;}
-.caidan .rel{ position:relative; width:100%; height:auto;}
-.caidan .rel .con{ height:auto;width:100%; height:auto; position:absolute;background-color:#000;}
-.caidan .rel .con a{ color:#fff; font-size:15px; cursor:pointer;}
-.caidan .rel .con ul{ list-style:none; margin:0px; padding:0px; width:100%;}
-.caidan .rel .con ul li{ list-style:none; margin:0px; padding:10px;border-bottom:solid #000 1px; height:20px; line-height:20px; background-color:#0C9; /*margin:5px; border-left:solid #1BBC9B 2px;border-bottom:solid #000 2px;*/ padding-left:20px; }
-.caidan .rel .con ul li.liclose{background-color:#F90;}
-.caidan .rel .con ul li.litran{background-color:transparent; height:20px;}
+    .curnav .amenu {
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        color: #ffffff;
+        height: 45px;
+        line-height: 50px;
+        width: 60px;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+    }
 
-.caidan .rel .con h1.username{ color:#FFFFFF; font-weight:bold; margin:0px; font-size:15px; text-align:center; border-bottom:solid #000 0px; margin-bottom:0px; padding-bottom:10px;}
-.caidan .rel .con .inner{ position:relative; width:100%; height:100%;}
-.metop .metop_touxiang{  overflow:hidden; height:80px; width:80px; position:absolute;  top:20px; z-index:2000; left:50%; margin-left:-40px;}
-.metop .metop_touxiang div{overflow:hidden;height:80px; width:80px;background-color:#8bf98b; background-color:#1BBC9B; border-radius:41px; -webkit-border-radius:41px;}
-.metop .metop_touxiang i{ display:block; height:70px; width:70px; overflow:hidden; margin-top:20px; margin-left:auto; margin-right:auto; }
-.metop .metop_touxiang i span{ display:block; width:100%; height:70px;overflow:hidden;background-size:100% auto;background-position:center top; background-repeat:no-repeat;background-image:url("/Public/images/user.png");}
-.btback{margin:3px; width:100px; display:block; margin-left:auto; margin-right:auto;font-family: "微软雅黑"; list-style:none; cursor:pointer; padding:0px;vertical-align:middle; font-size:14px; text-align:center; line-height:13px;padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px; overflow:hidden;  border:solid 1px #099; color:#FFFFFF; overflow:hidden;  background-color:#1BBC9B;border-radius:4px;-ms-border-radius:4px;-wekit-border-radius:4px; }
+    .curnav .amenu:hover {
+        background-color: #0C9;
+    }
+
+    .curnav .amenu:active {
+        background-color: #F90;
+    }
+
+    .caidanbg {
+        position: absolute;
+        background-color: #000;
+        top: 0px;
+        left: 0px;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        z-index: 30000;
+    }
+
+    .caidanleft { /* background-color:#FFF;filter:alpha(opacity=80);*background-color:#FFF;*/
+        background-color: transparent;
+    }
+
+    .caidan {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 120px;
+        overflow: hidden;
+        z-index: 30001;
+    }
+
+    .caidan .rel {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .caidan .rel .con {
+        height: auto;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        background-color: #000;
+    }
+
+    .caidan .rel .con a {
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .caidan .rel .con ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .caidan .rel .con ul li {
+        list-style: none;
+        margin: 0px;
+        padding: 10px;
+        border-bottom: solid #000 1px;
+        height: 20px;
+        line-height: 20px;
+        background-color: #0C9; /*margin:5px; border-left:solid #1BBC9B 2px;border-bottom:solid #000 2px;*/
+        padding-left: 20px;
+    }
+
+    .caidan .rel .con ul li.liclose {
+        background-color: #F90;
+    }
+
+    .caidan .rel .con ul li.litran {
+        background-color: transparent;
+        height: 20px;
+    }
+
+    .caidan .rel .con h1.username {
+        color: #FFFFFF;
+        font-weight: bold;
+        margin: 0px;
+        font-size: 15px;
+        text-align: center;
+        border-bottom: solid #000 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+
+    .caidan .rel .con .inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .metop .metop_touxiang {
+        overflow: hidden;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 20px;
+        z-index: 2000;
+        left: 50%;
+        margin-left: -40px;
+    }
+
+    .metop .metop_touxiang div {
+        overflow: hidden;
+        height: 80px;
+        width: 80px;
+        background-color: #8bf98b;
+        background-color: #1BBC9B;
+        border-radius: 41px;
+        -webkit-border-radius: 41px;
+    }
+
+    .metop .metop_touxiang i {
+        display: block;
+        height: 70px;
+        width: 70px;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .metop .metop_touxiang i span {
+        display: block;
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+        background-size: 100% auto;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-image: url("/Public/images/user.png");
+    }
+
+    .btback {
+        margin: 3px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "微软雅黑";
+        list-style: none;
+        cursor: pointer;
+        padding: 0px;
+        vertical-align: middle;
+        font-size: 14px;
+        text-align: center;
+        line-height: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+        border: solid 1px #099;
+        color: #FFFFFF;
+        overflow: hidden;
+        background-color: #1BBC9B;
+        border-radius: 4px;
+        -ms-border-radius: 4px;
+        -wekit-border-radius: 4px;
+    }
 
 </style>
-<!--[if IE 6]>
-<style>
-.metop .metop_touxiang i span{background-image:url("/Public/home/images/user.gif");}
-</style>
-<![endif]-->
-<!--[if IE 7]>
-<style>
-.metop .metop_touxiang i span{background-image:url("/Public/home/images/user.gif");}
-</style>
-<![endif]-->
-<!--[if IE 8]>
-<style>
-.metop .metop_touxiang i span{background-image:url("/Public/home/images/user.gif");}
-</style>
-<![endif]-->
 <script>
 var conf={
 	yes_src:"/Public/home/images/yes.png",
@@ -111,6 +254,10 @@ var cururl=String(window.location);
 
 
 <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .table_action {
         max-width: 400px;
         margin-left: auto;
@@ -122,113 +269,92 @@ var cururl=String(window.location);
         width: 100px;
     }
 
-    .menu {
-        list-style: none;
-        margin: 0px;
-        padding: 10px;
-        max-width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: transparent;
+    .nav{
+        width: 60%;
+        height: 80px;
+        margin: 150px auto;
     }
 
-    .menu li {
+    .nav ul{
         list-style: none;
-        padding: 0px;
+        display: flex;
+    }
+
+    .nav ul li{
+        flex: 1;
+        line-height: 80px;
         text-align: center;
-        width: 50%;
-        margin: 100px auto;
+        background: #1BBC9B;
+        border-radius: 20px;
+        margin-left: 20px;
     }
 
-    .menu li afff {
-        background-color: #3CF;
-        height: 100%;
-        padding-bottom: 15px;
+    .nav ul li a{
+        font-size: 20px;
+        color: white;
+    }
+
+    .bottom{
         width: 100%;
-        display: block;
-        color: #FFF;
-    }
+        text-align: center;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
 
-    .menu li div.inner {
-        padding: 15px;
     }
-
-    .menu li div.rel {
-        border: #099 solid 2px;
-        position: relative;
-        width: 99%;
-        height: 90px;
-        background-color: #FFF;
-        overflow: hidden;
-        cursor: pointer;
+    .bottom span{
+        font-size: 16px;
+        color: rgba(106, 112, 112, 0.99);
     }
-
-    .menu li div.rel a {
-        display: block;
-        position: absolute;
-        height: 20px;
-        line-height: 20px;
-        font-size: 18px;
-        color: #099;
-        left: 0px;
-        width: 100%;
-        margin-top: -10px;
-        top: 50%;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
+    
+    @media (max-width: 700px) {
+        .nav ul{
+            list-style: none;
+            display: flex;
+        }
+        .nav ul li{
+            flex: 1;
+            line-height: 30px;
+            text-align: center;
+            background: #1BBC9B;
+            border-radius: 10px;
+        }
+        .nav ul li a{
+            font-size: 14px;
+            color: white;
+        }
+        .bottom{
+            width: 100%;
+            text-align: center;
+            height: 50px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        .bottom span{
+            font-size: 12px;
+            color: rgba(106, 112, 112, 0.99);
+        }
     }
-
-    .menu li p {
-        padding: 10px;
-        margin: 0px;
-        list-style: none;
-        height: auto;
-        overflow: hidden;
-        display: block;
-    }
-
-    .menu li div.rel a.hover {
-        color: #0E83CD;
-        color: #F5F5F5;
-        font-size: 25px;
-    }
-
-    .menu li div.rel .bg {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: #099;
-        left: 0px;
-    }
-
 </style>
 </head>
 <body>
 <div class="mybody_b" style="background-color:#F5F5F5;display:none">
 <div class="curnav"><center>汽车考题测试</center><a class="amenu">≡</a></div>
-<ul class="menu">
+<div class="nav">
+    <ul>
+        <li><a title="" href="<?php echo U('Home/Exam/index/fatherid/38');?>" class="a1">理论学习</a></li>
+        <li><a title="" href="<?php echo U('Home/Favorites/lists');?>" class="a2">我的收藏</a></li>
+        <li><a title="" href="<?php echo U('Home/Answer/lists');?>" class="a2">我的错题</a></li>
+        <li><a title="" href="<?php echo U('Home/User/my');?>" class="a2">我的资料</a></li>
+    </ul>
+</div>
+<div class="bottom">
+    <span>研发平台 关于数据中心 数据合作 网站导航 帮助中心 联系我们</span><br>
+    <span>驾考理论学习，提供学员学习</span>
 
-<!--<?php if(is_array($classlist)): foreach($classlist as $key=>$value): ?>-->
-    <!--<li>-->
-        <!--<div class="inner">-->
-            <!--<div class="rel">-->
-                <!--<span class="bg" style="height:0px;"></span>-->
-                <!--<a title="" href="<?php echo U('Home/Exam/index',array('fatherid'=>$value[id]));?>" class="a1"><?php echo ($value["title1"]); ?></a>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</li>-->
-<!--<?php endforeach; endif; ?>-->
-
-    <li>
-        <div class="inner">
-            <div class="rel">
-                <span class="bg" style="height:0px;"></span>
-                <a title="" href="<?php echo U('Home/Exam/index/fatherid/38');?>" class="a1">理论学习</a>
-            </div>
-        </div>
-    </li>
-</ul>
+</div>
 </div>
 <script>
 $(".mybody_a").css({height:$(window).height()+"px",width:$(window).width()+"px"});
@@ -260,9 +386,7 @@ var mymain=$("#mymain");
 var scale_maxvalue=1;
 var scale_curvalue=0;
 var touch =("createTouch" in document); 
-if($.browser.msie) { 
-//mybody_b.css({"height":"1px","display":"","overflow":"hidden","position":"relative"});
-//mybody_b.animate({"height":$(window).height()+"px"},function(){mybody_b.css({"overflow":"auto"});});
+if($.browser.msie) {
 
 mybody_b.css({"filter":"alpha(opacity=0)","opacity":"0","display":"","overflow":"hidden","position":"relative","width":"100%"});
 window.timer_scale=window.setInterval(function(){
@@ -278,7 +402,7 @@ window.timer_scale=window.setInterval(function(){
   	    window.clearInterval(window.timer_scale);	
   }
   
-},50);
+},0);
 }else{
   if($(".myleft").length<=0&&!touch){
 			mybody_b.css({"transform":"scale(0)","-webkit-transform":"scale(0)","-moz-transform":"scale(0)","-ms-transform":"scale(0)","display":"","overflow":"hidden"});
@@ -297,7 +421,7 @@ window.timer_scale=window.setInterval(function(){
 					// $(".myleft_inner_con").css({"float":"left"});	
 					mybody_b.css({"width":"100%"});
 			  }
-			},80);
+			},0);
   }else{
 	  mybody_b.css({"display":"","overflow":"hidden","position":"relative","width":"100%"});
   }

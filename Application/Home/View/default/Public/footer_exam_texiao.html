@@ -7,9 +7,7 @@ var mymain=$("#mymain");
 var scale_maxvalue=1;
 var scale_curvalue=0;
 var touch =("createTouch" in document); 
-if($.browser.msie) { 
-//mybody_b.css({"height":"1px","display":"","overflow":"hidden","position":"relative"});
-//mybody_b.animate({"height":$(window).height()+"px"},function(){mybody_b.css({"overflow":"auto"});});
+if($.browser.msie) {
 
 mybody_b.css({"filter":"alpha(opacity=0)","opacity":"0","display":"","overflow":"hidden","position":"relative","width":"100%"});
 window.timer_scale=window.setInterval(function(){
@@ -25,7 +23,7 @@ window.timer_scale=window.setInterval(function(){
   	    window.clearInterval(window.timer_scale);	
   }
   
-},50);
+},0);
 }else{
   if($(".myleft").length<=0&&!touch){
 			mybody_b.css({"transform":"scale(0)","-webkit-transform":"scale(0)","-moz-transform":"scale(0)","-ms-transform":"scale(0)","display":"","overflow":"hidden"});
@@ -44,7 +42,7 @@ window.timer_scale=window.setInterval(function(){
 					// $(".myleft_inner_con").css({"float":"left"});	
 					mybody_b.css({"width":"100%"});
 			  }
-			},80);
+			},0);
   }else{
 	  mybody_b.css({"display":"","overflow":"hidden","position":"relative","width":"100%"});
   }

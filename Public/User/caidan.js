@@ -74,16 +74,10 @@ $(function(){
 		  str+="<li><a onclick='javascript:uexWidgetOne.exit();'>关闭APP</a></li>";
 		}
 		str+="<li><a href='"+conf.app+"'>首页</a></li>";
-		str+="<li class='li_contact'><a>联系我们</a></li>";
 		str+="<li class='li_favorites'><a href='"+conf.app+"/"+conf.module+"/favorites/lists"+"'>我的收藏</a></li>";
 		str+="<li class='li_examerror'><a href='"+conf.app+"/"+conf.module+"/answer/lists"+"'>我的错题</a></li>";
 	    str+="<li class='li_info'><a href='"+conf.app+"/"+conf.module+"/user/my"+"'>我的资料</a></li>";
 		str+="<li class='li_pwd'><a href='"+conf.app+"/"+conf.module+"/user/pwd"+"'>修改密码</a></li>";
-		str+="<li class='li_goumaiex'><a href='"+conf.app+"/"+conf.module+"/goumaiex/lists"+"'>购买记录</a></li>";
-//		str+="<li class='limyfavorites'><a href='"+conf.app+"/"+conf.module+"/favorites/lists/type/1"+"'>科目1收藏</a></li>";
-//		str+="<li class='limyexamerror'><a href='"+conf.app+"/"+conf.module+"/answer/lists/type/1"+"'>科目1错题</a></li>";
-//		str+="<li class='limyfavorites'><a href='"+conf.app+"/"+conf.module+"/favorites/lists/type/4"+"'>科目4收藏</a></li>";
-//		str+="<li class='limyexamerror'><a href='"+conf.app+"/"+conf.module+"/answer/lists/type/4"+"'>科目4错题</a></li>";
 		
 		
 		str+="</ul>";

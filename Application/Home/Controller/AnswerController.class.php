@@ -4,6 +4,7 @@ use Think\Controller;
 class AnswerController extends \Home\Controller\CommExamController {
 	public $tablename="answer";
     public function add(){
+		//http://document.thinkphp.cn/manual_3_2.html#where
         $userq=session("userq");
 		$mod=D($this->tablename);
 		$class=M("class");

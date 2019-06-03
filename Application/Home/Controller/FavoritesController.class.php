@@ -103,7 +103,7 @@ class FavoritesController extends \Home\Controller\CommController {
 			 if(!isset($_GET["p"])){
 				$_GET["p"]=$data["p"];
 			 }
-			$pagesize=2; //分页分几条
+			$pagesize=20; //分页分几条
 			$pagenum=(int)($count/$pagesize);
 			 if($count%$pagesize>0){
 			  $pagenum++;
