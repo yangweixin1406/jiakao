@@ -34,7 +34,7 @@ class ExamController extends \Home\Controller\CommExamController {
 		$this->assign("webtitle",$webtitle);
 		$this->assign("mytitle",$mytitle);
 		$this->assign("classlist",$classlist);
-		$this->assign("kemulist",$conf["kemu"]);
+		$this->assign("kemulist",$conf["kemu"]);-
 		$this->assign("table",$this->tablename);
 		$this->assign("data",$data);
 		$this->display(); 
